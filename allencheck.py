@@ -16,7 +16,7 @@ import os
 
 def read_test(test_path):
     with open(test_path) as file:
-        infile = test_path.read()
+        infile = file.read()
     return infile
 
 def preprocess():
@@ -73,9 +73,8 @@ def main(case):
     print('Initializing AllenNLP...')
     less_verbose()
     print(f'Reading test case {case}...')
-    read_test(f'tests/{case}')
-    
-
+    a =read_test(f'tests/{case}')
+    print(a)
 
 # Running the code from this file
 if __name__ == '__main__':
