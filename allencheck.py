@@ -14,6 +14,7 @@ from unittest import TestCase
 from allennlp.common.checks import log_pytorch_version_info
 import os
 import csv
+import sys
 
 def read_test(test_path):
     container = []
@@ -107,16 +108,24 @@ def found_arg2_instrument(x, pred, conf, label=None, meta=None):
         pass_ = False
     return pass_
 
-def run_case(text):
-    print(text)
+def run_case(text, gold):
+    '''Will run the experiment for a specific example
+    :param text: The text with appropiate label
+    :param gold: pointer for the gold label corresponding to the input'''
     editor = Editor() # Initializing Editor object
-    expect_arg1 = Expect.single(found_arg1_people) # Specify what case should expect
-    predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
+    # This is where we try to identify what to evaluate here
+    if "{first_name}" in text and 'ARG1' in gold:
+        expect_arg1 = Expect.single(found_arg1_people) # Specify what case should expect
+        predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
     t = editor.template(text, meta = True, nsamples= 30) # The case to run
     test = MFT(**t, expect=expect_arg1)
     test.run(predict_and_conf)
-    test.summary(format_example_fn=format_srl)
-    print('Ran the following tests...')
+    # Print to file trick taken from https://howtodoinjava.com/examples/python-print-to-file/
+    original_stdout = sys.stdout # Saving original state
+    with open("../output/raw_output.txt", 'a') as output:
+        sys.stdout = output # Changing state
+        print(test.summary(format_example_fn=format_srl), file = output)
+        sys.stdout = original_stdout 
     for i, case in enumerate(test.data):
         print(i, case)
 
@@ -126,8 +135,8 @@ def main(case):
     print(f'Reading test case {case}...')
     text = read_test(f'tests/{case}') # Outputs the lines
     inps, golds = preprocess(text) # tuple inputs, golds
-    for inp in inps:
-        run_case(inp)
+    for inp, gold in zip(inps, golds):
+        run_case(inp, gold)
 
 # Running the code from this file
 if __name__ == '__main__':
