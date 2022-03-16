@@ -33,9 +33,10 @@ def load_predictions(text):
     srl_predictor = load_predictor('structured-prediction-srl')
     output = srl_predictor.predict(text)
 
+
+## These are the two core-checklist functions
 def get_arg(pred, arg_target='ARG1'):
-    # we assume one predicate:
-    predicate_arguments = pred['verbs'][0]
+    predicate_arguments = pred['verbs'][0] # we assume one predicate:
     words = pred['words']
     tags = predicate_arguments['tags']
     
@@ -55,7 +56,11 @@ def format_srl(x, pred, conf, label=None, meta=None):
     predicate_structure = pred['verbs'][0]['description']
         
     return predicate_structure
+##
 
+# The following functions can tell the model what to expect
+
+# Testing with people names
 def found_arg1_people(x, pred, conf, label=None, meta=None):
     
     # people should be recognized as arg1
@@ -64,6 +69,20 @@ def found_arg1_people(x, pred, conf, label=None, meta=None):
     arg_1 = get_arg(pred, arg_target='ARG1')
 
     if arg_1 == people:
+        pass_ = True
+    else:
+        pass_ = False
+    return pass_
+
+# Testing arg2 with instrument
+def found_arg2_instrument(x, pred, conf, label=None, meta=None):
+    
+    # people should be recognized as arg1
+    
+    instrument = set(meta['instrument'].split(' '))
+    arg_3 = get_arg(pred, arg_target='ARG2')
+
+    if arg_3 == instrument:
         pass_ = True
     else:
         pass_ = False
