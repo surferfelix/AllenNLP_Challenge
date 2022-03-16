@@ -12,6 +12,15 @@ import shutil
 import tempfile
 from unittest import TestCase
 from allennlp.common.checks import log_pytorch_version_info
+import os
+
+def read_test(test_path):
+    with open(test_path) as file:
+        infile = test_path.read()
+    return infile
+
+def preprocess():
+    pass
 
 def less_verbose():
     logging.getLogger('allennlp.common.params').disabled = True 
@@ -60,13 +69,16 @@ def found_arg1_people(x, pred, conf, label=None, meta=None):
         pass_ = False
     return pass_
 
-def main(): 
+def main(case): 
     print('Initializing AllenNLP...')
     less_verbose()
+    print(f'Reading test case {case}...')
+    read_test(f'tests/{case}')
     
 
 
 # Running the code from this file
 if __name__ == '__main__':
-    text = "The killer killed the victim with a knife."
-    main()
+    test_cases = os.listdir('tests')
+    for case in test_cases:
+        main(case)
