@@ -16,12 +16,10 @@ import os
 
 def read_test(test_path):
     with open(test_path) as file:
-        infile = file.read()
+        infile = file.readlines()
     return infile
 
-
 def predict_srl(data):
-    
     pred = []
     srl_predictor = load_predictor('structured-prediction-srl')
     for d in data:
@@ -29,20 +27,23 @@ def predict_srl(data):
     return pred
 
 def preprocess(infile):
-    '''Target array consisting of ID's'''
+    ''''''
     container = []
-    for i in infile:
-        case_dict = {}
+    for line in infile:
+        container.append(line)
+    return container
 
 def run_case(text):
-    editor = Editor()
-    expect_arg1 = Expect.single(found_arg1_people)
-    predict_and_conf = PredictorWrapper.wrap_predict(predict_srl)
-    t = editor.template("Someone killed {first_name} {last_name} last night.", meta = True, nsamples= 10)
+    editor = Editor() # Initializing Editor object
+    expect_arg1 = Expect.single(found_arg1_people) # Specify what case should expect
+    predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
+    t = editor.template(text, meta = True, nsamples= 30) # The case to run
     test = MFT(**t, expect=expect_arg1)
     test.run(predict_and_conf)
     test.summary(format_example_fn=format_srl)
-    #  t = editor.template("Someone killed {first_name} {last_name} last night.", meta=True, nsamples=10)
+    print('Ran the following tests...')
+    for i, case in enumerate(test.data):
+        print(i, case)
 
 
 def less_verbose():
@@ -55,7 +56,6 @@ def less_verbose():
 def load_predictions(text):
     srl_predictor = load_predictor('structured-prediction-srl')
     output = srl_predictor.predict(text)
-
 
 ## These are the two core-checklist functions
 def get_arg(pred, arg_target='ARG1'):
@@ -86,7 +86,7 @@ def format_srl(x, pred, conf, label=None, meta=None):
 # Testing with people names
 def found_arg1_people(x, pred, conf, label=None, meta=None):
     
-    # people should be recognized as arg1
+    # Setting the gold label
 
     people = set([meta['first_name'], meta['last_name']])
     arg_1 = get_arg(pred, arg_target='ARG1')
@@ -115,11 +115,17 @@ def main(case):
     print('Initializing AllenNLP...')
     less_verbose()
     print(f'Reading test case {case}...')
-    # a =read_test(f'tests/{case}')
-    # print(a)
-    run_case('hihi')
+    text = read_test(f'tests/{case}') # Outputs the lines
+    list_of_cases = preprocess(text) # List of lines
+    for case in list_of_cases:
+        if case:
+            print(case)
+            run_case(case)
+
+
 # Running the code from this file
 if __name__ == '__main__':
     test_cases = os.listdir('tests')
     for case in test_cases:
-        main(case)
+        if not case.startswith('.'):
+            main(case)

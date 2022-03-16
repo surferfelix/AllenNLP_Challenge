@@ -1,2 +1,1 @@
-I am an example , [I=ARG0][am=V] an [example=ARG1]
-
+Someone killed {first_name} {last_name} last night.
