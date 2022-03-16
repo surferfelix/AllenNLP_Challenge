@@ -13,11 +13,17 @@ import tempfile
 from unittest import TestCase
 from allennlp.common.checks import log_pytorch_version_info
 import os
+import csv
 
 def read_test(test_path):
+    container = []
     with open(test_path) as file:
-        infile = file.readlines()
-    return infile
+        infile = csv.reader(file, delimiter = ',')
+        for index, row in enumerate(infile):
+            if not index == 0: # Skipping headers
+                container.append(row)
+
+    return container
 
 def predict_srl(data):
     pred = []
@@ -28,30 +34,20 @@ def predict_srl(data):
 
 def preprocess(infile):
     ''''''
-    container = []
-    for line in infile:
-        container.append(line)
-    return container
-
-def run_case(text):
-    editor = Editor() # Initializing Editor object
-    expect_arg1 = Expect.single(found_arg1_people) # Specify what case should expect
-    predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
-    t = editor.template(text, meta = True, nsamples= 30) # The case to run
-    test = MFT(**t, expect=expect_arg1)
-    test.run(predict_and_conf)
-    test.summary(format_example_fn=format_srl)
-    print('Ran the following tests...')
-    for i, case in enumerate(test.data):
-        print(i, case)
-
+    inputs = []
+    golds = []
+    for row in infile:
+        inp = row[0]
+        gold = row[1]
+        inputs.append(inp)
+        golds.append(gold)
+    return inputs, golds
 
 def less_verbose():
     logging.getLogger('allennlp.common.params').disabled = True 
     logging.getLogger('allennlp.nn.initializers').disabled = True 
     logging.getLogger('allennlp.modules.token_embedders.embedding').setLevel(logging.INFO) 
     logging.getLogger('urllib3.connectionpool').disabled = True 
-
 
 def load_predictions(text):
     srl_predictor = load_predictor('structured-prediction-srl')
@@ -111,17 +107,27 @@ def found_arg2_instrument(x, pred, conf, label=None, meta=None):
         pass_ = False
     return pass_
 
+def run_case(text):
+    print(text)
+    editor = Editor() # Initializing Editor object
+    expect_arg1 = Expect.single(found_arg1_people) # Specify what case should expect
+    predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
+    t = editor.template(text, meta = True, nsamples= 30) # The case to run
+    test = MFT(**t, expect=expect_arg1)
+    test.run(predict_and_conf)
+    test.summary(format_example_fn=format_srl)
+    print('Ran the following tests...')
+    for i, case in enumerate(test.data):
+        print(i, case)
+
 def main(case): 
     print('Initializing AllenNLP...')
     less_verbose()
     print(f'Reading test case {case}...')
     text = read_test(f'tests/{case}') # Outputs the lines
-    list_of_cases = preprocess(text) # List of lines
-    for case in list_of_cases:
-        if case:
-            print(case)
-            run_case(case)
-
+    inps, golds = preprocess(text) # tuple inputs, golds
+    for inp in inps:
+        run_case(inp)
 
 # Running the code from this file
 if __name__ == '__main__':
