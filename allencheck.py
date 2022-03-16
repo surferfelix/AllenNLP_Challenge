@@ -19,8 +19,31 @@ def read_test(test_path):
         infile = file.read()
     return infile
 
-def preprocess():
-    pass
+
+def predict_srl(data):
+    
+    pred = []
+    srl_predictor = load_predictor('structured-prediction-srl')
+    for d in data:
+        pred.append(srl_predictor.predict(d))
+    return pred
+
+def preprocess(infile):
+    '''Target array consisting of ID's'''
+    container = []
+    for i in infile:
+        case_dict = {}
+
+def run_case(text):
+    editor = Editor()
+    expect_arg1 = Expect.single(found_arg1_people)
+    predict_and_conf = PredictorWrapper.wrap_predict(predict_srl)
+    t = editor.template("Someone killed {first_name} {last_name} last night.", meta = True, nsamples= 10)
+    test = MFT(**t, expect=expect_arg1)
+    test.run(predict_and_conf)
+    test.summary(format_example_fn=format_srl)
+    #  t = editor.template("Someone killed {first_name} {last_name} last night.", meta=True, nsamples=10)
+
 
 def less_verbose():
     logging.getLogger('allennlp.common.params').disabled = True 
@@ -92,9 +115,9 @@ def main(case):
     print('Initializing AllenNLP...')
     less_verbose()
     print(f'Reading test case {case}...')
-    a =read_test(f'tests/{case}')
-    print(a)
-
+    # a =read_test(f'tests/{case}')
+    # print(a)
+    run_case('hihi')
 # Running the code from this file
 if __name__ == '__main__':
     test_cases = os.listdir('tests')
