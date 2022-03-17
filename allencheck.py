@@ -108,7 +108,7 @@ def found_arg2_instrument(x, pred, conf, label=None, meta=None):
         pass_ = False
     return pass_
 
-def run_case(text, gold):
+def run_case(text, gold, index):
     '''Will run the experiment for a specific example
     :param text: The text with appropiate label
     :param gold: pointer for the gold label corresponding to the input'''
@@ -122,10 +122,16 @@ def run_case(text, gold):
     test.run(predict_and_conf)
     # Print to file trick taken from https://howtodoinjava.com/examples/python-print-to-file/
     original_stdout = sys.stdout # Saving original state
-    with open("../output/raw_output.txt", 'a') as output:
-        sys.stdout = output # Changing state
-        print(test.summary(format_example_fn=format_srl), file = output)
-        sys.stdout = original_stdout 
+    if index == 0:
+        with open("../output/raw_output.txt", 'w') as output:
+            sys.stdout = output # Changing state
+            print(test.summary(format_example_fn=format_srl), file = output)
+            sys.stdout = original_stdout 
+    elif index > 0: 
+        with open("../output/raw_output.txt", 'a') as output:
+            sys.stdout = output # Changing state
+            print(test.summary(format_example_fn=format_srl), file = output)
+            sys.stdout = original_stdout 
     for i, case in enumerate(test.data):
         print(i, case)
 
@@ -135,8 +141,8 @@ def main(case):
     print(f'Reading test case {case}...')
     text = read_test(f'tests/{case}') # Outputs the lines
     inps, golds = preprocess(text) # tuple inputs, golds
-    for inp, gold in zip(inps, golds):
-        run_case(inp, gold)
+    for index, (inp, gold) in enumerate(zip(inps, golds)):
+        run_case(inp, gold, index)
 
 # Running the code from this file
 if __name__ == '__main__':
