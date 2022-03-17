@@ -123,19 +123,20 @@ def run_case(text, gold, index):
     # Print to file trick taken from https://howtodoinjava.com/examples/python-print-to-file/
     original_stdout = sys.stdout # Saving original state
     if index == 0:
-        with open("../output/raw_output.txt", 'w') as output:
+        with open("../output/raw_output.txt", 'w') as output: # Overwrite contents on fitst iteration
             sys.stdout = output # Changing state
-            print(test.summary(format_example_fn=format_srl), file = output)
+            print(test.summary(format_example_fn=format_srl))
             sys.stdout = original_stdout 
     elif index > 0: 
-        with open("../output/raw_output.txt", 'a') as output:
+        with open("../output/raw_output.txt", 'a') as output: # Append on following iterations
             sys.stdout = output # Changing state
-            print(test.summary(format_example_fn=format_srl), file = output)
+            print(test.summary(format_example_fn=format_srl))
             sys.stdout = original_stdout 
     for i, case in enumerate(test.data):
         print(i, case)
 
 def main(case): 
+    '''This main function iterates and runs cases for each line in the CSV input'''
     print('Initializing AllenNLP...')
     less_verbose()
     print(f'Reading test case {case}...')
@@ -148,5 +149,5 @@ def main(case):
 if __name__ == '__main__':
     test_cases = os.listdir('tests')
     for case in test_cases:
-        if not case.startswith('.'):
+        if not case.startswith('.'): # Omitting dotfiles
             main(case)
