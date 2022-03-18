@@ -141,31 +141,41 @@ def run_case(text, gold, index):
         return "oops, no implementation possible yet for this kind of data :("
     test = MFT(**t, expect=expectation)
     test.run(predict_and_conf)
-    # Print to file trick taken from https://howtodoinjava.com/examples/python-print-to-file/
-    original_stdout = sys.stdout # Saving original state
+    write_out_json(test.results, index)
     if index == 0:
+        # Print to file trick taken from https://howtodoinjava.com/examples/python-print-to-file/
+        original_stdout = sys.stdout # Saving original state
         with open("output/raw_output.txt", 'w') as output: # Overwrite contents on fitst iteration
             sys.stdout = output # Changing state
             print(test.summary(format_example_fn=format_srl))
             sys.stdout = original_stdout 
     elif index > 0: 
+        original_stdout = sys.stdout # Saving original state
         with open("output/raw_output.txt", 'a') as output: # Append on following iterations
             sys.stdout = output # Changing state
             print(test.summary(format_example_fn=format_srl))
             sys.stdout = original_stdout 
-    write_out_json(test.results, index)
     for i, case in enumerate(test.data):
         print(i, case)
 
 def write_out_json(results, index):
+    predictions = results['preds']
+    answers = results['passed']
+    for p, a in zip(predictions, answers):
+        print(p['words'], a)
     if index == 0:
-        with open('output/result.json', 'w') as json:
-            json.write(str(results))
+        with open('output/result.txt', 'w') as txt:
+            writer = csv.writer(txt)
+            writer.writerow(['INPUT', 'EVAL'])
+            for p, a in zip(predictions, answers):
+                writer.writerow([p['words'],a])
     elif index > 0:
-        with open('output/result.json', 'a') as json:
-            json.write(str(results))
+        with open('output/result.txt', 'a') as txt:
+            writer = csv.writer(txt)
+            for p, a in zip(predictions, answers):
+                writer.writerow([p['words'],a])
 
-def main(case): 
+def main(case, file_nr): 
     '''This main function iterates and runs cases for each line in the CSV input'''
     print('Initializing AllenNLP...')
     less_verbose()
@@ -173,11 +183,14 @@ def main(case):
     text = read_test(f'tests/{case}') # Outputs the lines
     inps, golds = preprocess(text) # tuple inputs, golds
     for index, (inp, gold) in enumerate(zip(inps, golds)):
+        if file_nr > 0:
+            index += 1 # Really doesn't matter what index is since this program has boolean logic
         run_case(inp, gold, index)
 
 # Running the code from this file
 if __name__ == '__main__':
     test_cases = os.listdir('tests')
-    for case in test_cases:
+    for index, case in enumerate(test_cases):
+        file_nr = index
         if not case.startswith('.'): # Omitting dotfiles
-            main(case)
+            main(case, file_nr)
