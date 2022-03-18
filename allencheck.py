@@ -137,6 +137,8 @@ def run_case(text, gold, index):
         expectation = Expect.single(found_atypical_arg_0)
         predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
         t = editor.template(text, atypical = atypicals, meta = True, nsamples= 30) # The case to run
+    else:
+        return "oops, no implementation possible yet for this kind of data :("
     test = MFT(**t, expect=expectation)
     test.run(predict_and_conf)
     # Print to file trick taken from https://howtodoinjava.com/examples/python-print-to-file/
