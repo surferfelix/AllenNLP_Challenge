@@ -1,5 +1,5 @@
 # AllenNLP_Challenge
-Creating challenge sets to challenge AllenNLP SRL with Checklist implementation       
+Creating challenge sets to challenge pre-trained AllenNLP SRL models with Checklist implementation       
 
 ## How the tests work
 
