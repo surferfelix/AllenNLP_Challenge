@@ -108,6 +108,15 @@ def found_arg2_instrument(x, pred, conf, label=None, meta=None):
         pass_ = False
     return pass_
 
+def found_atypical_arg_0(x , pred, conf, label = None, meta = None):
+    a_arg = set(meta['atypical'].split(' '))
+    system_pred = get_arg(pred, arg_target = 'ARG0')
+    if a_arg == system_pred:
+        pass_ = True
+    else:
+        pass_ = False
+    return pass_
+
 def run_case(text, gold, index):
     '''Will run the experiment for a specific example
     :param text: The text with appropiate label
@@ -123,7 +132,11 @@ def run_case(text, gold, index):
         expectation = Expect.single(found_arg2_instrument)
         predict_and_conf = PredictorWrapper.wrap_predict(predict_srl)
         t = editor.template(text, instrument = instruments, meta = True, nsamples= 30) # The case to run
-    
+    elif "{atypical}" in text and "ARG0" in gold:
+        atypicals = ['John', 'Mary', "A dog", "A book", "A ship"]
+        expectation = Expect.single(found_atypical_arg_0)
+        predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
+        t = editor.template(text, atypical = atypicals, meta = True, nsamples= 30) # The case to run
     test = MFT(**t, expect=expectation)
     test.run(predict_and_conf)
     # Print to file trick taken from https://howtodoinjava.com/examples/python-print-to-file/
