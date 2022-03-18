@@ -153,8 +153,17 @@ def run_case(text, gold, index):
             sys.stdout = output # Changing state
             print(test.summary(format_example_fn=format_srl))
             sys.stdout = original_stdout 
+    write_out_json(test.results, index)
     for i, case in enumerate(test.data):
         print(i, case)
+
+def write_out_json(results, index):
+    if index == 0:
+        with open('output/result.json', 'w') as json:
+            json.write(str(results))
+    elif index > 0:
+        with open('output/result.json', 'a') as json:
+            json.write(str(results))
 
 def main(case): 
     '''This main function iterates and runs cases for each line in the CSV input'''
