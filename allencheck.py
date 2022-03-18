@@ -115,20 +115,26 @@ def run_case(text, gold, index):
     editor = Editor() # Initializing Editor object
     # This is where we try to identify what to evaluate here
     if "{first_name}" in text and 'ARG1' in gold:
-        expect_arg1 = Expect.single(found_arg1_people) # Specify what case should expect
+        expectation = Expect.single(found_arg1_people) # Specify what case should expect
         predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
-    t = editor.template(text, meta = True, nsamples= 30) # The case to run
-    test = MFT(**t, expect=expect_arg1)
+        t = editor.template(text, meta = True, nsamples= 30) # The case to run
+    elif "{instrument}" in text and "ARG2" in gold:
+        instruments = ['with a spoon', 'with a fork', 'with a knife', 'with a pinecone']
+        expectation = Expect.single(found_arg2_instrument)
+        predict_and_conf = PredictorWrapper.wrap_predict(predict_srl)
+        t = editor.template(text, instrument = instruments, meta = True, nsamples= 30) # The case to run
+    
+    test = MFT(**t, expect=expectation)
     test.run(predict_and_conf)
     # Print to file trick taken from https://howtodoinjava.com/examples/python-print-to-file/
     original_stdout = sys.stdout # Saving original state
     if index == 0:
-        with open("../output/raw_output.txt", 'w') as output: # Overwrite contents on fitst iteration
+        with open("output/raw_output.txt", 'w') as output: # Overwrite contents on fitst iteration
             sys.stdout = output # Changing state
             print(test.summary(format_example_fn=format_srl))
             sys.stdout = original_stdout 
     elif index > 0: 
-        with open("../output/raw_output.txt", 'a') as output: # Append on following iterations
+        with open("output/raw_output.txt", 'a') as output: # Append on following iterations
             sys.stdout = output # Changing state
             print(test.summary(format_example_fn=format_srl))
             sys.stdout = original_stdout 
@@ -139,7 +145,7 @@ def main(case):
     '''This main function iterates and runs cases for each line in the CSV input'''
     print('Initializing AllenNLP...')
     less_verbose()
-    print(f'Reading test case {case}...')
+    print(f'MODEL: RUNNING CURRENT CASE: {case}\t...')
     text = read_test(f'tests/{case}') # Outputs the lines
     inps, golds = preprocess(text) # tuple inputs, golds
     for index, (inp, gold) in enumerate(zip(inps, golds)):

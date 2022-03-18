@@ -1,0 +1,11 @@
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone]
+----
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone]
+----
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a fork]
+----
+None
