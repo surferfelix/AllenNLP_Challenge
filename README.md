@@ -11,6 +11,8 @@ Where `{first_name}` and `{last_name}` are being used to generate test examples 
 and where `ARG1` represents the gold label that they should correspond to. 
 
 ## How to run
+Clone this repository:
+`git clone https://github.com/surferfelix/AllenNLP_Challenge`
 
 Navigate to the AllenNLP_Challenge directory. 
 `cd AllenNLP_Challenge`
