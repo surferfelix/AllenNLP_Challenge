@@ -15,6 +15,12 @@ and where `ARG1` represents the gold label that they should correspond to.
 Navigate to the AllenNLP_Challenge directory. 
 `cd AllenNLP_Challenge`
 
+Create a new anaconda environment (This requires you to install anaconda first)
+`conda create --name myenv`
+
+Switch to this conda environment
+`conda activate myenv`
+
 Install the dependencies with the following command
 `pip install -r requirements.txt`
 
