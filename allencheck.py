@@ -117,6 +117,15 @@ def found_atypical_arg_0(x , pred, conf, label = None, meta = None):
         pass_ = False
     return pass_
 
+def found_temp_argm(x, pred, conf, label = None, meta = None):
+    a_arg = set(meta['temporal'].split(' '))
+    system_pred = get_arg(pred, arg_target = 'ARGM')
+    if a_arg == system_pred:
+        pass_ = True
+    else:
+        pass_ = False
+    return pass_
+
 def run_case(text, gold, index):
     '''Will run the experiment for a specific example
     :param text: The text with appropiate label
@@ -137,6 +146,11 @@ def run_case(text, gold, index):
         expectation = Expect.single(found_atypical_arg_0)
         predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
         t = editor.template(text, atypical = atypicals, meta = True, nsamples= 30) # The case to run
+    elif "{temporal}" in text and 'ARGM' in gold:
+        temporals = []
+        expectation = Expect.single(found_temp_argm)
+        predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
+        t = editor.template(text, temporal = temporals, meta = True, nsamples= 30) # The case to run
     else:
         return "oops, no implementation possible yet for this kind of data :("
     test = MFT(**t, expect=expectation)
@@ -147,12 +161,14 @@ def run_case(text, gold, index):
         original_stdout = sys.stdout # Saving original state
         with open("output/raw_output.txt", 'w') as output: # Overwrite contents on fitst iteration
             sys.stdout = output # Changing state
+            print('GOLD: '+ gold)
             print(test.summary(format_example_fn=format_srl))
             sys.stdout = original_stdout 
     elif index > 0: 
         original_stdout = sys.stdout # Saving original state
         with open("output/raw_output.txt", 'a') as output: # Append on following iterations
             sys.stdout = output # Changing state
+            print('GOLD: '+ gold)
             print(test.summary(format_example_fn=format_srl))
             sys.stdout = original_stdout 
     for i, case in enumerate(test.data):
@@ -164,13 +180,13 @@ def write_out_json(results, index):
     for p, a in zip(predictions, answers):
         print(p['words'], a)
     if index == 0:
-        with open('output/result.txt', 'w') as txt:
+        with open('output/result.csv', 'w') as txt:
             writer = csv.writer(txt)
             writer.writerow(['INPUT', 'EVAL'])
             for p, a in zip(predictions, answers):
                 writer.writerow([p['words'],a])
     elif index > 0:
-        with open('output/result.txt', 'a') as txt:
+        with open('output/result.csv', 'a') as txt:
             writer = csv.writer(txt)
             for p, a in zip(predictions, answers):
                 writer.writerow([p['words'],a])
