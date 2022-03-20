@@ -37,11 +37,19 @@ def preprocess(infile):
     ''''''
     inputs = []
     golds = []
+    print(infile)
     for row in infile:
-        inp = row[0]
-        gold = row[1]
-        inputs.append(inp)
-        golds.append(gold)
+        try:
+            inp = row[0]
+            gold = row[1]
+            inputs.append(inp)
+            golds.append(gold)
+        except IndexError:
+            row = row[0]
+            inp = row[0]
+            gold = row[1]
+            inputs.append(inp)
+            golds.append(gold)
     return inputs, golds
 
 def less_verbose():
@@ -119,7 +127,7 @@ def found_atypical_arg_0(x , pred, conf, label = None, meta = None):
 
 def found_temp_argm(x, pred, conf, label = None, meta = None):
     a_arg = set(meta['temporal'].split(' '))
-    system_pred = get_arg(pred, arg_target = 'ARGMNR')
+    system_pred = get_arg(pred, arg_target = 'ARGMTMP')
     if a_arg == system_pred:
         pass_ = True
     else:
@@ -146,7 +154,7 @@ def run_case(text, gold, index):
         expectation = Expect.single(found_atypical_arg_0)
         predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
         t = editor.template(text, atypical = atypicals, meta = True, nsamples= 30) # The case to run
-    elif "{temporal}" in text and 'ARGM' in gold:
+    elif "{temporal}" in text and 'ARGMTMP' in gold:
         temporal_future = ['tomorrow', 'in an hour', 'in a bit', 'soon', 'in a while', 'next month', 'next year']
         expectation = Expect.single(found_temp_argm)
         predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format

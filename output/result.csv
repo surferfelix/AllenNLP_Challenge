@@ -1,151 +1,211 @@
 INPUT,EVAL
 "['A', 'book', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['A', 'dog', 'ate', 'a', 'burrito', 'last', 'night']",True
+"['John', 'ate', 'a', 'burrito', 'last', 'night']",True
 "['A', 'ship', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['John', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['John', 'ate', 'a', 'burrito', 'last', 'night']",True
+"['A', 'ship', 'ate', 'a', 'burrito', 'last', 'night']",True
+"['A', 'ship', 'ate', 'a', 'burrito', 'last', 'night']",True
 "['A', 'dog', 'ate', 'a', 'burrito', 'last', 'night']",True
 "['Mary', 'ate', 'a', 'burrito', 'last', 'night']",True
+"['A', 'dog', 'ate', 'a', 'burrito', 'last', 'night']",True
 "['John', 'ate', 'a', 'burrito', 'last', 'night']",True
+"['Mary', 'ate', 'a', 'burrito', 'last', 'night']",True
+"['Mary', 'ate', 'a', 'burrito', 'last', 'night']",True
 "['A', 'dog', 'ate', 'a', 'burrito', 'last', 'night']",True
+"['A', 'ship', 'ate', 'a', 'burrito', 'last', 'night']",True
+"['A', 'ship', 'ate', 'a', 'burrito', 'last', 'night']",True
+"['A', 'ship', 'ate', 'a', 'burrito', 'last', 'night']",True
+"['A', 'dog', 'ate', 'a', 'burrito', 'last', 'night']",True
+"['A', 'ship', 'ate', 'a', 'burrito', 'last', 'night']",True
 "['A', 'book', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['A', 'ship', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['A', 'ship', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['A', 'dog', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['A', 'dog', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['A', 'ship', 'ate', 'a', 'burrito', 'last', 'night']",True
+"['John', 'ate', 'a', 'burrito', 'last', 'night']",True
 "['Mary', 'ate', 'a', 'burrito', 'last', 'night']",True
 "['A', 'book', 'ate', 'a', 'burrito', 'last', 'night']",True
+"['Mary', 'ate', 'a', 'burrito', 'last', 'night']",True
 "['A', 'dog', 'ate', 'a', 'burrito', 'last', 'night']",True
 "['Mary', 'ate', 'a', 'burrito', 'last', 'night']",True
+"['A', 'dog', 'ate', 'a', 'burrito', 'last', 'night']",True
+"['A', 'dog', 'ate', 'a', 'burrito', 'last', 'night']",True
 "['A', 'book', 'ate', 'a', 'burrito', 'last', 'night']",True
+"['A', 'ship', 'ate', 'a', 'burrito', 'last', 'night']",True
 "['A', 'book', 'ate', 'a', 'burrito', 'last', 'night']",True
 "['John', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['A', 'book', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['Mary', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['John', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['A', 'ship', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['John', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['A', 'ship', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['John', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['A', 'ship', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['A', 'dog', 'threw', 'up', 'on', 'the', 'floor']",True
-"['A', 'dog', 'threw', 'up', 'on', 'the', 'floor']",True
-"['A', 'ship', 'threw', 'up', 'on', 'the', 'floor']",False
-"['A', 'book', 'threw', 'up', 'on', 'the', 'floor']",True
 "['Mary', 'threw', 'up', 'on', 'the', 'floor']",False
-"['A', 'ship', 'threw', 'up', 'on', 'the', 'floor']",False
-"['A', 'ship', 'threw', 'up', 'on', 'the', 'floor']",False
 "['John', 'threw', 'up', 'on', 'the', 'floor']",True
-"['A', 'book', 'threw', 'up', 'on', 'the', 'floor']",True
-"['A', 'dog', 'threw', 'up', 'on', 'the', 'floor']",True
-"['A', 'dog', 'threw', 'up', 'on', 'the', 'floor']",True
-"['A', 'ship', 'threw', 'up', 'on', 'the', 'floor']",False
-"['A', 'book', 'threw', 'up', 'on', 'the', 'floor']",True
-"['A', 'book', 'threw', 'up', 'on', 'the', 'floor']",True
-"['A', 'ship', 'threw', 'up', 'on', 'the', 'floor']",False
-"['A', 'ship', 'threw', 'up', 'on', 'the', 'floor']",False
-"['A', 'ship', 'threw', 'up', 'on', 'the', 'floor']",False
-"['John', 'threw', 'up', 'on', 'the', 'floor']",True
-"['John', 'threw', 'up', 'on', 'the', 'floor']",True
-"['A', 'book', 'threw', 'up', 'on', 'the', 'floor']",True
-"['A', 'ship', 'threw', 'up', 'on', 'the', 'floor']",False
-"['John', 'threw', 'up', 'on', 'the', 'floor']",True
-"['A', 'dog', 'threw', 'up', 'on', 'the', 'floor']",True
 "['Mary', 'threw', 'up', 'on', 'the', 'floor']",False
 "['A', 'book', 'threw', 'up', 'on', 'the', 'floor']",True
+"['A', 'dog', 'threw', 'up', 'on', 'the', 'floor']",True
+"['A', 'book', 'threw', 'up', 'on', 'the', 'floor']",True
+"['A', 'book', 'threw', 'up', 'on', 'the', 'floor']",True
 "['Mary', 'threw', 'up', 'on', 'the', 'floor']",False
-"['A', 'ship', 'threw', 'up', 'on', 'the', 'floor']",False
 "['John', 'threw', 'up', 'on', 'the', 'floor']",True
 "['A', 'book', 'threw', 'up', 'on', 'the', 'floor']",True
+"['A', 'ship', 'threw', 'up', 'on', 'the', 'floor']",False
+"['A', 'ship', 'threw', 'up', 'on', 'the', 'floor']",False
+"['John', 'threw', 'up', 'on', 'the', 'floor']",True
+"['A', 'ship', 'threw', 'up', 'on', 'the', 'floor']",False
+"['A', 'ship', 'threw', 'up', 'on', 'the', 'floor']",False
+"['John', 'threw', 'up', 'on', 'the', 'floor']",True
+"['John', 'threw', 'up', 'on', 'the', 'floor']",True
+"['A', 'book', 'threw', 'up', 'on', 'the', 'floor']",True
+"['A', 'ship', 'threw', 'up', 'on', 'the', 'floor']",False
+"['Mary', 'threw', 'up', 'on', 'the', 'floor']",False
+"['Mary', 'threw', 'up', 'on', 'the', 'floor']",False
+"['A', 'book', 'threw', 'up', 'on', 'the', 'floor']",True
+"['A', 'ship', 'threw', 'up', 'on', 'the', 'floor']",False
 "['A', 'dog', 'threw', 'up', 'on', 'the', 'floor']",True
-"['Someone', 'killed', 'Nancy', 'Thomas', 'last', 'night']",True
-"['Someone', 'killed', 'Ryan', 'Rogers', 'last', 'night']",True
-"['Someone', 'killed', 'Bob', 'Turner', 'last', 'night']",True
-"['Someone', 'killed', 'Rose', 'Hart', 'last', 'night']",True
-"['Someone', 'killed', 'Maria', 'Edwards', 'last', 'night']",True
-"['Someone', 'killed', 'Marie', 'Alexander', 'last', 'night']",True
-"['Someone', 'killed', 'Catherine', 'Stewart', 'last', 'night']",True
-"['Someone', 'killed', 'Nick', 'Thomas', 'last', 'night']",True
-"['Someone', 'killed', 'Ryan', 'Martin', 'last', 'night']",True
-"['Someone', 'killed', 'Philip', 'Murray', 'last', 'night']",True
-"['Someone', 'killed', 'Ben', 'Baker', 'last', 'night']",True
-"['Someone', 'killed', 'Edwin', 'Morris', 'last', 'night']",True
-"['Someone', 'killed', 'Nancy', 'Ryan', 'last', 'night']",True
-"['Someone', 'killed', 'Jane', 'Butler', 'last', 'night']",True
-"['Someone', 'killed', 'Michelle', 'Murray', 'last', 'night']",True
-"['Someone', 'killed', 'Greg', 'Baker', 'last', 'night']",True
-"['Someone', 'killed', 'Daniel', 'Gray', 'last', 'night']",True
-"['Someone', 'killed', 'Marie', 'Price', 'last', 'night']",True
-"['Someone', 'killed', 'Walter', 'Brown', 'last', 'night']",True
-"['Someone', 'killed', 'Harry', 'Cooper', 'last', 'night']",True
-"['Someone', 'killed', 'Paul', 'James', 'last', 'night']",True
-"['Someone', 'killed', 'Alan', 'Young', 'last', 'night']",True
-"['Someone', 'killed', 'Tony', 'Scott', 'last', 'night']",True
-"['Someone', 'killed', 'Jim', 'Parker', 'last', 'night']",True
-"['Someone', 'killed', 'Diane', 'Harris', 'last', 'night']",False
-"['Someone', 'killed', 'Louise', 'Clark', 'last', 'night']",True
-"['Someone', 'killed', 'Pamela', 'Parker', 'last', 'night']",True
-"['Someone', 'killed', 'Michael', 'Robertson', 'last', 'night']",True
-"['Someone', 'killed', 'Louise', 'King', 'last', 'night']",True
-"['Someone', 'killed', 'Marie', 'Walker', 'last', 'night']",True
-"['Lisa', 'ate', 'all', 'of', 'Amanda', 'Richardson', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Lauren', 'Cook', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Eleanor', 'Harrison', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Ryan', 'Henderson', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Lynn', 'Brooks', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Deborah', 'Allen', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Cynthia', 'Rogers', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Sarah', 'Perry', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Elaine', 'Walker', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Lisa', 'Alexander', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Robin', 'Hall', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Hugh', 'Price', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Ashley', 'Robertson', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Steve', 'King', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Charlotte', 'Watson', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Deborah', 'Campbell', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Harry', 'Sullivan', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Kathy', 'Marshall', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Carolyn', 'Harrison', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Sally', 'Cooper', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Rose', 'Jordan', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Katherine', 'Clarke', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Florence', 'Evans', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Helen', 'Watson', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Margaret', 'Collins', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Andrea', 'Hall', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Matthew', 'Williams', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Alison', 'Stewart', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Michael', 'Cohen', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Wendy', 'Cooper', ""'s"", 'food']",False
+"['A', 'dog', 'threw', 'up', 'on', 'the', 'floor']",True
+"['Mary', 'threw', 'up', 'on', 'the', 'floor']",False
+"['Mary', 'threw', 'up', 'on', 'the', 'floor']",False
+"['A', 'ship', 'threw', 'up', 'on', 'the', 'floor']",False
+"['A', 'book', 'threw', 'up', 'on', 'the', 'floor']",True
+"['A', 'dog', 'threw', 'up', 'on', 'the', 'floor']",True
+"['Are', 'we', 'going', 'out', 'to', 'dinner', 'next', 'year']",False
+"['Are', 'we', 'going', 'out', 'to', 'dinner', 'soon']",False
+"['Are', 'we', 'going', 'out', 'to', 'dinner', 'in', 'a', 'while']",False
+"['Are', 'we', 'going', 'out', 'to', 'dinner', 'soon']",False
+"['Are', 'we', 'going', 'out', 'to', 'dinner', 'in', 'a', 'bit']",False
+"['Are', 'we', 'going', 'out', 'to', 'dinner', 'next', 'month']",False
+"['Are', 'we', 'going', 'out', 'to', 'dinner', 'in', 'a', 'bit']",False
+"['Are', 'we', 'going', 'out', 'to', 'dinner', 'in', 'a', 'bit']",False
+"['Are', 'we', 'going', 'out', 'to', 'dinner', 'next', 'year']",False
+"['Are', 'we', 'going', 'out', 'to', 'dinner', 'in', 'a', 'bit']",False
+"['Are', 'we', 'going', 'out', 'to', 'dinner', 'soon']",False
+"['Are', 'we', 'going', 'out', 'to', 'dinner', 'next', 'year']",False
+"['Are', 'we', 'going', 'out', 'to', 'dinner', 'in', 'a', 'while']",False
+"['Are', 'we', 'going', 'out', 'to', 'dinner', 'next', 'month']",False
+"['Are', 'we', 'going', 'out', 'to', 'dinner', 'next', 'month']",False
+"['Are', 'we', 'going', 'out', 'to', 'dinner', 'tomorrow']",False
+"['Are', 'we', 'going', 'out', 'to', 'dinner', 'next', 'month']",False
+"['Are', 'we', 'going', 'out', 'to', 'dinner', 'next', 'month']",False
+"['Are', 'we', 'going', 'out', 'to', 'dinner', 'in', 'an', 'hour']",False
+"['Are', 'we', 'going', 'out', 'to', 'dinner', 'in', 'a', 'bit']",False
+"['Are', 'we', 'going', 'out', 'to', 'dinner', 'in', 'a', 'while']",False
+"['Are', 'we', 'going', 'out', 'to', 'dinner', 'tomorrow']",False
+"['Are', 'we', 'going', 'out', 'to', 'dinner', 'soon']",False
+"['Are', 'we', 'going', 'out', 'to', 'dinner', 'tomorrow']",False
+"['Are', 'we', 'going', 'out', 'to', 'dinner', 'in', 'a', 'bit']",False
+"['Are', 'we', 'going', 'out', 'to', 'dinner', 'in', 'a', 'while']",False
+"['Are', 'we', 'going', 'out', 'to', 'dinner', 'next', 'month']",False
+"['Are', 'we', 'going', 'out', 'to', 'dinner', 'next', 'month']",False
+"['Are', 'we', 'going', 'out', 'to', 'dinner', 'next', 'year']",False
+"['Are', 'we', 'going', 'out', 'to', 'dinner', 'next', 'year']",False
+"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'in', 'an', 'hour']",False
+"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'soon']",False
+"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'tomorrow']",False
+"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'next', 'month']",False
+"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'tomorrow']",False
+"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'tomorrow']",False
+"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'next', 'month']",False
+"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'in', 'a', 'bit']",False
+"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'in', 'a', 'bit']",False
+"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'in', 'a', 'bit']",False
+"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'in', 'an', 'hour']",False
+"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'in', 'a', 'bit']",False
+"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'soon']",False
+"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'in', 'a', 'bit']",False
+"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'in', 'a', 'bit']",False
+"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'next', 'month']",False
+"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'next', 'month']",False
+"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'in', 'a', 'bit']",False
+"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'soon']",False
+"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'next', 'month']",False
+"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'in', 'a', 'bit']",False
+"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'in', 'a', 'bit']",False
+"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'in', 'an', 'hour']",False
+"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'soon']",False
+"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'soon']",False
+"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'in', 'a', 'bit']",False
+"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'in', 'a', 'while']",False
+"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'in', 'a', 'while']",False
+"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'next', 'year']",False
+"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'in', 'a', 'while']",False
+"['Someone', 'killed', 'Rebecca', 'Young', 'last', 'night']",True
+"['Someone', 'killed', 'Alexander', 'Ward', 'last', 'night']",True
+"['Someone', 'killed', 'Jonathan', ""O'Brien"", 'last', 'night']",True
+"['Someone', 'killed', 'Peter', 'Bennett', 'last', 'night']",True
+"['Someone', 'killed', 'Steve', 'Robertson', 'last', 'night']",True
+"['Someone', 'killed', 'Linda', 'Hunter', 'last', 'night']",True
+"['Someone', 'killed', 'Brian', 'Cooper', 'last', 'night']",True
+"['Someone', 'killed', 'Keith', 'Campbell', 'last', 'night']",True
+"['Someone', 'killed', 'John', 'James', 'last', 'night']",True
+"['Someone', 'killed', 'Louis', 'Turner', 'last', 'night']",True
+"['Someone', 'killed', 'Sam', 'Johnson', 'last', 'night']",True
+"['Someone', 'killed', 'Alexandra', 'Mason', 'last', 'night']",True
+"['Someone', 'killed', 'Barbara', 'Hall', 'last', 'night']",True
+"['Someone', 'killed', 'Richard', 'Wood', 'last', 'night']",True
+"['Someone', 'killed', 'Judy', 'Martin', 'last', 'night']",True
+"['Someone', 'killed', 'Rose', 'Richardson', 'last', 'night']",True
+"['Someone', 'killed', 'Lynn', 'Russell', 'last', 'night']",True
+"['Someone', 'killed', 'James', 'Murphy', 'last', 'night']",True
+"['Someone', 'killed', 'Kathy', 'Harris', 'last', 'night']",True
+"['Someone', 'killed', 'Ryan', 'Jordan', 'last', 'night']",True
+"['Someone', 'killed', 'Linda', 'Ward', 'last', 'night']",True
+"['Someone', 'killed', 'Melissa', 'Smith', 'last', 'night']",True
+"['Someone', 'killed', 'Ken', 'Crawford', 'last', 'night']",True
+"['Someone', 'killed', 'Judy', 'Hill', 'last', 'night']",True
+"['Someone', 'killed', 'Michelle', 'Stevens', 'last', 'night']",True
+"['Someone', 'killed', 'Robert', 'Adams', 'last', 'night']",True
+"['Someone', 'killed', 'Carl', 'Thompson', 'last', 'night']",True
+"['Someone', 'killed', 'Evelyn', 'Hunter', 'last', 'night']",True
+"['Someone', 'killed', 'Roger', 'Walker', 'last', 'night']",True
+"['Someone', 'killed', 'Amy', 'Adams', 'last', 'night']",False
+"['Lisa', 'ate', 'all', 'of', 'Mark', 'Johnson', ""'s"", 'food']",False
+"['Lisa', 'ate', 'all', 'of', 'Diane', 'Foster', ""'s"", 'food']",False
+"['Lisa', 'ate', 'all', 'of', 'Joe', 'Rose', ""'s"", 'food']",False
+"['Lisa', 'ate', 'all', 'of', 'Gary', 'Carter', ""'s"", 'food']",False
+"['Lisa', 'ate', 'all', 'of', 'Claire', 'Wood', ""'s"", 'food']",False
+"['Lisa', 'ate', 'all', 'of', 'Alex', 'Cooper', ""'s"", 'food']",False
+"['Lisa', 'ate', 'all', 'of', 'Grace', 'Bennett', ""'s"", 'food']",False
+"['Lisa', 'ate', 'all', 'of', 'Amy', 'Campbell', ""'s"", 'food']",False
+"['Lisa', 'ate', 'all', 'of', 'Rose', 'Wilson', ""'s"", 'food']",False
+"['Lisa', 'ate', 'all', 'of', 'Anne', 'Hughes', ""'s"", 'food']",False
+"['Lisa', 'ate', 'all', 'of', 'Maria', 'Hughes', ""'s"", 'food']",False
+"['Lisa', 'ate', 'all', 'of', 'Ken', 'Howard', ""'s"", 'food']",False
+"['Lisa', 'ate', 'all', 'of', 'Victoria', ""O'Brien"", ""'s"", 'food']",False
+"['Lisa', 'ate', 'all', 'of', 'Tom', 'Kennedy', ""'s"", 'food']",False
+"['Lisa', 'ate', 'all', 'of', 'Andrea', 'Taylor', ""'s"", 'food']",False
+"['Lisa', 'ate', 'all', 'of', 'Steve', 'Wood', ""'s"", 'food']",False
+"['Lisa', 'ate', 'all', 'of', 'Kevin', 'Roberts', ""'s"", 'food']",False
+"['Lisa', 'ate', 'all', 'of', 'Judith', 'Young', ""'s"", 'food']",False
+"['Lisa', 'ate', 'all', 'of', 'Alan', 'Graham', ""'s"", 'food']",False
+"['Lisa', 'ate', 'all', 'of', 'Ellen', 'Ross', ""'s"", 'food']",False
+"['Lisa', 'ate', 'all', 'of', 'Catherine', 'Brown', ""'s"", 'food']",False
+"['Lisa', 'ate', 'all', 'of', 'Barbara', ""O'Brien"", ""'s"", 'food']",False
+"['Lisa', 'ate', 'all', 'of', 'Harriet', 'Thompson', ""'s"", 'food']",False
+"['Lisa', 'ate', 'all', 'of', 'Eleanor', 'Bennett', ""'s"", 'food']",False
+"['Lisa', 'ate', 'all', 'of', 'Robin', 'Alexander', ""'s"", 'food']",False
+"['Lisa', 'ate', 'all', 'of', 'Helen', 'Foster', ""'s"", 'food']",False
+"['Lisa', 'ate', 'all', 'of', 'Billy', 'Rogers', ""'s"", 'food']",False
+"['Lisa', 'ate', 'all', 'of', 'Henry', 'Kelly', ""'s"", 'food']",False
+"['Lisa', 'ate', 'all', 'of', 'Ian', 'Perry', ""'s"", 'food']",False
+"['Lisa', 'ate', 'all', 'of', 'Frances', 'Clark', ""'s"", 'food']",False
+"['John', 'killed', 'Mary', 'with', 'a', 'spoon']",False
 "['John', 'killed', 'Mary', 'with', 'a', 'knife']",False
 "['John', 'killed', 'Mary', 'with', 'a', 'knife']",False
 "['John', 'killed', 'Mary', 'with', 'a', 'fork']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'spoon']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'pinecone']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'spoon']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'pinecone']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'spoon']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'pinecone']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'fork']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'pinecone']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'spoon']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'knife']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'pinecone']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'knife']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'pinecone']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'pinecone']",False
 "['John', 'killed', 'Mary', 'with', 'a', 'fork']",False
 "['John', 'killed', 'Mary', 'with', 'a', 'fork']",False
 "['John', 'killed', 'Mary', 'with', 'a', 'spoon']",False
 "['John', 'killed', 'Mary', 'with', 'a', 'spoon']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'pinecone']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'pinecone']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'pinecone']",False
+"['John', 'killed', 'Mary', 'with', 'a', 'spoon']",False
 "['John', 'killed', 'Mary', 'with', 'a', 'pinecone']",False
 "['John', 'killed', 'Mary', 'with', 'a', 'knife']",False
+"['John', 'killed', 'Mary', 'with', 'a', 'pinecone']",False
+"['John', 'killed', 'Mary', 'with', 'a', 'spoon']",False
+"['John', 'killed', 'Mary', 'with', 'a', 'pinecone']",False
+"['John', 'killed', 'Mary', 'with', 'a', 'spoon']",False
+"['John', 'killed', 'Mary', 'with', 'a', 'spoon']",False
 "['John', 'killed', 'Mary', 'with', 'a', 'spoon']",False
 "['John', 'killed', 'Mary', 'with', 'a', 'knife']",False
+"['John', 'killed', 'Mary', 'with', 'a', 'fork']",False
+"['John', 'killed', 'Mary', 'with', 'a', 'knife']",False
+"['John', 'killed', 'Mary', 'with', 'a', 'fork']",False
+"['John', 'killed', 'Mary', 'with', 'a', 'fork']",False
+"['John', 'killed', 'Mary', 'with', 'a', 'fork']",False
+"['John', 'killed', 'Mary', 'with', 'a', 'fork']",False
+"['John', 'killed', 'Mary', 'with', 'a', 'fork']",False
 "['John', 'killed', 'Mary', 'with', 'a', 'spoon']",False
+"['John', 'killed', 'Mary', 'with', 'a', 'fork']",False
 "['John', 'killed', 'Mary', 'with', 'a', 'spoon']",False
+"['John', 'killed', 'Mary', 'with', 'a', 'pinecone']",False
+"['John', 'killed', 'Mary', 'with', 'a', 'fork']",False

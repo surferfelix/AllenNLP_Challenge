@@ -1,4 +1,3 @@
 INPUT, GOLD
-Are we going out to dinner {temporal}, ARGM
-John are you preparing for your graduation, {temporal}
-
+Are we going out to dinner {temporal}, ARGMTMP
+John are you preparing for your graduation {temporal}, ARGMTMP
