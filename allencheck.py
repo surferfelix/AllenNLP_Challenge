@@ -147,10 +147,10 @@ def run_case(text, gold, index):
         predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
         t = editor.template(text, atypical = atypicals, meta = True, nsamples= 30) # The case to run
     elif "{temporal}" in text and 'ARGM' in gold:
-        temporals = []
+        temporal_future = ['tomorrow', 'in an hour', 'in a bit', 'soon', 'in a while', 'next month', 'next year']
         expectation = Expect.single(found_temp_argm)
         predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
-        t = editor.template(text, temporal = temporals, meta = True, nsamples= 30) # The case to run
+        t = editor.template(text, temporal = temporal_future, meta = True, nsamples= 30) # The case to run
     else:
         return "oops, no implementation possible yet for this kind of data :("
     test = MFT(**t, expect=expectation)
