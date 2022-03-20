@@ -4,30 +4,34 @@ Fails (rate):    0 (0.0%)
 None
 GOLD:  ARG0
 Test cases:      30
-Fails (rate):    13 (43.3%)
+Fails (rate):    12 (40.0%)
 
 Example fails:
 [ARG1: A ship] [V: threw] up [ARGM-LOC: on the floor]
 ----
-[ARG1: Mary] [V: threw] up [ARGM-LOC: on the floor]
+[ARG1: A ship] [V: threw] up [ARGM-LOC: on the floor]
 ----
 [ARG1: Mary] [V: threw] up [ARGM-LOC: on the floor]
 ----
 None
 GOLD:  ARG1
 Test cases:      30
-Fails (rate):    0 (0.0%)
+Fails (rate):    1 (3.3%)
+
+Example fails:
+[ARG0: Someone] [V: killed] [ARG1: Diane] [ARG2: Harris] [ARGM-TMP: last night]
+----
 None
 GOLD:  ARG1
 Test cases:      30
 Fails (rate):    30 (100.0%)
 
 Example fails:
-[ARG0: Lisa] [V: ate] [ARG1: all of Ian Davies 's food]
+[ARG0: Lisa] [V: ate] [ARG1: all of Deborah Allen 's food]
 ----
-[ARG0: Lisa] [V: ate] [ARG1: all of Amy Young 's food]
+[ARG0: Lisa] [V: ate] [ARG1: all of Rose Jordan 's food]
 ----
-[ARG0: Lisa] [V: ate] [ARG1: all of Larry Robinson 's food]
+[ARG0: Lisa] [V: ate] [ARG1: all of Steve King 's food]
 ----
 None
 GOLD:  ARG2
@@ -35,10 +39,10 @@ Test cases:      30
 Fails (rate):    30 (100.0%)
 
 Example fails:
-[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a knife]
-----
-[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a fork]
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone]
 ----
 [ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone]
+----
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon]
 ----
 None

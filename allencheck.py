@@ -119,7 +119,7 @@ def found_atypical_arg_0(x , pred, conf, label = None, meta = None):
 
 def found_temp_argm(x, pred, conf, label = None, meta = None):
     a_arg = set(meta['temporal'].split(' '))
-    system_pred = get_arg(pred, arg_target = 'ARGM')
+    system_pred = get_arg(pred, arg_target = 'ARGMNR')
     if a_arg == system_pred:
         pass_ = True
     else:
