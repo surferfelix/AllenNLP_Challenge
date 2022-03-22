@@ -19,7 +19,7 @@ import sys
 def read_test(test_path):
     container = []
     with open(test_path) as file:
-        infile = csv.reader(file, delimiter = ',')
+        infile = csv.reader(file, delimiter = ',', quotechar = '|')
         for index, row in enumerate(infile):
             if not index == 0: # Skipping headers
                 container.append(row)
@@ -37,19 +37,12 @@ def preprocess(infile):
     ''''''
     inputs = []
     golds = []
-    print(infile)
     for row in infile:
-        try:
-            inp = row[0]
-            gold = row[1]
-            inputs.append(inp)
-            golds.append(gold)
-        except IndexError:
-            row = row[0]
-            inp = row[0]
-            gold = row[1]
-            inputs.append(inp)
-            golds.append(gold)
+        row = row[0]
+        inp = row[0]
+        gold = row[1]
+        inputs.append(inp)
+        golds.append(gold)
     return inputs, golds
 
 def less_verbose():
