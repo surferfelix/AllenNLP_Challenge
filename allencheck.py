@@ -156,29 +156,38 @@ def run_case(text, gold, index):
         expectation = Expect.single(found_arg1_people) # Specify what case should expect
         predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
         t = editor.template(text, meta = True, nsamples= 30) # The case to run
+        test = MFT(**t, expect=expectation)
+        test.run(predict_and_conf)
+        write_out_json(test.results, index, gold, 'name_eval.csv')
     elif "{instrument}" in text and "ARG2" in gold:
         print('instr test')
         instruments = ['with a spoon', 'with a fork', 'with a knife', 'with a pinecone']
         expectation = Expect.single(found_arg2_instrument)
         predict_and_conf = PredictorWrapper.wrap_predict(predict_srl)
         t = editor.template(text, instrument = instruments, meta = True, nsamples= 30) # The case to run
+        test = MFT(**t, expect=expectation)
+        test.run(predict_and_conf)
+        write_out_json(test.results, index, gold, 'instrument_eval.csv')
     elif "{atypical}" in text and "ARG0" in gold:
         print('atyp test')
         atypicals = ['John', 'Mary', "A dog", "A book", "A ship"]
         expectation = Expect.single(found_atypical_arg_0)
         predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
         t = editor.template(text, atypical = atypicals, meta = True, nsamples= 30) # The case to run
+        test = MFT(**t, expect=expectation)
+        test.run(predict_and_conf)
+        write_out_json(test.results, index, gold, 'atypical_eval.csv')
     elif "{temporal}" in text and 'ARGMTMP' in gold:
         print('temporal test')
         temporals = ['tomorrow', 'in an hour', 'in a bit', 'soon', 'in a while', 'next month', 'next year']
         expectation = Expect.single(found_temp_argm)
         predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
         t = editor.template(text, temporal = temporals, meta = True, nsamples= 30) # The case to run
+        test = MFT(**t, expect=expectation)
+        test.run(predict_and_conf)
+        write_out_json(test.results, index, gold, 'temporal_eval.csv')
     else:
         return "oops, no implementation possible yet for this kind of data :("
-    test = MFT(**t, expect=expectation)
-    test.run(predict_and_conf)
-    write_out_json(test.results, index, gold)
     if index == 0:
         # Print to file trick taken from https://howtodoinjava.com/examples/python-print-to-file/
         original_stdout = sys.stdout # Saving original state
@@ -197,7 +206,7 @@ def run_case(text, gold, index):
     for i, case in enumerate(test.data):
         print(i, case)
 
-def write_out_json(results, index, gold: str):
+def write_out_json(results, index, gold: str, output_file_name):
     ''':param gold: This is the gold label for the iteration'''
     predictions = results['preds']
     print(predictions)
@@ -205,13 +214,13 @@ def write_out_json(results, index, gold: str):
     for p, a in zip(predictions, answers):
         print(p['verbs'][0]['description'], a)
     if index == 0:
-        with open('output/result.csv', 'w') as txt:
+        with open(f'output/{output_file_name}', 'w') as txt:
             writer = csv.writer(txt)
             writer.writerow(['INPUT', 'EVAL', 'GOLD'])
             for p, a in zip(predictions, answers):
                 writer.writerow([p['verbs'][0]['description'],a, gold])
     elif index > 0:
-        with open('output/result.csv', 'a') as txt:
+        with open(f'output/{output_file_name}', 'a') as txt:
             writer = csv.writer(txt)
             for p, a in zip(predictions, answers):
                 writer.writerow([p['verbs'][0]['description'],a, gold])

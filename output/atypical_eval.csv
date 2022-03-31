@@ -1,0 +1,60 @@
+[ARG0: A dog] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: A dog] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: Mary] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: A book] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: A ship] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: A ship] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: Mary] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: A ship] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: John] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: Mary] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: A book] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: A ship] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: A book] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: John] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: John] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: A book] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: A book] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: A dog] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: John] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: A dog] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: A dog] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: Mary] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: A ship] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: A book] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: A ship] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: A ship] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: John] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: Mary] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: A dog] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: A book] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG1: A ship] [V: threw] up [ARGM-LOC: on the floor],False, ARG0
+[ARG1: Mary] [V: threw] up [ARGM-LOC: on the floor],False, ARG0
+[ARG1: Mary] [V: threw] up [ARGM-LOC: on the floor],False, ARG0
+[ARG1: A ship] [V: threw] up [ARGM-LOC: on the floor],False, ARG0
+[ARG1: A ship] [V: threw] up [ARGM-LOC: on the floor],False, ARG0
+[ARG1: A ship] [V: threw] up [ARGM-LOC: on the floor],False, ARG0
+[ARG0: A dog] [V: threw] up [ARGM-LOC: on the floor],True, ARG0
+[ARG1: Mary] [V: threw] up [ARGM-LOC: on the floor],False, ARG0
+[ARG0: John] [V: threw] up [ARGM-LOC: on the floor],True, ARG0
+[ARG1: A ship] [V: threw] up [ARGM-LOC: on the floor],False, ARG0
+[ARG1: A ship] [V: threw] up [ARGM-LOC: on the floor],False, ARG0
+[ARG0: John] [V: threw] up [ARGM-LOC: on the floor],True, ARG0
+[ARG0: A book] [V: threw] up [ARGM-LOC: on the floor],True, ARG0
+[ARG1: Mary] [V: threw] up [ARGM-LOC: on the floor],False, ARG0
+[ARG1: Mary] [V: threw] up [ARGM-LOC: on the floor],False, ARG0
+[ARG0: A dog] [V: threw] up [ARGM-LOC: on the floor],True, ARG0
+[ARG1: Mary] [V: threw] up [ARGM-LOC: on the floor],False, ARG0
+[ARG0: A book] [V: threw] up [ARGM-LOC: on the floor],True, ARG0
+[ARG0: John] [V: threw] up [ARGM-LOC: on the floor],True, ARG0
+[ARG0: John] [V: threw] up [ARGM-LOC: on the floor],True, ARG0
+[ARG1: Mary] [V: threw] up [ARGM-LOC: on the floor],False, ARG0
+[ARG0: A book] [V: threw] up [ARGM-LOC: on the floor],True, ARG0
+[ARG0: A book] [V: threw] up [ARGM-LOC: on the floor],True, ARG0
+[ARG0: A book] [V: threw] up [ARGM-LOC: on the floor],True, ARG0
+[ARG1: A ship] [V: threw] up [ARGM-LOC: on the floor],False, ARG0
+[ARG1: A ship] [V: threw] up [ARGM-LOC: on the floor],False, ARG0
+[ARG0: John] [V: threw] up [ARGM-LOC: on the floor],True, ARG0
+[ARG0: A book] [V: threw] up [ARGM-LOC: on the floor],True, ARG0
+[ARG1: Mary] [V: threw] up [ARGM-LOC: on the floor],False, ARG0
+[ARG1: Mary] [V: threw] up [ARGM-LOC: on the floor],False, ARG0
