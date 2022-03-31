@@ -1,0 +1,6 @@
+INPUT, GOLD
+{tool} cut the child, ARG2
+{tool} hurt the man, ARG2
+{tool} destroyed the building, ARG2
+{tool} hit the woman, ARG2
+{tool} injured the woman, ARG2

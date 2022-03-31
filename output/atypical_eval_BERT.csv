@@ -1,0 +1,240 @@
+[ARG0: africa] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: a rocket] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: John] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: africa] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: A ship] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: the glasses] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: A ship] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: the glasses] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: the toothbrush] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: Mary] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: A book] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: the carrot] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: africa] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: Mary] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: Mary] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: Mary] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: A ship] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: A ship] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: the street] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: africa] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: the glasses] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: africa] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: Mary] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: the street] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: Mary] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: Mary] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: the toothbrush] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: the glasses] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: the glasses] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: Mary] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True, ARG0
+[ARG0: the toothbrush] [V: threw] up [ARGM-GOL: on the floor],True, ARG0
+[ARG0: the toothbrush] [V: threw] up [ARGM-GOL: on the floor],True, ARG0
+[ARG0: a rocket] [V: threw] [ARG2: up] [ARGM-GOL: on the floor],True, ARG0
+[ARG0: John] [V: threw] up [ARGM-LOC: on the floor],True, ARG0
+[ARG0: the toothbrush] [V: threw] up [ARGM-GOL: on the floor],True, ARG0
+[ARG0: A dog] [V: threw] up [ARGM-GOL: on the floor],True, ARG0
+[ARG0: A book] [V: threw] up [ARGM-LOC: on the floor],True, ARG0
+[ARG0: africa] [V: threw] up [ARGM-LOC: on the floor],True, ARG0
+[ARG0: A dog] [V: threw] up [ARGM-GOL: on the floor],True, ARG0
+[ARG0: the street] [V: threw] up [ARGM-GOL: on the floor],True, ARG0
+[ARG0: the street] [V: threw] up [ARGM-GOL: on the floor],True, ARG0
+[ARG0: a rocket] [V: threw] [ARG2: up] [ARGM-GOL: on the floor],True, ARG0
+[ARG0: A dog] [V: threw] up [ARGM-GOL: on the floor],True, ARG0
+[ARG0: senegal] [V: threw] up [ARGM-LOC: on the floor],True, ARG0
+[ARG0: A book] [V: threw] up [ARGM-LOC: on the floor],True, ARG0
+[ARG0: the glasses] [V: threw] up [ARGM-LOC: on the floor],True, ARG0
+[ARG0: John] [V: threw] up [ARGM-LOC: on the floor],True, ARG0
+[ARG0: A dog] [V: threw] up [ARGM-GOL: on the floor],True, ARG0
+[ARG0: senegal] [V: threw] up [ARGM-LOC: on the floor],True, ARG0
+[ARG0: the carrot] [V: threw] up [ARGM-GOL: on the floor],True, ARG0
+[ARG0: the street] [V: threw] up [ARGM-GOL: on the floor],True, ARG0
+[ARG0: John] [V: threw] up [ARGM-LOC: on the floor],True, ARG0
+[ARG0: a rocket] [V: threw] [ARG2: up] [ARGM-GOL: on the floor],True, ARG0
+[ARG0: the carrot] [V: threw] up [ARGM-GOL: on the floor],True, ARG0
+[ARG0: a rocket] [V: threw] [ARG2: up] [ARGM-GOL: on the floor],True, ARG0
+[ARG0: John] [V: threw] up [ARGM-LOC: on the floor],True, ARG0
+[ARG0: Mary] [V: threw] up [ARGM-GOL: on the floor],True, ARG0
+[ARG0: the carrot] [V: threw] up [ARGM-GOL: on the floor],True, ARG0
+[ARG0: the toothbrush] [V: threw] up [ARGM-GOL: on the floor],True, ARG0
+[ARG0: John] [V: threw] up [ARGM-LOC: on the floor],True, ARG0
+[ARG0: the carrot] [V: stole] [ARG1: the catnip],True, ARG0
+[ARG0: A ship] [V: stole] [ARG1: the catnip],True, ARG0
+[ARG0: John] [V: stole] [ARG1: the catnip],True, ARG0
+[ARG0: the glasses] [V: stole] [ARG1: the catnip],True, ARG0
+[ARG0: A dog] [V: stole] [ARG1: the catnip],True, ARG0
+[ARG0: A dog] [V: stole] [ARG1: the catnip],True, ARG0
+[ARG0: A dog] [V: stole] [ARG1: the catnip],True, ARG0
+[ARG0: John] [V: stole] [ARG1: the catnip],True, ARG0
+[ARG0: Mary] [V: stole] [ARG1: the catnip],True, ARG0
+[ARG0: John] [V: stole] [ARG1: the catnip],True, ARG0
+[ARG0: John] [V: stole] [ARG1: the catnip],True, ARG0
+[ARG0: the carrot] [V: stole] [ARG1: the catnip],True, ARG0
+[ARG0: the glasses] [V: stole] [ARG1: the catnip],True, ARG0
+[ARG0: the glasses] [V: stole] [ARG1: the catnip],True, ARG0
+[ARG0: Mary] [V: stole] [ARG1: the catnip],True, ARG0
+[ARG0: Mary] [V: stole] [ARG1: the catnip],True, ARG0
+[ARG0: the toothbrush] [V: stole] [ARG1: the catnip],True, ARG0
+[ARG0: Mary] [V: stole] [ARG1: the catnip],True, ARG0
+[ARG0: the glasses] [V: stole] [ARG1: the catnip],True, ARG0
+[ARG0: senegal] [V: stole] [ARG1: the catnip],True, ARG0
+[ARG0: A ship] [V: stole] [ARG1: the catnip],True, ARG0
+[ARG0: A ship] [V: stole] [ARG1: the catnip],True, ARG0
+[ARG0: A dog] [V: stole] [ARG1: the catnip],True, ARG0
+[ARG0: A dog] [V: stole] [ARG1: the catnip],True, ARG0
+[ARG0: senegal] [V: stole] [ARG1: the catnip],True, ARG0
+[ARG0: John] [V: stole] [ARG1: the catnip],True, ARG0
+[ARG0: africa] [V: stole] [ARG1: the catnip],True, ARG0
+[ARG0: the toothbrush] [V: stole] [ARG1: the catnip],True, ARG0
+[ARG0: John] [V: stole] [ARG1: the catnip],True, ARG0
+[ARG0: senegal] [V: stole] [ARG1: the catnip],True, ARG0
+[ARG0: John] [V: called] [ARG1: the police],True, ARG0
+[ARG0: africa] [V: called] [ARG1: the police],True, ARG0
+[ARG0: the toothbrush] [V: called] [ARG1: the police],True, ARG0
+[ARG1: A ship] [V: called] [ARG2: the police],False, ARG0
+[ARG0: A dog] [V: called] [ARG1: the police],True, ARG0
+[ARG0: africa] [V: called] [ARG1: the police],True, ARG0
+[ARG0: Mary] [V: called] [ARG1: the police],True, ARG0
+[ARG0: Mary] [V: called] [ARG1: the police],True, ARG0
+[ARG0: A dog] [V: called] [ARG1: the police],True, ARG0
+[ARG0: a rocket] [V: called] [ARG1: the police],True, ARG0
+[ARG0: Mary] [V: called] [ARG1: the police],True, ARG0
+[ARG1: A ship] [V: called] [ARG2: the police],False, ARG0
+[ARG0: the toothbrush] [V: called] [ARG1: the police],True, ARG0
+[ARG0: A dog] [V: called] [ARG1: the police],True, ARG0
+[ARG0: the carrot] [V: called] [ARG1: the police],True, ARG0
+[ARG0: the carrot] [V: called] [ARG1: the police],True, ARG0
+[ARG0: the glasses] [V: called] [ARG1: the police],True, ARG0
+[ARG0: africa] [V: called] [ARG1: the police],True, ARG0
+[ARG0: africa] [V: called] [ARG1: the police],True, ARG0
+[ARG0: the glasses] [V: called] [ARG1: the police],True, ARG0
+[ARG0: Mary] [V: called] [ARG1: the police],True, ARG0
+[ARG0: Mary] [V: called] [ARG1: the police],True, ARG0
+[ARG0: the glasses] [V: called] [ARG1: the police],True, ARG0
+[ARG1: A ship] [V: called] [ARG2: the police],False, ARG0
+[ARG0: the street] [V: called] [ARG1: the police],True, ARG0
+[ARG0: John] [V: called] [ARG1: the police],True, ARG0
+[ARG0: John] [V: called] [ARG1: the police],True, ARG0
+[ARG0: africa] [V: called] [ARG1: the police],True, ARG0
+[ARG0: the street] [V: called] [ARG1: the police],True, ARG0
+[ARG0: africa] [V: called] [ARG1: the police],True, ARG0
+[ARG0: A dog] [V: knocked] [ARG1: on the door],True, ARG0
+[ARG0: A dog] [V: knocked] [ARG1: on the door],True, ARG0
+[ARG0: africa] [V: knocked] [ARG1: on the door],True, ARG0
+[ARG0: Mary] [V: knocked] [ARG1: on the door],True, ARG0
+[ARG0: A dog] [V: knocked] [ARG1: on the door],True, ARG0
+[ARG0: the street] [V: knocked] [ARG1: on the door],True, ARG0
+[ARG0: A dog] [V: knocked] [ARG1: on the door],True, ARG0
+[ARG0: A book] [V: knocked] [ARG1: on the door],True, ARG0
+[ARG0: senegal] [V: knocked] [ARG1: on the door],True, ARG0
+[ARG0: John] [V: knocked] [ARG1: on the door],True, ARG0
+[ARG0: the carrot] [V: knocked] [ARG1: on the door],True, ARG0
+[ARG0: the glasses] [V: knocked] [ARG1: on the door],True, ARG0
+[ARG0: the toothbrush] [V: knocked] [ARG1: on the door],True, ARG0
+[ARG0: John] [V: knocked] [ARG1: on the door],True, ARG0
+[ARG0: A dog] [V: knocked] [ARG1: on the door],True, ARG0
+[ARG0: John] [V: knocked] [ARG1: on the door],True, ARG0
+[ARG0: the street] [V: knocked] [ARG1: on the door],True, ARG0
+[ARG0: the toothbrush] [V: knocked] [ARG1: on the door],True, ARG0
+[ARG0: A book] [V: knocked] [ARG1: on the door],True, ARG0
+[ARG0: A ship] [V: knocked] [ARG1: on the door],True, ARG0
+[ARG0: a rocket] [V: knocked] [ARG1: on the door],True, ARG0
+[ARG0: the toothbrush] [V: knocked] [ARG1: on the door],True, ARG0
+[ARG0: the toothbrush] [V: knocked] [ARG1: on the door],True, ARG0
+[ARG0: Mary] [V: knocked] [ARG1: on the door],True, ARG0
+[ARG0: A book] [V: knocked] [ARG1: on the door],True, ARG0
+[ARG0: Mary] [V: knocked] [ARG1: on the door],True, ARG0
+[ARG0: the street] [V: knocked] [ARG1: on the door],True, ARG0
+[ARG0: John] [V: knocked] [ARG1: on the door],True, ARG0
+[ARG0: the glasses] [V: knocked] [ARG1: on the door],True, ARG0
+[ARG0: John] [V: knocked] [ARG1: on the door],True, ARG0
+[ARG0: a rocket] [V: threw] [ARG1: the plate] [ARG2: away],True, ARG0
+[ARG0: the street] [V: threw] [ARG1: the plate] [ARG2: away],True, ARG0
+[ARG0: africa] [V: threw] [ARG1: the plate] [ARG2: away],True, ARG0
+[ARG0: A book] [V: threw] [ARG1: the plate] [ARG2: away],True, ARG0
+[ARG0: senegal] [V: threw] [ARG1: the plate] [ARG2: away],True, ARG0
+[ARG0: africa] [V: threw] [ARG1: the plate] [ARG2: away],True, ARG0
+[ARG0: A dog] [V: threw] [ARG1: the plate] [ARG2: away],True, ARG0
+[ARG0: the toothbrush] [V: threw] [ARG1: the plate] away,True, ARG0
+[ARG0: the street] [V: threw] [ARG1: the plate] [ARG2: away],True, ARG0
+[ARG0: A dog] [V: threw] [ARG1: the plate] [ARG2: away],True, ARG0
+[ARG0: John] [V: threw] [ARG1: the plate] [ARG2: away],True, ARG0
+[ARG0: the carrot] [V: threw] [ARG1: the plate] away,True, ARG0
+[ARG0: Mary] [V: threw] [ARG1: the plate] [ARG2: away],True, ARG0
+[ARG0: A dog] [V: threw] [ARG1: the plate] [ARG2: away],True, ARG0
+[ARG0: A book] [V: threw] [ARG1: the plate] [ARG2: away],True, ARG0
+[ARG0: A book] [V: threw] [ARG1: the plate] [ARG2: away],True, ARG0
+[ARG0: the carrot] [V: threw] [ARG1: the plate] away,True, ARG0
+[ARG0: senegal] [V: threw] [ARG1: the plate] [ARG2: away],True, ARG0
+[ARG0: A book] [V: threw] [ARG1: the plate] [ARG2: away],True, ARG0
+[ARG0: Mary] [V: threw] [ARG1: the plate] [ARG2: away],True, ARG0
+[ARG0: A book] [V: threw] [ARG1: the plate] [ARG2: away],True, ARG0
+[ARG0: A ship] [V: threw] [ARG1: the plate] [ARG2: away],True, ARG0
+[ARG0: the toothbrush] [V: threw] [ARG1: the plate] away,True, ARG0
+[ARG0: africa] [V: threw] [ARG1: the plate] [ARG2: away],True, ARG0
+[ARG0: africa] [V: threw] [ARG1: the plate] [ARG2: away],True, ARG0
+[ARG0: A dog] [V: threw] [ARG1: the plate] [ARG2: away],True, ARG0
+[ARG0: the toothbrush] [V: threw] [ARG1: the plate] away,True, ARG0
+[ARG0: A ship] [V: threw] [ARG1: the plate] [ARG2: away],True, ARG0
+[ARG0: the carrot] [V: threw] [ARG1: the plate] away,True, ARG0
+[ARG0: africa] [V: threw] [ARG1: the plate] [ARG2: away],True, ARG0
+[ARG1: A book] [V: went] [ARG4: to the doctor],False, ARG0
+[ARG0: Mary] [V: went] [ARG4: to the doctor],True, ARG0
+[ARG0: John] [V: went] [ARG4: to the doctor],True, ARG0
+[ARG1: the carrot] [V: went] [ARG4: to the doctor],False, ARG0
+[ARG0: the street] [V: went] [ARG4: to the doctor],True, ARG0
+[ARG0: John] [V: went] [ARG4: to the doctor],True, ARG0
+[ARG1: the glasses] [V: went] [ARG4: to the doctor],False, ARG0
+[ARG1: A book] [V: went] [ARG4: to the doctor],False, ARG0
+[ARG1: the toothbrush] [V: went] [ARG4: to the doctor],False, ARG0
+[ARG1: A ship] [V: went] [ARG4: to the doctor],False, ARG0
+[ARG0: A dog] [V: went] [ARG4: to the doctor],True, ARG0
+[ARG1: a rocket] [V: went] [ARG4: to the doctor],False, ARG0
+[ARG0: A dog] [V: went] [ARG4: to the doctor],True, ARG0
+[ARG1: a rocket] [V: went] [ARG4: to the doctor],False, ARG0
+[ARG1: a rocket] [V: went] [ARG4: to the doctor],False, ARG0
+[ARG0: Mary] [V: went] [ARG4: to the doctor],True, ARG0
+[ARG0: John] [V: went] [ARG4: to the doctor],True, ARG0
+[ARG0: A dog] [V: went] [ARG4: to the doctor],True, ARG0
+[ARG0: Mary] [V: went] [ARG4: to the doctor],True, ARG0
+[ARG1: the toothbrush] [V: went] [ARG4: to the doctor],False, ARG0
+[ARG0: Mary] [V: went] [ARG4: to the doctor],True, ARG0
+[ARG0: John] [V: went] [ARG4: to the doctor],True, ARG0
+[ARG1: a rocket] [V: went] [ARG4: to the doctor],False, ARG0
+[ARG1: the carrot] [V: went] [ARG4: to the doctor],False, ARG0
+[ARG0: the street] [V: went] [ARG4: to the doctor],True, ARG0
+[ARG1: the toothbrush] [V: went] [ARG4: to the doctor],False, ARG0
+[ARG1: the toothbrush] [V: went] [ARG4: to the doctor],False, ARG0
+[ARG1: A ship] [V: went] [ARG4: to the doctor],False, ARG0
+[ARG0: A dog] [V: went] [ARG4: to the doctor],True, ARG0
+[ARG1: the toothbrush] [V: went] [ARG4: to the doctor],False, ARG0
+[ARG0: a rocket] [V: listened] [ARG1: to the music] [ARGM-MNR: carefully],True, ARG0
+[ARG0: Mary] [V: listened] [ARG1: to the music] [ARGM-MNR: carefully],True, ARG0
+[ARG0: the toothbrush] [V: listened] [ARG1: to the music] [ARGM-MNR: carefully],True, ARG0
+[ARG0: africa] [V: listened] [ARG1: to the music] [ARGM-MNR: carefully],True, ARG0
+[ARG0: A book] [V: listened] [ARG1: to the music] [ARGM-MNR: carefully],True, ARG0
+[ARG0: A ship] [V: listened] [ARG1: to the music] [ARGM-MNR: carefully],True, ARG0
+[ARG0: the carrot] [V: listened] [ARG1: to the music] [ARGM-MNR: carefully],True, ARG0
+[ARG0: the carrot] [V: listened] [ARG1: to the music] [ARGM-MNR: carefully],True, ARG0
+[ARG0: John] [V: listened] [ARG1: to the music] [ARGM-MNR: carefully],True, ARG0
+[ARG0: africa] [V: listened] [ARG1: to the music] [ARGM-MNR: carefully],True, ARG0
+[ARG0: A ship] [V: listened] [ARG1: to the music] [ARGM-MNR: carefully],True, ARG0
+[ARG0: the glasses] [V: listened] [ARG1: to the music] [ARGM-MNR: carefully],True, ARG0
+[ARG0: John] [V: listened] [ARG1: to the music] [ARGM-MNR: carefully],True, ARG0
+[ARG0: Mary] [V: listened] [ARG1: to the music] [ARGM-MNR: carefully],True, ARG0
+[ARG0: the glasses] [V: listened] [ARG1: to the music] [ARGM-MNR: carefully],True, ARG0
+[ARG0: John] [V: listened] [ARG1: to the music] [ARGM-MNR: carefully],True, ARG0
+[ARG0: the toothbrush] [V: listened] [ARG1: to the music] [ARGM-MNR: carefully],True, ARG0
+[ARG0: the glasses] [V: listened] [ARG1: to the music] [ARGM-MNR: carefully],True, ARG0
+[ARG0: africa] [V: listened] [ARG1: to the music] [ARGM-MNR: carefully],True, ARG0
+[ARG0: A book] [V: listened] [ARG1: to the music] [ARGM-MNR: carefully],True, ARG0
+[ARG0: A book] [V: listened] [ARG1: to the music] [ARGM-MNR: carefully],True, ARG0
+[ARG0: the toothbrush] [V: listened] [ARG1: to the music] [ARGM-MNR: carefully],True, ARG0
+[ARG0: A ship] [V: listened] [ARG1: to the music] [ARGM-MNR: carefully],True, ARG0
+[ARG0: the carrot] [V: listened] [ARG1: to the music] [ARGM-MNR: carefully],True, ARG0
+[ARG0: the toothbrush] [V: listened] [ARG1: to the music] [ARGM-MNR: carefully],True, ARG0
+[ARG0: A book] [V: listened] [ARG1: to the music] [ARGM-MNR: carefully],True, ARG0
+[ARG0: a rocket] [V: listened] [ARG1: to the music] [ARGM-MNR: carefully],True, ARG0
+[ARG0: the glasses] [V: listened] [ARG1: to the music] [ARGM-MNR: carefully],True, ARG0
+[ARG0: a rocket] [V: listened] [ARG1: to the music] [ARGM-MNR: carefully],True, ARG0
+[ARG0: Mary] [V: listened] [ARG1: to the music] [ARGM-MNR: carefully],True, ARG0

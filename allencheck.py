@@ -26,6 +26,17 @@ def read_test(test_path):
 
     return container
 
+def preprocess(infile):
+    ''''''
+    inputs = []
+    golds = []
+    for row in infile:
+        inp = row[0]
+        gold = row[1]
+        inputs.append(inp)
+        golds.append(gold)
+    return inputs, golds
+
 def predict_srl(data):
     pred = []
     srl_predictor = load_predictor('structured-prediction-srl')
@@ -33,18 +44,13 @@ def predict_srl(data):
         pred.append(srl_predictor.predict(d))
     return pred
 
-def preprocess(infile):
-    ''''''
-    inputs = []
-    golds = []
-    for row in infile:
-        print(row, type(row))
-        print('row 0:', row[0], type(row[0]))
-        inp = row[0]
-        gold = row[1]
-        inputs.append(inp)
-        golds.append(gold)
-    return inputs, golds
+def predict_srl_bert(data):
+    pred = []
+    srl_predictor = load_predictor('structured-prediction-srl-bert')
+    for d in data:
+        pred.append(srl_predictor.predict(d))
+    return pred
+
 
 def less_verbose():
     logging.getLogger('allennlp.common.params').disabled = True 
@@ -52,9 +58,9 @@ def less_verbose():
     logging.getLogger('allennlp.modules.token_embedders.embedding').setLevel(logging.INFO) 
     logging.getLogger('urllib3.connectionpool').disabled = True 
 
-def load_predictions(text):
-    srl_predictor = load_predictor('structured-prediction-srl')
-    output = srl_predictor.predict(text)
+# def load_predictions(text):
+#     srl_predictor = load_predictor('structured-prediction-srl')
+#     output = srl_predictor.predict(text)
 
 ## These are the two core-checklist functions
 def get_arg(pred, arg_target='ARG1'):
@@ -126,6 +132,19 @@ def found_arg2_instrument(x, pred, conf, label=None, meta=None):
         pass_ = False
     return pass_
 
+def found_arg2_tool(x, pred, conf, label=None, meta=None):
+    
+    # people should be recognized as arg1
+    
+    instrument = set(meta['tool'].split(' '))
+    arg_3 = get_arg(pred, arg_target='ARG2')
+
+    if arg_3 == instrument:
+        pass_ = True
+    else:
+        pass_ = False
+    return pass_
+
 def found_atypical_arg_0(x , pred, conf, label = None, meta = None):
     a_arg = set(meta['atypical'].split(' '))
     system_pred = get_arg(pred, arg_target = 'ARG0')
@@ -144,7 +163,7 @@ def found_temp_argm(x, pred, conf, label = None, meta = None):
         pass_ = False
     return pass_
 
-def run_case(text, gold, index):
+def run_case(text, gold, index, model):
     '''Will run the experiment for a specific example
     :param text: The text with appropiate label
     :param gold: pointer for the gold label corresponding to the input'''
@@ -154,38 +173,63 @@ def run_case(text, gold, index):
     if "{first_name}" in text and 'ARG1' in gold:
         print('names test')
         expectation = Expect.single(found_arg1_people) # Specify what case should expect
-        predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
+        if model == 'BERT':
+            predict_and_conf = PredictorWrapper.wrap_predict(predict_srl_bert) # Wrap the prediction in checklist format
+        elif model == 'Bi-LSTM':
+            predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
         t = editor.template(text, meta = True, nsamples= 30) # The case to run
         test = MFT(**t, expect=expectation)
         test.run(predict_and_conf)
-        write_out_json(test.results, index, gold, 'name_eval.csv')
+        write_out_json(test.results, index, gold, f'name_eval_{model}.csv')
     elif "{instrument}" in text and "ARG2" in gold:
         print('instr test')
-        instruments = ['with a spoon', 'with a fork', 'with a knife', 'with a pinecone']
+        instruments = ['with a spoon', 'with a fork', 'with a knife', 'with a pinecone', 'with a plate', 'with a candle', 'with a spork', 'using a knife', 'using a plate', 'using a cup']
         expectation = Expect.single(found_arg2_instrument)
-        predict_and_conf = PredictorWrapper.wrap_predict(predict_srl)
+        if model == 'BERT':
+            predict_and_conf = PredictorWrapper.wrap_predict(predict_srl_bert) # Wrap the prediction in checklist format
+        elif model == 'Bi-LSTM':
+            predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
         t = editor.template(text, instrument = instruments, meta = True, nsamples= 30) # The case to run
         test = MFT(**t, expect=expectation)
         test.run(predict_and_conf)
-        write_out_json(test.results, index, gold, 'instrument_eval.csv')
+        write_out_json(test.results, index, gold, f'instrument_eval_{model}.csv')
     elif "{atypical}" in text and "ARG0" in gold:
         print('atyp test')
-        atypicals = ['John', 'Mary', "A dog", "A book", "A ship"]
+        atypicals = ['John', 'Mary', "A dog", "A book", "A ship", 'a rocket', 'the toothbrush', 'the carrot', 'africa', 'senegal', 'the street', 'the glasses']
         expectation = Expect.single(found_atypical_arg_0)
-        predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
+        if model == 'BERT':
+            predict_and_conf = PredictorWrapper.wrap_predict(predict_srl_bert) # Wrap the prediction in checklist format
+        elif model == 'Bi-LSTM':
+            predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
         t = editor.template(text, atypical = atypicals, meta = True, nsamples= 30) # The case to run
         test = MFT(**t, expect=expectation)
         test.run(predict_and_conf)
-        write_out_json(test.results, index, gold, 'atypical_eval.csv')
+        write_out_json(test.results, index, gold, f'atypical_eval_{model}.csv')
     elif "{temporal}" in text and 'ARGM-TMP' in gold:
         print('temporal test')
-        temporals = ['tomorrow', 'in an hour', 'in a bit', 'soon', 'in a while', 'next month', 'next year']
+        temporals = ['tomorrow', 'in an hour', 'in a bit', 'soon', 'in a while', 'next month', 'next year',
+        'at 12', 'at noon', 'tonight', 'tomorrow morning']
         expectation = Expect.single(found_temp_argm)
-        predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
+        if model == 'BERT':
+            predict_and_conf = PredictorWrapper.wrap_predict(predict_srl_bert) # Wrap the prediction in checklist format
+        elif model == 'Bi-LSTM':
+            predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
         t = editor.template(text, temporal = temporals, meta = True, nsamples= 30) # The case to run
         test = MFT(**t, expect=expectation)
         test.run(predict_and_conf)
-        write_out_json(test.results, index, gold, 'temporal_eval.csv')
+        write_out_json(test.results, index, gold, f'temporal_eval_{model}.csv')
+    # elif "{tool}" in text and "ARG2" in gold:
+    #     print('instr test')
+    #     tools = ['a spoon', 'a fork', 'a knife', 'an axe', 'a plate', 'a candle', 'a spork', 'cutlery', 'a phone', 'a blade', 'a machete']
+    #     expectation = Expect.single(found_arg2_tool)
+    #     t = editor.template(text, tool = tools, meta = True, nsamples= 30) # The case to run
+    #     if model == 'BERT':
+    #         predict_and_conf = PredictorWrapper.wrap_predict(predict_srl_bert) # Wrap the prediction in checklist format
+    #     elif model == 'Bi-LSTM':
+    #         predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
+    #     test = MFT(**t, expect=expectation)
+    #     test.run(predict_and_conf)
+    #     write_out_json(test.results, index, gold, f'instrument_as_arg_eval_{model}.csv')
     else:
         return "oops, no implementation possible yet for this kind of data :("
     if index == 0:
@@ -225,7 +269,7 @@ def write_out_json(results, index, gold: str, output_file_name):
             for p, a in zip(predictions, answers):
                 writer.writerow([p['verbs'][0]['description'],a, gold])
 
-def main(case, file_nr): 
+def main(case, file_nr, model): 
     '''This main function iterates and runs cases for each line in the CSV input'''
     print('Initializing AllenNLP...')
     less_verbose()
@@ -238,12 +282,18 @@ def main(case, file_nr):
         if file_nr > 0:
             print('WORKING')
             index += 1 # Really doesn't matter what index is since this program has boolean logic
-        run_case(inp, gold, index)
+        run_case(inp, gold, index, model)
 
 # Running the code from this file
 if __name__ == '__main__':
+    models = [predict_srl, predict_srl_bert]
     test_cases = os.listdir('tests')
-    for index, case in enumerate(test_cases):
-        file_nr = index
-        if not case.startswith('.'): # Omitting dotfiles
-            main(case, file_nr)
+    for index, model in enumerate(models):
+        if index == 0:
+            model = 'Bi-LSTM'
+        elif index == 1:
+            model = 'BERT'
+        for index, case in enumerate(test_cases):
+            file_nr = index
+            if not case.startswith('.') and case.endswith('.csv'): # Omitting dotfiles
+                main(case, file_nr, model)

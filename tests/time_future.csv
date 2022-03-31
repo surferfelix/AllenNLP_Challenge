@@ -1,3 +1,9 @@
 INPUT, GOLD
 John and I make cupcakes {temporal}, ARGM-TMP
 John works on his assignment {temporal}, ARGM-TMP
+Eva calls the police {temporal}, ARGM-TMP
+Shizun walks the dog {temporal}, ARGM-TMP
+Sandra goes to the park {temporal}, ARGM-TMP
+Derek bakes the cake {temporal}, ARGM-TMP
+Saraquita has a honeymoon {temporal}, ARGM-TMP
+Hans signs the contract {temporal}, ARGM-TMP

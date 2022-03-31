@@ -1,0 +1,60 @@
+[ARG0: Someone] [V: killed] [ARG1: Albert Howard] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Sarah Hamilton] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Amanda Watson] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Frank Brooks] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Robert Wilson] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Alexander Williams] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Kevin Brooks] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Jay Bennett] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Ashley Hill] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Jerry Kelly] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Emily Marshall] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Sarah Carter] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Lauren Graham] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Christopher Ross] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Billy James] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Johnny Gordon] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Jim Taylor] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Ron Bailey] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Stephen Price] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Charlotte Kennedy] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Jerry Young] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Jim Bell] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Alice Bailey] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Sharon Bell] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Simon Robertson] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Helen Kelly] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Jim Collins] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Emma Gray] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Florence Collins] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Walter Sullivan] [ARGM-TMP: last night],True, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Sue Wright 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Marie Williams 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Patrick Murray 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Evelyn Mitchell 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Rose Price 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Nick Cohen 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Amy Brooks 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Stephanie O'Brien 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Caroline Cooper 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Elaine Clark 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Emma Thomas 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Howard Wright 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Florence Alexander 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Judy Mitchell 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Francis Howard 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Wendy Clark 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Greg Mason 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Alex Williams 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Amy Bell 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Anne Ross 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Brian Jackson 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Edwin Davis 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Janet Mason 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Ray Green 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Bill Taylor 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Kathryn Ford 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Hugh Johnson 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Jim Graham 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Mary Ross 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Daniel Cooper 's food],False, ARG1
