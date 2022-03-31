@@ -183,20 +183,21 @@ def run_case(text, gold, index):
 
 def write_out_json(results, index):
     predictions = results['preds']
+    print(predictions)
     answers = results['passed']
     for p, a in zip(predictions, answers):
-        print(p['words'], a)
+        print(p['verbs'][0]['description'], a)
     if index == 0:
         with open('output/result.csv', 'w') as txt:
             writer = csv.writer(txt)
             writer.writerow(['INPUT', 'EVAL'])
             for p, a in zip(predictions, answers):
-                writer.writerow([p['words'],a])
+                writer.writerow([p['verbs'][0]['description'],a])
     elif index > 0:
         with open('output/result.csv', 'a') as txt:
             writer = csv.writer(txt)
             for p, a in zip(predictions, answers):
-                writer.writerow([p['words'],a])
+                writer.writerow([p['verbs'][0]['description'],a])
 
 def main(case, file_nr): 
     '''This main function iterates and runs cases for each line in the CSV input'''

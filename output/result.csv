@@ -1,211 +1,211 @@
 INPUT,EVAL
-"['Someone', 'killed', 'Deborah', 'Smith', 'last', 'night']",True
-"['Someone', 'killed', 'Frank', 'Collins', 'last', 'night']",True
-"['Someone', 'killed', 'Ken', 'Mason', 'last', 'night']",True
-"['Someone', 'killed', 'Adam', 'Foster', 'last', 'night']",False
-"['Someone', 'killed', 'Nick', 'Carter', 'last', 'night']",True
-"['Someone', 'killed', 'Johnny', 'Hill', 'last', 'night']",True
-"['Someone', 'killed', 'Heather', 'Collins', 'last', 'night']",True
-"['Someone', 'killed', 'Louise', 'Crawford', 'last', 'night']",True
-"['Someone', 'killed', 'Melissa', 'Brooks', 'last', 'night']",True
-"['Someone', 'killed', 'Roger', 'Moore', 'last', 'night']",True
-"['Someone', 'killed', 'Peter', 'Rose', 'last', 'night']",True
-"['Someone', 'killed', 'Nancy', 'Morris', 'last', 'night']",True
-"['Someone', 'killed', 'Brian', 'Hunter', 'last', 'night']",True
-"['Someone', 'killed', 'Frederick', 'Price', 'last', 'night']",True
-"['Someone', 'killed', 'Arthur', 'Mitchell', 'last', 'night']",True
-"['Someone', 'killed', 'Louis', 'Collins', 'last', 'night']",True
-"['Someone', 'killed', 'Kevin', 'Hughes', 'last', 'night']",True
-"['Someone', 'killed', 'Helen', 'Cooper', 'last', 'night']",True
-"['Someone', 'killed', 'Karen', 'Crawford', 'last', 'night']",True
-"['Someone', 'killed', 'Fiona', 'Cooper', 'last', 'night']",True
-"['Someone', 'killed', 'Julie', 'Bailey', 'last', 'night']",True
-"['Someone', 'killed', 'Carl', 'Robertson', 'last', 'night']",True
-"['Someone', 'killed', 'Claire', 'Fisher', 'last', 'night']",True
-"['Someone', 'killed', 'Roy', 'Kennedy', 'last', 'night']",True
-"['Someone', 'killed', 'Ellen', 'Perry', 'last', 'night']",True
-"['Someone', 'killed', 'Albert', 'Watson', 'last', 'night']",True
-"['Someone', 'killed', 'Henry', 'Smith', 'last', 'night']",True
-"['Someone', 'killed', 'Jessica', 'Robertson', 'last', 'night']",True
-"['Someone', 'killed', 'Tom', 'Kennedy', 'last', 'night']",True
-"['Someone', 'killed', 'Ray', 'Cohen', 'last', 'night']",True
-"['Lisa', 'ate', 'all', 'of', 'Alan', ""O'Brien"", ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Ashley', 'Fisher', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Johnny', 'Stone', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Harold', 'Murray', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Helen', 'Sullivan', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Kate', 'Carter', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Edith', 'Russell', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Jennifer', 'Cohen', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Jack', 'Morris', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Wendy', 'Mitchell', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Albert', 'Green', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Ian', 'Murphy', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Andrew', 'Hill', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Anthony', 'Murray', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Michelle', 'Brooks', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Joseph', 'Howard', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Dan', 'Carter', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Tom', 'Bailey', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Joan', 'James', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Ron', 'Hughes', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Charlie', 'Martin', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Ray', 'Edwards', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Carol', 'Richardson', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Louis', 'Foster', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Kathleen', 'Smith', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Ann', 'Palmer', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Don', 'Jackson', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Edwin', 'King', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Tony', 'Perry', ""'s"", 'food']",False
-"['Lisa', 'ate', 'all', 'of', 'Suzanne', 'Jones', ""'s"", 'food']",False
-"['A', 'ship', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['Mary', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['A', 'book', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['John', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['John', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['Mary', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['A', 'book', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['John', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['Mary', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['A', 'ship', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['A', 'dog', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['John', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['A', 'dog', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['A', 'dog', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['A', 'book', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['A', 'book', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['A', 'book', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['A', 'book', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['Mary', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['A', 'book', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['A', 'ship', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['A', 'dog', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['John', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['A', 'dog', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['A', 'dog', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['John', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['A', 'book', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['A', 'ship', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['A', 'book', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['John', 'ate', 'a', 'burrito', 'last', 'night']",True
-"['A', 'dog', 'threw', 'up', 'on', 'the', 'floor']",True
-"['A', 'book', 'threw', 'up', 'on', 'the', 'floor']",True
-"['A', 'dog', 'threw', 'up', 'on', 'the', 'floor']",True
-"['Mary', 'threw', 'up', 'on', 'the', 'floor']",False
-"['John', 'threw', 'up', 'on', 'the', 'floor']",True
-"['Mary', 'threw', 'up', 'on', 'the', 'floor']",False
-"['A', 'ship', 'threw', 'up', 'on', 'the', 'floor']",False
-"['A', 'dog', 'threw', 'up', 'on', 'the', 'floor']",True
-"['A', 'dog', 'threw', 'up', 'on', 'the', 'floor']",True
-"['A', 'dog', 'threw', 'up', 'on', 'the', 'floor']",True
-"['John', 'threw', 'up', 'on', 'the', 'floor']",True
-"['John', 'threw', 'up', 'on', 'the', 'floor']",True
-"['A', 'dog', 'threw', 'up', 'on', 'the', 'floor']",True
-"['Mary', 'threw', 'up', 'on', 'the', 'floor']",False
-"['A', 'dog', 'threw', 'up', 'on', 'the', 'floor']",True
-"['A', 'ship', 'threw', 'up', 'on', 'the', 'floor']",False
-"['Mary', 'threw', 'up', 'on', 'the', 'floor']",False
-"['A', 'dog', 'threw', 'up', 'on', 'the', 'floor']",True
-"['Mary', 'threw', 'up', 'on', 'the', 'floor']",False
-"['John', 'threw', 'up', 'on', 'the', 'floor']",True
-"['A', 'book', 'threw', 'up', 'on', 'the', 'floor']",True
-"['A', 'ship', 'threw', 'up', 'on', 'the', 'floor']",False
-"['Mary', 'threw', 'up', 'on', 'the', 'floor']",False
-"['A', 'dog', 'threw', 'up', 'on', 'the', 'floor']",True
-"['A', 'dog', 'threw', 'up', 'on', 'the', 'floor']",True
-"['John', 'threw', 'up', 'on', 'the', 'floor']",True
-"['A', 'book', 'threw', 'up', 'on', 'the', 'floor']",True
-"['A', 'ship', 'threw', 'up', 'on', 'the', 'floor']",False
-"['A', 'dog', 'threw', 'up', 'on', 'the', 'floor']",True
-"['A', 'ship', 'threw', 'up', 'on', 'the', 'floor']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'spoon']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'fork']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'fork']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'pinecone']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'knife']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'spoon']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'fork']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'pinecone']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'spoon']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'spoon']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'pinecone']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'spoon']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'pinecone']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'pinecone']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'fork']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'pinecone']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'spoon']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'knife']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'knife']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'spoon']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'pinecone']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'pinecone']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'knife']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'spoon']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'spoon']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'fork']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'fork']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'pinecone']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'knife']",False
-"['John', 'killed', 'Mary', 'with', 'a', 'spoon']",False
-"['Are', 'we', 'going', 'out', 'to', 'dinner', 'tomorrow']",False
-"['Are', 'we', 'going', 'out', 'to', 'dinner', 'tomorrow']",False
-"['Are', 'we', 'going', 'out', 'to', 'dinner', 'soon']",False
-"['Are', 'we', 'going', 'out', 'to', 'dinner', 'next', 'year']",False
-"['Are', 'we', 'going', 'out', 'to', 'dinner', 'next', 'year']",False
-"['Are', 'we', 'going', 'out', 'to', 'dinner', 'in', 'a', 'bit']",False
-"['Are', 'we', 'going', 'out', 'to', 'dinner', 'next', 'month']",False
-"['Are', 'we', 'going', 'out', 'to', 'dinner', 'in', 'a', 'bit']",False
-"['Are', 'we', 'going', 'out', 'to', 'dinner', 'soon']",False
-"['Are', 'we', 'going', 'out', 'to', 'dinner', 'in', 'a', 'while']",False
-"['Are', 'we', 'going', 'out', 'to', 'dinner', 'in', 'a', 'bit']",False
-"['Are', 'we', 'going', 'out', 'to', 'dinner', 'tomorrow']",False
-"['Are', 'we', 'going', 'out', 'to', 'dinner', 'in', 'a', 'bit']",False
-"['Are', 'we', 'going', 'out', 'to', 'dinner', 'in', 'a', 'bit']",False
-"['Are', 'we', 'going', 'out', 'to', 'dinner', 'tomorrow']",False
-"['Are', 'we', 'going', 'out', 'to', 'dinner', 'next', 'year']",False
-"['Are', 'we', 'going', 'out', 'to', 'dinner', 'in', 'an', 'hour']",False
-"['Are', 'we', 'going', 'out', 'to', 'dinner', 'in', 'an', 'hour']",False
-"['Are', 'we', 'going', 'out', 'to', 'dinner', 'in', 'a', 'bit']",False
-"['Are', 'we', 'going', 'out', 'to', 'dinner', 'next', 'month']",False
-"['Are', 'we', 'going', 'out', 'to', 'dinner', 'in', 'a', 'while']",False
-"['Are', 'we', 'going', 'out', 'to', 'dinner', 'in', 'a', 'while']",False
-"['Are', 'we', 'going', 'out', 'to', 'dinner', 'soon']",False
-"['Are', 'we', 'going', 'out', 'to', 'dinner', 'next', 'month']",False
-"['Are', 'we', 'going', 'out', 'to', 'dinner', 'in', 'a', 'bit']",False
-"['Are', 'we', 'going', 'out', 'to', 'dinner', 'in', 'a', 'bit']",False
-"['Are', 'we', 'going', 'out', 'to', 'dinner', 'in', 'an', 'hour']",False
-"['Are', 'we', 'going', 'out', 'to', 'dinner', 'in', 'a', 'while']",False
-"['Are', 'we', 'going', 'out', 'to', 'dinner', 'next', 'month']",False
-"['Are', 'we', 'going', 'out', 'to', 'dinner', 'soon']",False
-"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'next', 'month']",False
-"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'soon']",False
-"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'in', 'a', 'while']",False
-"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'in', 'a', 'while']",False
-"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'tomorrow']",False
-"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'tomorrow']",False
-"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'in', 'a', 'bit']",False
-"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'next', 'month']",False
-"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'in', 'a', 'bit']",False
-"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'next', 'month']",False
-"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'next', 'month']",False
-"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'tomorrow']",False
-"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'in', 'a', 'bit']",False
-"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'soon']",False
-"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'next', 'year']",False
-"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'next', 'year']",False
-"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'next', 'month']",False
-"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'in', 'an', 'hour']",False
-"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'next', 'year']",False
-"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'next', 'year']",False
-"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'soon']",False
-"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'next', 'month']",False
-"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'in', 'a', 'bit']",False
-"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'next', 'year']",False
-"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'in', 'a', 'while']",False
-"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'soon']",False
-"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'in', 'an', 'hour']",False
-"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'next', 'month']",False
-"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'next', 'year']",False
-"['John', 'are', 'you', 'preparing', 'for', 'your', 'graduation', 'in', 'a', 'while']",False
+[ARG0: Someone] [V: killed] [ARG1: Rose Cook] [ARGM-TMP: last night],True
+[ARG0: Someone] [V: killed] [ARG1: Alan Scott] [ARGM-TMP: last night],True
+[ARG0: Someone] [V: killed] [ARG1: Edwin Thomas] [ARGM-TMP: last night],True
+[ARG0: Someone] [V: killed] [ARG1: Francis Murray] [ARGM-TMP: last night],True
+[ARG0: Someone] [V: killed] [ARG1: Roy Hughes] [ARGM-TMP: last night],True
+[ARG0: Someone] [V: killed] [ARG1: Stephanie Mason] [ARGM-TMP: last night],True
+[ARG0: Someone] [V: killed] [ARG1: Elizabeth Adams] [ARGM-TMP: last night],True
+[ARG0: Someone] [V: killed] [ARG1: Walter Mitchell] [ARGM-TMP: last night],True
+[ARG0: Someone] [V: killed] [ARG1: Katie Gray] [ARGM-TMP: last night],True
+[ARG0: Someone] [V: killed] [ARG1: Ray Gray] [ARGM-TMP: last night],True
+[ARG0: Someone] [V: killed] [ARG1: Barbara Perry] [ARGM-TMP: last night],True
+[ARG0: Someone] [V: killed] [ARG1: Adam Phillips] [ARGM-TMP: last night],True
+[ARG0: Someone] [V: killed] [ARG1: Tom Turner] [ARGM-TMP: last night],True
+[ARG0: Someone] [V: killed] [ARG1: Johnny Marshall] [ARGM-TMP: last night],True
+[ARG0: Someone] [V: killed] [ARG1: Jean Reed] [ARGM-TMP: last night],True
+[ARG0: Someone] [V: killed] [ARG1: Andrea Thomas] [ARGM-TMP: last night],True
+[ARG0: Someone] [V: killed] [ARG1: Joseph Rose] [ARGM-TMP: last night],True
+[ARG0: Someone] [V: killed] [ARG1: Steven Murray] [ARGM-TMP: last night],True
+[ARG0: Someone] [V: killed] [ARG1: Judith Clark] [ARGM-TMP: last night],True
+[ARG0: Someone] [V: killed] [ARG1: Christopher Thomas] [ARGM-TMP: last night],True
+[ARG0: Someone] [V: killed] [ARG1: Dick Edwards] [ARGM-TMP: last night],True
+[ARG0: Someone] [V: killed] [ARG1: Claire Taylor] [ARGM-TMP: last night],True
+[ARG0: Someone] [V: killed] [ARG1: Jane Clarke] [ARGM-TMP: last night],True
+[ARG0: Someone] [V: killed] [ARG1: Caroline Allen] [ARGM-TMP: last night],True
+[ARG0: Someone] [V: killed] [ARG1: Charles Williams] [ARGM-TMP: last night],True
+[ARG0: Someone] [V: killed] [ARG1: Stephen O'Brien] [ARGM-TMP: last night],True
+[ARG0: Someone] [V: killed] [ARG1: Jay Morgan] [ARGM-TMP: last night],True
+[ARG0: Someone] [V: killed] [ARG1: Francis Green] [ARGM-TMP: last night],True
+[ARG0: Someone] [V: killed] [ARG1: Jimmy Allen] [ARGM-TMP: last night],True
+[ARG0: Someone] [V: killed] [ARG1: Jane Moore] [ARGM-TMP: last night],True
+[ARG0: Lisa] [V: ate] [ARG1: all of Anna Ford 's food],False
+[ARG0: Lisa] [V: ate] [ARG1: all of Alice Morgan 's food],False
+[ARG0: Lisa] [V: ate] [ARG1: all of Daniel Evans 's food],False
+[ARG0: Lisa] [V: ate] [ARG1: all of Hugh King 's food],False
+[ARG0: Lisa] [V: ate] [ARG1: all of Sue Ryan 's food],False
+[ARG0: Lisa] [V: ate] [ARG1: all of Jim Roberts 's food],False
+[ARG0: Lisa] [V: ate] [ARG1: all of Robin Robertson 's food],False
+[ARG0: Lisa] [V: ate] [ARG1: all of Elaine Scott 's food],False
+[ARG0: Lisa] [V: ate] [ARG1: all of Edith Williams 's food],False
+[ARG0: Lisa] [V: ate] [ARG1: all of Patrick Palmer 's food],False
+[ARG0: Lisa] [V: ate] [ARG1: all of Ken Mitchell 's food],False
+[ARG0: Lisa] [V: ate] [ARG1: all of Billy Hall 's food],False
+[ARG0: Lisa] [V: ate] [ARG1: all of Ann Wood 's food],False
+[ARG0: Lisa] [V: ate] [ARG1: all of William Rogers 's food],False
+[ARG0: Lisa] [V: ate] [ARG1: all of John Fisher 's food],False
+[ARG0: Lisa] [V: ate] [ARG1: all of Tom Nelson 's food],False
+[ARG0: Lisa] [V: ate] [ARG1: all of Pamela Moore 's food],False
+[ARG0: Lisa] [V: ate] [ARG1: all of Bill Gordon 's food],False
+[ARG0: Lisa] [V: ate] [ARG1: all of Anna Bell 's food],False
+[ARG0: Lisa] [V: ate] [ARG1: all of Lawrence Shaw 's food],False
+[ARG0: Lisa] [V: ate] [ARG1: all of Betty Robertson 's food],False
+[ARG0: Lisa] [V: ate] [ARG1: all of Mary Crawford 's food],False
+[ARG0: Lisa] [V: ate] [ARG1: all of Lynn King 's food],False
+[ARG0: Lisa] [V: ate] [ARG1: all of Billy Martin 's food],False
+[ARG0: Lisa] [V: ate] [ARG1: all of Keith Hughes 's food],False
+[ARG0: Lisa] [V: ate] [ARG1: all of Martha Stone 's food],False
+[ARG0: Lisa] [V: ate] [ARG1: all of Suzanne Morgan 's food],False
+[ARG0: Lisa] [V: ate] [ARG1: all of Maria Nelson 's food],False
+[ARG0: Lisa] [V: ate] [ARG1: all of Richard O'Brien 's food],False
+[ARG0: Lisa] [V: ate] [ARG1: all of Al Harris 's food],False
+[ARG0: A ship] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True
+[ARG0: Mary] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True
+[ARG0: A dog] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True
+[ARG0: A ship] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True
+[ARG0: A dog] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True
+[ARG0: Mary] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True
+[ARG0: A dog] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True
+[ARG0: John] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True
+[ARG0: John] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True
+[ARG0: John] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True
+[ARG0: A book] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True
+[ARG0: A dog] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True
+[ARG0: A ship] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True
+[ARG0: John] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True
+[ARG0: A book] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True
+[ARG0: John] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True
+[ARG0: John] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True
+[ARG0: A dog] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True
+[ARG0: A book] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True
+[ARG0: A book] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True
+[ARG0: A ship] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True
+[ARG0: John] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True
+[ARG0: Mary] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True
+[ARG0: A book] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True
+[ARG0: John] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True
+[ARG0: John] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True
+[ARG0: A ship] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True
+[ARG0: A book] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True
+[ARG0: John] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True
+[ARG0: A book] [V: ate] [ARG1: a burrito] [ARGM-TMP: last night],True
+[ARG0: A book] [V: threw] up [ARGM-LOC: on the floor],True
+[ARG0: A dog] [V: threw] up [ARGM-LOC: on the floor],True
+[ARG0: John] [V: threw] up [ARGM-LOC: on the floor],True
+[ARG0: A book] [V: threw] up [ARGM-LOC: on the floor],True
+[ARG1: A ship] [V: threw] up [ARGM-LOC: on the floor],False
+[ARG1: Mary] [V: threw] up [ARGM-LOC: on the floor],False
+[ARG0: A dog] [V: threw] up [ARGM-LOC: on the floor],True
+[ARG0: A book] [V: threw] up [ARGM-LOC: on the floor],True
+[ARG0: A book] [V: threw] up [ARGM-LOC: on the floor],True
+[ARG0: A dog] [V: threw] up [ARGM-LOC: on the floor],True
+[ARG1: Mary] [V: threw] up [ARGM-LOC: on the floor],False
+[ARG1: A ship] [V: threw] up [ARGM-LOC: on the floor],False
+[ARG0: A book] [V: threw] up [ARGM-LOC: on the floor],True
+[ARG0: A dog] [V: threw] up [ARGM-LOC: on the floor],True
+[ARG0: A book] [V: threw] up [ARGM-LOC: on the floor],True
+[ARG0: A book] [V: threw] up [ARGM-LOC: on the floor],True
+[ARG0: John] [V: threw] up [ARGM-LOC: on the floor],True
+[ARG1: A ship] [V: threw] up [ARGM-LOC: on the floor],False
+[ARG0: A book] [V: threw] up [ARGM-LOC: on the floor],True
+[ARG1: Mary] [V: threw] up [ARGM-LOC: on the floor],False
+[ARG1: A ship] [V: threw] up [ARGM-LOC: on the floor],False
+[ARG0: John] [V: threw] up [ARGM-LOC: on the floor],True
+[ARG0: A dog] [V: threw] up [ARGM-LOC: on the floor],True
+[ARG0: A dog] [V: threw] up [ARGM-LOC: on the floor],True
+[ARG1: Mary] [V: threw] up [ARGM-LOC: on the floor],False
+[ARG0: John] [V: threw] up [ARGM-LOC: on the floor],True
+[ARG0: John] [V: threw] up [ARGM-LOC: on the floor],True
+[ARG1: Mary] [V: threw] up [ARGM-LOC: on the floor],False
+[ARG0: A book] [V: threw] up [ARGM-LOC: on the floor],True
+[ARG1: Mary] [V: threw] up [ARGM-LOC: on the floor],False
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon],False
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone],False
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon],False
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone],False
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone],False
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon],False
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a fork],False
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a knife],False
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone],False
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a knife],False
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a fork],False
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone],False
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone],False
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone],False
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon],False
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone],False
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon],False
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon],False
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a fork],False
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon],False
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a fork],False
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone],False
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a knife],False
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a knife],False
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone],False
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a knife],False
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone],False
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a fork],False
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a knife],False
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a knife],False
+[V: Are] we going out to dinner next month,False
+[V: Are] we going out to dinner in a while,False
+[V: Are] we going out to dinner next year,False
+[V: Are] we going out to dinner next year,False
+[V: Are] we going out to dinner tomorrow,False
+[V: Are] we going out to dinner in an hour,False
+[V: Are] we going out to dinner in a while,False
+[V: Are] we going out to dinner next month,False
+[V: Are] we going out to dinner in an hour,False
+[V: Are] we going out to dinner in a bit,False
+[V: Are] we going out to dinner next year,False
+[V: Are] we going out to dinner next year,False
+[V: Are] we going out to dinner in a while,False
+[V: Are] we going out to dinner in a bit,False
+[V: Are] we going out to dinner in a while,False
+[V: Are] we going out to dinner in a while,False
+[V: Are] we going out to dinner in a while,False
+[V: Are] we going out to dinner next month,False
+[V: Are] we going out to dinner next month,False
+[V: Are] we going out to dinner next month,False
+[V: Are] we going out to dinner in a bit,False
+[V: Are] we going out to dinner soon,False
+[V: Are] we going out to dinner tomorrow,False
+[V: Are] we going out to dinner in a bit,False
+[V: Are] we going out to dinner tomorrow,False
+[V: Are] we going out to dinner in a while,False
+[V: Are] we going out to dinner in an hour,False
+[V: Are] we going out to dinner tomorrow,False
+[V: Are] we going out to dinner soon,False
+[V: Are] we going out to dinner next month,False
+John [V: are] you preparing for your graduation next month,False
+John [V: are] you preparing for your graduation soon,False
+John [V: are] you preparing for your graduation in a while,False
+John [V: are] you preparing for your graduation in an hour,False
+John [V: are] you preparing for your graduation next month,False
+John [V: are] you preparing for your graduation soon,False
+John [V: are] you preparing for your graduation next month,False
+John [V: are] you preparing for your graduation in an hour,False
+John [V: are] you preparing for your graduation next month,False
+John [V: are] you preparing for your graduation soon,False
+John [V: are] you preparing for your graduation in a while,False
+John [V: are] you preparing for your graduation in a bit,False
+John [V: are] you preparing for your graduation next year,False
+John [V: are] you preparing for your graduation next month,False
+John [V: are] you preparing for your graduation soon,False
+John [V: are] you preparing for your graduation in a while,False
+John [V: are] you preparing for your graduation in a while,False
+John [V: are] you preparing for your graduation soon,False
+John [V: are] you preparing for your graduation in an hour,False
+John [V: are] you preparing for your graduation in an hour,False
+John [V: are] you preparing for your graduation in a bit,False
+John [V: are] you preparing for your graduation next month,False
+John [V: are] you preparing for your graduation in a bit,False
+John [V: are] you preparing for your graduation tomorrow,False
+John [V: are] you preparing for your graduation soon,False
+John [V: are] you preparing for your graduation soon,False
+John [V: are] you preparing for your graduation soon,False
+John [V: are] you preparing for your graduation next month,False
+John [V: are] you preparing for your graduation in a bit,False
+John [V: are] you preparing for your graduation in a bit,False
