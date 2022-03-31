@@ -38,7 +38,8 @@ def preprocess(infile):
     inputs = []
     golds = []
     for row in infile:
-        row = row[0]
+        print(row, type(row))
+        print('row 0:', row[0], type(row[0]))
         inp = row[0]
         gold = row[1]
         inputs.append(inp)
@@ -131,23 +132,28 @@ def run_case(text, gold, index):
     '''Will run the experiment for a specific example
     :param text: The text with appropiate label
     :param gold: pointer for the gold label corresponding to the input'''
+    print('Inside run_case function')
     editor = Editor() # Initializing Editor object
     # This is where we try to identify what to evaluate here
     if "{first_name}" in text and 'ARG1' in gold:
+        print('names test')
         expectation = Expect.single(found_arg1_people) # Specify what case should expect
         predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
         t = editor.template(text, meta = True, nsamples= 30) # The case to run
     elif "{instrument}" in text and "ARG2" in gold:
+        print('instr test')
         instruments = ['with a spoon', 'with a fork', 'with a knife', 'with a pinecone']
         expectation = Expect.single(found_arg2_instrument)
         predict_and_conf = PredictorWrapper.wrap_predict(predict_srl)
         t = editor.template(text, instrument = instruments, meta = True, nsamples= 30) # The case to run
     elif "{atypical}" in text and "ARG0" in gold:
+        print('atyp test')
         atypicals = ['John', 'Mary', "A dog", "A book", "A ship"]
         expectation = Expect.single(found_atypical_arg_0)
         predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
         t = editor.template(text, atypical = atypicals, meta = True, nsamples= 30) # The case to run
     elif "{temporal}" in text and 'ARGMTMP' in gold:
+        print('temporal test')
         temporal_future = ['tomorrow', 'in an hour', 'in a bit', 'soon', 'in a while', 'next month', 'next year']
         expectation = Expect.single(found_temp_argm)
         predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
@@ -198,9 +204,12 @@ def main(case, file_nr):
     less_verbose()
     print(f'MODEL: RUNNING CURRENT CASE: {case}\t...')
     text = read_test(f'tests/{case}') # Outputs the lines
+    print('full text:', text)
     inps, golds = preprocess(text) # tuple inputs, golds
+    print('preprocessed text:', text)
     for index, (inp, gold) in enumerate(zip(inps, golds)):
         if file_nr > 0:
+            print('WORKING')
             index += 1 # Really doesn't matter what index is since this program has boolean logic
         run_case(inp, gold, index)
 
