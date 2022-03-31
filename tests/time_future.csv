@@ -1,3 +1,3 @@
 INPUT, GOLD
-John and I make cupcakes {temporal}, ARGMTMP
-John works on his assignment {temporal}, ARGMTMP
+John and I make cupcakes {temporal}, ARGM-TMP
+John works on his assignment {temporal}, ARGM-TMP

@@ -177,7 +177,7 @@ def run_case(text, gold, index):
         test = MFT(**t, expect=expectation)
         test.run(predict_and_conf)
         write_out_json(test.results, index, gold, 'atypical_eval.csv')
-    elif "{temporal}" in text and 'ARGMTMP' in gold:
+    elif "{temporal}" in text and 'ARGM-TMP' in gold:
         print('temporal test')
         temporals = ['tomorrow', 'in an hour', 'in a bit', 'soon', 'in a while', 'next month', 'next year']
         expectation = Expect.single(found_temp_argm)

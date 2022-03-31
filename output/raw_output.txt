@@ -7,11 +7,11 @@ Test cases:      30
 Fails (rate):    30 (100.0%)
 
 Example fails:
-[ARG0: Lisa] [V: ate] [ARG1: all of Elizabeth Lewis 's food]
+[ARG0: Lisa] [V: ate] [ARG1: all of Arthur Brown 's food]
 ----
-[ARG0: Lisa] [V: ate] [ARG1: all of Martin Green 's food]
+[ARG0: Lisa] [V: ate] [ARG1: all of Steven Wright 's food]
 ----
-[ARG0: Lisa] [V: ate] [ARG1: all of Julia Clarke 's food]
+[ARG0: Lisa] [V: ate] [ARG1: all of Louise Wilson 's food]
 ----
 None
 GOLD:  ARG0
@@ -20,26 +20,26 @@ Fails (rate):    0 (0.0%)
 None
 GOLD:  ARG0
 Test cases:      30
-Fails (rate):    17 (56.7%)
+Fails (rate):    16 (53.3%)
 
 Example fails:
-[ARG1: Mary] [V: threw] up [ARGM-LOC: on the floor]
+[ARG1: A ship] [V: threw] up [ARGM-LOC: on the floor]
 ----
 [ARG1: Mary] [V: threw] up [ARGM-LOC: on the floor]
 ----
-[ARG1: Mary] [V: threw] up [ARGM-LOC: on the floor]
+[ARG1: A ship] [V: threw] up [ARGM-LOC: on the floor]
 ----
 None
 GOLD:  ARG2
 Test cases:      30
-Fails (rate):    23 (76.7%)
+Fails (rate):    24 (80.0%)
 
 Example fails:
 [ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a pinecone]
 ----
 [ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spoon]
 ----
-[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a knife]
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spoon]
 ----
 None
 GOLD:  ARG2
@@ -47,24 +47,26 @@ Test cases:      30
 Fails (rate):    30 (100.0%)
 
 Example fails:
-[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon]
-----
 [ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone]
 ----
-[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a fork]
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon]
+----
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon]
 ----
 None
-GOLD:  ARGMTMP
+GOLD:  ARGM-TMP
 Test cases:      30
-Fails (rate):    2 (6.7%)
+Fails (rate):    6 (20.0%)
 
 Example fails:
 [ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-LOC: in a bit]
 ----
 [ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-LOC: in a bit]
 ----
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-LOC: in a bit]
+----
 None
-GOLD:  ARGMTMP
+GOLD:  ARGM-TMP
 Test cases:      30
 Fails (rate):    4 (13.3%)
 

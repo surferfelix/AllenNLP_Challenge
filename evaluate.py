@@ -1,5 +1,7 @@
 import csv
-
+import os
+from sklearn.metrics import classification_report, confusion_matrix, ConfusionMatrixDisplay
+import pandas as pd
 
 def reader(input: str):
     parsed = []
@@ -16,15 +18,48 @@ def reader(input: str):
             golds.append(gold)
     return parsed, corrects, golds
 
-def evaluator(parsed, corrects, golds):
+
+def evaluator(parsed, corrects, golds, path):
     '''Runs evaluation'''
     # Test identification
-    pass
+    preds = []
+    name = path.split('/')[-1].rstrip('.csv')
+    for i, (p, c, g) in enumerate(zip(parsed, corrects, golds)):
+        predict_iterator = p.split('[')
+        relevant_ind = 'undefined'
+        for index, it in enumerate(predict_iterator): # Still going over every row
+            if it.startswith(g.strip()):
+                relevant_ind = index
+        try:
+            preds.append(predict_iterator[relevant_ind].split(':')[0].strip())
+        except TypeError:
+                if 'temporal_eval' in name:
+                    preds.append(predict_iterator[-1].split(':')[0].strip()) # Likely models alternative pred
+                elif 'name_eval' in name:
+                    preds.append(predict_iterator[0].split(':')[0].strip()) # Likely models alternative pred
+                elif 'instrument_eval' in name:
+                    preds.append(predict_iterator[-1].split(':')[0].strip()) # Likely models alternative pred
+                elif 'atypical_eval' in name:
+                    preds.append(predict_iterator[0].split(':')[0].strip()) # Likely models alternative pred (Actually just checking the alternative pred in chunk position of target)
+                else:
+                    preds.append(predict_iterator[0].split(':')[0].strip())
+    return preds, golds, name
 
-def main(file_path):
+def reporting(preds, golds, name):
+    golds = [gold.strip() for gold in golds]
+    labels = sorted(set(preds), key=preds.index)
+    confusion_report = confusion_matrix(y_true = golds, y_pred=preds, labels = labels)
+    matrix = pd.DataFrame(confusion_report, index = labels, columns = labels)
+    matrix.style.to_latex
+    matrix.to_csv(f'evaluations/{name}.csv')
+
+def main():
     '''Runs the evaluation'''
-    parsed, corrects, golds = reader(file_path)
-    evaluator(parsed, corrects, golds)
+    for path in os.listdir('output'):
+        if path.endswith('csv'): # We want to avoid the summary which is txt
+            parsed, corrects, golds = reader('output/'+path)
+            preds,golds, name = evaluator(parsed, corrects, golds, path)
+            reporting(preds, golds, name)
+
 if __name__ == '__main__':
-    file_path = 'output/result.csv'
-    main(file_path)
+    main()

@@ -58,3 +58,63 @@
 [ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: next year],True, ARGMTMP
 [ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: next month],True, ARGMTMP
 [ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: next year],True, ARGMTMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-LOC: in a bit],False, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-LOC: in a bit],False, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-LOC: in a bit],False, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-LOC: in a bit],False, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-LOC: in a bit],False, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-LOC: in a bit],False, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: next year],True, ARGM-TMP
