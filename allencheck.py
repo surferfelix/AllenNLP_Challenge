@@ -61,16 +61,32 @@ def get_arg(pred, arg_target='ARG1'):
     predicate_arguments = pred['verbs'][0] # we assume one predicate:
     words = pred['words']
     tags = predicate_arguments['tags']
-    
     arg_list = []
     for t, w in zip(tags, words):
         arg = t
         if '-' in t:
             arg = t.split('-')[1]
+            print(arg)
         if arg == arg_target:
             arg_list.append(w)
     arg_set = set(arg_list)
     return arg_set
+
+def get_argm(pred, arg_target='ARG1'):
+    predicate_arguments = pred['verbs'][0] # we assume one predicate:
+    words = pred['words']
+    tags = predicate_arguments['tags']
+    arg_list = []
+    for t, w in zip(tags, words):
+        arg = t
+        if '-' in t:
+            arg = t.split('-')[-1]
+            print(arg)
+        if arg == arg_target:
+            arg_list.append(w)
+    arg_set = set(arg_list)
+    return arg_set
+
 
 def format_srl(x, pred, conf, label=None, meta=None):
     '''Helper function to display failures'''
@@ -121,7 +137,7 @@ def found_atypical_arg_0(x , pred, conf, label = None, meta = None):
 
 def found_temp_argm(x, pred, conf, label = None, meta = None):
     a_arg = set(meta['temporal'].split(' '))
-    system_pred = get_arg(pred, arg_target = 'ARGMTMP')
+    system_pred = get_argm(pred, arg_target = 'TMP')
     if a_arg == system_pred:
         pass_ = True
     else:
@@ -154,15 +170,15 @@ def run_case(text, gold, index):
         t = editor.template(text, atypical = atypicals, meta = True, nsamples= 30) # The case to run
     elif "{temporal}" in text and 'ARGMTMP' in gold:
         print('temporal test')
-        temporal_future = ['tomorrow', 'in an hour', 'in a bit', 'soon', 'in a while', 'next month', 'next year']
+        temporals = ['tomorrow', 'in an hour', 'in a bit', 'soon', 'in a while', 'next month', 'next year']
         expectation = Expect.single(found_temp_argm)
         predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
-        t = editor.template(text, temporal = temporal_future, meta = True, nsamples= 30) # The case to run
+        t = editor.template(text, temporal = temporals, meta = True, nsamples= 30) # The case to run
     else:
         return "oops, no implementation possible yet for this kind of data :("
     test = MFT(**t, expect=expectation)
     test.run(predict_and_conf)
-    write_out_json(test.results, index)
+    write_out_json(test.results, index, gold)
     if index == 0:
         # Print to file trick taken from https://howtodoinjava.com/examples/python-print-to-file/
         original_stdout = sys.stdout # Saving original state
@@ -181,7 +197,8 @@ def run_case(text, gold, index):
     for i, case in enumerate(test.data):
         print(i, case)
 
-def write_out_json(results, index):
+def write_out_json(results, index, gold: str):
+    ''':param gold: This is the gold label for the iteration'''
     predictions = results['preds']
     print(predictions)
     answers = results['passed']
@@ -190,14 +207,14 @@ def write_out_json(results, index):
     if index == 0:
         with open('output/result.csv', 'w') as txt:
             writer = csv.writer(txt)
-            writer.writerow(['INPUT', 'EVAL'])
+            writer.writerow(['INPUT', 'EVAL', 'GOLD'])
             for p, a in zip(predictions, answers):
-                writer.writerow([p['verbs'][0]['description'],a])
+                writer.writerow([p['verbs'][0]['description'],a, gold])
     elif index > 0:
         with open('output/result.csv', 'a') as txt:
             writer = csv.writer(txt)
             for p, a in zip(predictions, answers):
-                writer.writerow([p['verbs'][0]['description'],a])
+                writer.writerow([p['verbs'][0]['description'],a, gold])
 
 def main(case, file_nr): 
     '''This main function iterates and runs cases for each line in the CSV input'''
