@@ -3,10 +3,10 @@ Creating challenge sets to challenge pre-trained AllenNLP SRL models with Checkl
 
 ## Implemented tests
 
-First and last name variations 
-Instruments in ultimate positions
-Temporal Arguments
-Instruments as Agents
+- First and last name variations 
+- Instruments in ultimate positions
+- Temporal Arguments
+- Instruments as Agents
 
 ## How the tests work
 
