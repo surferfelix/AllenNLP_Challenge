@@ -108,8 +108,10 @@ def format_srl(x, pred, conf, label=None, meta=None):
 def found_arg1_people(x, pred, conf, label=None, meta=None):
     
     # Setting the gold label
-
-    people = set([meta['first_name'], meta['last_name']])
+    try:
+        people = set([meta['first_name'], meta['last_name']])
+    except KeyError:
+        people = set([meta['first_name']])
     arg_1 = get_arg(pred, arg_target='ARG1')
 
     if arg_1 == people:
@@ -171,53 +173,55 @@ def run_case(text, gold, index, model):
     editor = Editor() # Initializing Editor object
     # This is where we try to identify what to evaluate here
     if "{first_name}" in text and 'ARG1' in gold:
+        first = [x.split()[0] for x in editor.lexicons.male_from.Nepal +  editor.lexicons.female_from.Nepal]
+        last = [x.split()[0] for x in editor.lexicons.last_from.Nepal]
         print('names test')
         expectation = Expect.single(found_arg1_people) # Specify what case should expect
         if model == 'BERT':
             predict_and_conf = PredictorWrapper.wrap_predict(predict_srl_bert) # Wrap the prediction in checklist format
         elif model == 'Bi-LSTM':
             predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
-        t = editor.template(text, meta = True, nsamples= 30) # The case to run
+        t = editor.template(text, first_name = first, last_name = last, meta = True, nsamples= 30) # The case to run
         test = MFT(**t, expect=expectation)
         test.run(predict_and_conf)
         write_out_json(test.results, index, gold, f'name_eval_{model}.csv')
-    elif "{instrument}" in text and "ARG2" in gold:
-        print('instr test')
-        instruments = ['with a spoon', 'with a fork', 'with a knife', 'with a pinecone', 'with a plate', 'with a candle', 'with a spork', 'using a knife', 'using a plate', 'using a cup']
-        expectation = Expect.single(found_arg2_instrument)
-        if model == 'BERT':
-            predict_and_conf = PredictorWrapper.wrap_predict(predict_srl_bert) # Wrap the prediction in checklist format
-        elif model == 'Bi-LSTM':
-            predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
-        t = editor.template(text, instrument = instruments, meta = True, nsamples= 30) # The case to run
-        test = MFT(**t, expect=expectation)
-        test.run(predict_and_conf)
-        write_out_json(test.results, index, gold, f'instrument_eval_{model}.csv')
-    elif "{atypical}" in text and "ARG0" in gold:
-        print('atyp test')
-        atypicals = ['John', 'Mary', "A dog", "A book", "A ship", 'a rocket', 'the toothbrush', 'the carrot', 'africa', 'senegal', 'the street', 'the glasses']
-        expectation = Expect.single(found_atypical_arg_0)
-        if model == 'BERT':
-            predict_and_conf = PredictorWrapper.wrap_predict(predict_srl_bert) # Wrap the prediction in checklist format
-        elif model == 'Bi-LSTM':
-            predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
-        t = editor.template(text, atypical = atypicals, meta = True, nsamples= 30) # The case to run
-        test = MFT(**t, expect=expectation)
-        test.run(predict_and_conf)
-        write_out_json(test.results, index, gold, f'atypical_eval_{model}.csv')
-    elif "{temporal}" in text and 'ARGM-TMP' in gold:
-        print('temporal test')
-        temporals = ['tomorrow', 'in an hour', 'in a bit', 'soon', 'in a while', 'next month', 'next year',
-        'at 12', 'at noon', 'tonight', 'tomorrow morning']
-        expectation = Expect.single(found_temp_argm)
-        if model == 'BERT':
-            predict_and_conf = PredictorWrapper.wrap_predict(predict_srl_bert) # Wrap the prediction in checklist format
-        elif model == 'Bi-LSTM':
-            predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
-        t = editor.template(text, temporal = temporals, meta = True, nsamples= 30) # The case to run
-        test = MFT(**t, expect=expectation)
-        test.run(predict_and_conf)
-        write_out_json(test.results, index, gold, f'temporal_eval_{model}.csv')
+    # elif "{instrument}" in text and "ARG2" in gold:
+    #     print('instr test')
+    #     instruments = ['with a spoon', 'with a fork', 'with a knife', 'with a pinecone', 'with a plate', 'with a candle', 'with a spork', 'using a knife', 'using a plate', 'using a cup']
+    #     expectation = Expect.single(found_arg2_instrument)
+    #     if model == 'BERT':
+    #         predict_and_conf = PredictorWrapper.wrap_predict(predict_srl_bert) # Wrap the prediction in checklist format
+    #     elif model == 'Bi-LSTM':
+    #         predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
+    #     t = editor.template(text, instrument = instruments, meta = True, nsamples= 30) # The case to run
+    #     test = MFT(**t, expect=expectation)
+    #     test.run(predict_and_conf)
+    #     write_out_json(test.results, index, gold, f'instrument_eval_{model}.csv')
+    # elif "{atypical}" in text and "ARG0" in gold:
+    #     print('atyp test')
+    #     atypicals = ['John', 'Mary', "A dog", "A book", "A ship", 'a rocket', 'the toothbrush', 'the carrot', 'africa', 'senegal', 'the street', 'the glasses']
+    #     expectation = Expect.single(found_atypical_arg_0)
+    #     if model == 'BERT':
+    #         predict_and_conf = PredictorWrapper.wrap_predict(predict_srl_bert) # Wrap the prediction in checklist format
+    #     elif model == 'Bi-LSTM':
+    #         predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
+    #     t = editor.template(text, atypical = atypicals, meta = True, nsamples= 30) # The case to run
+    #     test = MFT(**t, expect=expectation)
+    #     test.run(predict_and_conf)
+    #     write_out_json(test.results, index, gold, f'atypical_eval_{model}.csv')
+    # elif "{temporal}" in text and 'ARGM-TMP' in gold:
+    #     print('temporal test')
+    #     temporals = ['tomorrow', 'in an hour', 'in a bit', 'soon', 'in a while', 'next month', 'next year',
+    #     'at 12', 'at noon', 'tonight', 'tomorrow morning']
+    #     expectation = Expect.single(found_temp_argm)
+    #     if model == 'BERT':
+    #         predict_and_conf = PredictorWrapper.wrap_predict(predict_srl_bert) # Wrap the prediction in checklist format
+    #     elif model == 'Bi-LSTM':
+    #         predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
+    #     t = editor.template(text, temporal = temporals, meta = True, nsamples= 30) # The case to run
+    #     test = MFT(**t, expect=expectation)
+    #     test.run(predict_and_conf)
+    #     write_out_json(test.results, index, gold, f'temporal_eval_{model}.csv')
     # elif "{tool}" in text and "ARG2" in gold:
     #     print('instr test')
     #     tools = ['a spoon', 'a fork', 'a knife', 'an axe', 'a plate', 'a candle', 'a spork', 'cutlery', 'a phone', 'a blade', 'a machete']
