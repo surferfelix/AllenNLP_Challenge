@@ -1,6 +1,13 @@
 # AllenNLP_Challenge
 Creating challenge sets to challenge pre-trained AllenNLP SRL models with Checklist implementation       
 
+## Implemented tests
+
+First and last name variations 
+Instruments in ultimate positions
+Temporal Arguments
+Instruments as Agents
+
 ## How the tests work
 
 The tests are stored in the tests directory. Each file in this directory contains an experiment. Typically, the Checklist framework is used to enrich the test cases.
