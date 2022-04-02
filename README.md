@@ -34,4 +34,4 @@ Install the dependencies with the following command
 `pip install -r requirements.txt`
 
 Run the program
-`python allencheck.py`
+`python carry_out_experiment.py`
