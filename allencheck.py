@@ -64,7 +64,32 @@ def less_verbose():
 
 ## These are the two core-checklist functions
 def get_arg(pred, arg_target='ARG1'):
-    predicate_arguments = pred['verbs'][0] # we assume one predicate:
+    try:
+        predicate_arguments = pred['verbs'][0] # we assume one predicate:
+        words = pred['words']
+        tags = predicate_arguments['tags']
+    except IndexError: # NO PREDICATE FOUND BY SYSTEM
+        print('Detected issue: NO PREDICATE FOUND BY SYSTEM')
+        print(pred)
+        tags = ''
+        words = ''
+        # predicate_arguments = {'words': '', 'verbs': [{'tags': ''}]}
+        pass
+    arg_list = []
+    for t, w in zip(tags, words):
+        arg = t
+        if '-' in t:
+            arg = t.split('-')[1]
+            print(arg)
+        if arg == arg_target:
+            arg_list.append(w)
+    arg_set = set(arg_list)
+    return arg_set
+
+def get_arg2(pred, arg_target='ARG1'):
+    '''Another get_arg in case we need to check with second pred'''
+    predicate_arguments = pred['verbs'][1] # we assume two predicates:
+    print("\n\nYOU SHOULD GET THIS VERB NOW:\n\n", predicate_arguments)
     words = pred['words']
     tags = predicate_arguments['tags']
     arg_list = []
@@ -147,6 +172,30 @@ def found_arg2_tool(x, pred, conf, label=None, meta=None):
         pass_ = False
     return pass_
 
+def found_pred_robust(x, pred, conf, label=None, meta=None):
+    
+    # people should be recognized as arg1
+    
+    instrument = set(meta['robust'].split(' '))
+    arg_3 = get_arg(pred, arg_target='V')
+    if arg_3 == instrument:
+        pass_ = True
+    else:
+        pass_ = False
+    return pass_
+
+def found_pred_robust2(x, pred, conf, label=None, meta=None):
+    
+    # people should be recognized as arg1
+    
+    robust = set(meta['robust2'].split(' '))
+    arg_3 = get_arg2(pred, arg_target='V')
+    if arg_3 == robust:
+        pass_ = True
+    else:
+        pass_ = False
+    return pass_
+
 def found_atypical_arg_0(x , pred, conf, label = None, meta = None):
     a_arg = set(meta['atypical'].split(' '))
     system_pred = get_arg(pred, arg_target = 'ARG0')
@@ -222,15 +271,30 @@ def run_case(text, gold, index, model):
         test = MFT(**t, expect=expectation)
         test.run(predict_and_conf)
         write_out_json(test.results, index, gold, f'temporal_eval_{model}.csv')
-    elif "{robustness}" in text and "ARG1" in gold:
+    elif "{robust}" in text and "V" in gold:
         print('robustness test')
-        robusts = ["Obama", "Takeo"]
-        expectation = Expect.single(found_arg2_tool)
+        first = [x.split()[0] for x in editor.lexicons.male_from.Nepal +  editor.lexicons.female_from.Nepal]
+        robusts = ["kissed", "licked", "called", "vexxed", "left"]
+        expectation = Expect.single(found_pred_robust)
         if model == 'BERT':
             predict_and_conf = PredictorWrapper.wrap_predict(predict_srl_bert) # Wrap the prediction in checklist format
         elif model == 'Bi-LSTM':
             predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
-        t = editor.template(text, atypical = atypicals, meta = True, nsamples= 30) # The case to run
+        t = editor.template(text, first_name = first, robust = robusts, meta = True, nsamples= 30) # The case to run
+        test = MFT(**t, expect=expectation)
+        test.run(predict_and_conf)
+        write_out_json(test.results, index, gold, f'robustness_eval_{model}.csv')
+    elif "{robust2}" in text and "V" in gold:
+        print('Passive robustness test')
+        first = [x.split()[0] for x in editor.lexicons.male_from.Nepal +  editor.lexicons.female_from.Nepal]
+        robusts = ["kissed", "licked", "called", "vexxed", "used"]
+        temps = ["last night", "yesterday", "a week ago"]
+        expectation = Expect.single(found_pred_robust2)
+        if model == 'BERT':
+            predict_and_conf = PredictorWrapper.wrap_predict(predict_srl_bert) # Wrap the prediction in checklist format
+        elif model == 'Bi-LSTM':
+            predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
+        t = editor.template(text, first_name = first, robust = robusts, meta = True, nsamples= 30) # The case to run
         test = MFT(**t, expect=expectation)
         test.run(predict_and_conf)
         write_out_json(test.results, index, gold, f'robustness_eval_{model}.csv')
@@ -278,18 +342,26 @@ def write_out_json(results, index, gold: str, output_file_name):
     print(predictions)
     answers = results['passed']
     for p, a in zip(predictions, answers):
-        print(p['verbs'][0]['description'], a)
+        try: # For two predicates
+            print(p['verbs'][1]['description'], a)
+        except IndexError: # When one predicate
+            try:
+                print(p['verbs'][0]['description'], a)
+            except IndexError: # When no predicates
+                print('no prediction made on this instance')
     if index == 0:
         with open(f'output/{output_file_name}', 'w') as txt:
             writer = csv.writer(txt)
             writer.writerow(['INPUT', 'EVAL', 'GOLD'])
             for p, a in zip(predictions, answers):
-                writer.writerow([p['verbs'][0]['description'],a, gold])
+                if p['verbs']: # If predicate exists
+                    writer.writerow([p['verbs'][0]['description'],a, gold])
     elif index > 0:
         with open(f'output/{output_file_name}', 'a') as txt:
             writer = csv.writer(txt)
             for p, a in zip(predictions, answers):
-                writer.writerow([p['verbs'][0]['description'],a, gold])
+                if p['verbs']: # If predicate exists
+                    writer.writerow([p['verbs'][0]['description'],a, gold])
 
 def main(case, file_nr, model): 
     '''This main function iterates and runs cases for each line in the CSV input'''
@@ -316,6 +388,6 @@ if __name__ == '__main__':
         elif index == 1:
             model = 'BERT'
         for index, case in enumerate(test_cases):
-            file_nr = index
-            if not case.startswith('.') and case.endswith('.csv'): # Omitting dotfiles
-                main(case, file_nr, model)
+                file_nr = index
+                if not case.startswith('.') and case.endswith('.csv'): # Omitting dotfiles
+                    main(case, file_nr, model)
