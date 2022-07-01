@@ -222,20 +222,32 @@ def run_case(text, gold, index, model):
         test = MFT(**t, expect=expectation)
         test.run(predict_and_conf)
         write_out_json(test.results, index, gold, f'temporal_eval_{model}.csv')
-    # elif "{tool}" in text and "ARG2" in gold:
-    #     print('instr test')
-    #     tools = ['a spoon', 'a fork', 'a knife', 'an axe', 'a plate', 'a candle', 'a spork', 'cutlery', 'a phone', 'a blade', 'a machete']
-    #     expectation = Expect.single(found_arg2_tool)
-    #     t = editor.template(text, tool = tools, meta = True, nsamples= 30) # The case to run
-    #     if model == 'BERT':
-    #         predict_and_conf = PredictorWrapper.wrap_predict(predict_srl_bert) # Wrap the prediction in checklist format
-    #     elif model == 'Bi-LSTM':
-    #         predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
-    #     test = MFT(**t, expect=expectation)
-    #     test.run(predict_and_conf)
-    #     write_out_json(test.results, index, gold, f'instrument_as_arg_eval_{model}.csv')
+    elif "{robustness}" in text and "ARG1" in gold:
+        print('robustness test')
+        robusts = ["Obama", "Takeo"]
+        expectation = Expect.single(found_arg2_tool)
+        if model == 'BERT':
+            predict_and_conf = PredictorWrapper.wrap_predict(predict_srl_bert) # Wrap the prediction in checklist format
+        elif model == 'Bi-LSTM':
+            predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
+        t = editor.template(text, atypical = atypicals, meta = True, nsamples= 30) # The case to run
+        test = MFT(**t, expect=expectation)
+        test.run(predict_and_conf)
+        write_out_json(test.results, index, gold, f'robustness_eval_{model}.csv')
+    elif "{tool}" in text and "ARG2" in gold:
+        print('instr test')
+        tools = ['a spoon', 'a fork', 'a knife', 'an axe', 'a plate', 'a candle', 'a spork', 'cutlery', 'a phone', 'a blade', 'a machete']
+        expectation = Expect.single(found_arg2_tool)
+        t = editor.template(text, tool = tools, meta = True, nsamples= 30) # The case to run
+        if model == 'BERT':
+            predict_and_conf = PredictorWrapper.wrap_predict(predict_srl_bert) # Wrap the prediction in checklist format
+        elif model == 'Bi-LSTM':
+            predict_and_conf = PredictorWrapper.wrap_predict(predict_srl) # Wrap the prediction in checklist format
+        test = MFT(**t, expect=expectation)
+        test.run(predict_and_conf)
+        write_out_json(test.results, index, gold, f'instrument_as_arg_eval_{model}.csv')
     else:
-        return "oops, no implementation possible yet for this kind of data :("
+        print("No implementation for this kind of data :(")
     if index == 0:
         # Print to file trick taken from https://howtodoinjava.com/examples/python-print-to-file/
         original_stdout = sys.stdout # Saving original state
@@ -249,10 +261,16 @@ def run_case(text, gold, index, model):
         with open("output/raw_output.txt", 'a') as output: # Append on following iterations
             sys.stdout = output # Changing state
             print('GOLD: '+ gold)
-            print(test.summary(format_example_fn=format_srl))
+            try:
+                print(test.summary(format_example_fn=format_srl))
+            except UnboundLocalError:
+                print('Model was unable to identify predicate')
             sys.stdout = original_stdout 
-    for i, case in enumerate(test.data):
-        print(i, case)
+    try:
+        for i, case in enumerate(test.data):
+            print(i, case)
+    except UnboundLocalError:
+        pass
 
 def write_out_json(results, index, gold: str, output_file_name):
     ''':param gold: This is the gold label for the iteration'''
