@@ -122,7 +122,15 @@ def get_argm(pred, arg_target='ARG1'):
 def format_srl(x, pred, conf, label=None, meta=None):
     '''Helper function to display failures'''
     results = []
-    predicate_structure = pred['verbs'][0]['description']
+    try:
+        predicate_structure = pred['verbs'][1]['description']
+    except IndexError:
+        try:
+            predicate_structure = pred['verbs'][0]['description']
+        except IndexError:
+            print('No pred detected on this line here')
+            predicate_structure = ''
+            pass
         
     return predicate_structure
 ##
@@ -297,7 +305,7 @@ def run_case(text, gold, index, model):
         t = editor.template(text, first_name = first, robust = robusts, meta = True, nsamples= 30) # The case to run
         test = MFT(**t, expect=expectation)
         test.run(predict_and_conf)
-        write_out_json(test.results, index, gold, f'robustness_eval_{model}.csv')
+        write_out_json(test.results, index, gold, f'robustness_eval2_{model}.csv')
     elif "{tool}" in text and "ARG2" in gold:
         print('instr test')
         tools = ['a spoon', 'a fork', 'a knife', 'an axe', 'a plate', 'a candle', 'a spork', 'cutlery', 'a phone', 'a blade', 'a machete']

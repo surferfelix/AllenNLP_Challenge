@@ -51,7 +51,7 @@ def reporting(preds, golds, name):
     golds = [gold.strip() for gold in golds]
     labels = sorted(set(preds), key=preds.index)
     confusion_report = confusion_matrix(y_true = golds, y_pred=preds, labels = labels)
-    matrix = pd.DataFrame(confusion_report, index = labels, columns = labels)
+    matrix = pd.DataFrame(confusion_report, index = labels, columns = labels).transpose()
     print(name)
     print(matrix.style.to_latex())
     matrix.to_csv(f'evaluations/{name}.csv')

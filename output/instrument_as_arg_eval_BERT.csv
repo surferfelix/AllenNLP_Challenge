@@ -1,0 +1,318 @@
+[ARG0: The a machete] [V: cut] [ARG1: the child],False, ARG2
+[ARG2: The a blade] [V: cut] [ARG1: the child],False, ARG2
+[ARG0: The a phone] [V: cut] [ARG1: the child],False, ARG2
+[ARG0: The cutlery] [V: cut] [ARG1: the child],False, ARG2
+[ARG0: The a candle] [V: cut] [ARG1: the child],False, ARG2
+[ARG0: The a plate] [V: cut] [ARG1: the child],False, ARG2
+[ARG0: The a fork] [V: cut] [ARG1: the child],False, ARG2
+[ARG0: The a fork] [V: cut] [ARG1: the child],False, ARG2
+[ARG0: The an axe] [V: cut] [ARG1: the child],False, ARG2
+[ARG2: The a blade] [V: cut] [ARG1: the child],False, ARG2
+[ARG0: The a fork] [V: cut] [ARG1: the child],False, ARG2
+[ARG0: The a spoon] [V: cut] [ARG1: the child],False, ARG2
+[ARG0: The a spoon] [V: cut] [ARG1: the child],False, ARG2
+[ARG0: The a phone] [V: cut] [ARG1: the child],False, ARG2
+[ARG0: The a spoon] [V: cut] [ARG1: the child],False, ARG2
+[ARG0: The an axe] [V: cut] [ARG1: the child],False, ARG2
+[ARG3: The a knife] [V: cut] [ARG1: the child],False, ARG2
+[ARG2: The a blade] [V: cut] [ARG1: the child],False, ARG2
+[ARG0: The cutlery] [V: cut] [ARG1: the child],False, ARG2
+[ARG0: The a plate] [V: cut] [ARG1: the child],False, ARG2
+[ARG0: The cutlery] [V: cut] [ARG1: the child],False, ARG2
+[ARG0: The a spoon] [V: cut] [ARG1: the child],False, ARG2
+[ARG0: The a candle] [V: cut] [ARG1: the child],False, ARG2
+[ARG0: The a spork] [V: cut] [ARG1: the child],False, ARG2
+[ARG0: The a phone] [V: cut] [ARG1: the child],False, ARG2
+[ARG2: The a blade] [V: cut] [ARG1: the child],False, ARG2
+[ARG0: The a plate] [V: cut] [ARG1: the child],False, ARG2
+[ARG0: The a machete] [V: cut] [ARG1: the child],False, ARG2
+[ARG0: The a spork] [V: cut] [ARG1: the child],False, ARG2
+[ARG2: The a blade] [V: cut] [ARG1: the child],False, ARG2
+[ARG0: The a spork] [V: burned] [ARG1: the man],False, ARG2
+[ARG2: The a candle] [V: burned] [ARG1: the man],False, ARG2
+[ARG2: The a knife] [V: burned] [ARG1: the man],False, ARG2
+[ARG0: The a plate] [V: burned] [ARG1: the man],False, ARG2
+[ARG0: The a phone] [V: burned] [ARG1: the man],False, ARG2
+[ARG2: The a candle] [V: burned] [ARG1: the man],False, ARG2
+[ARG0: The cutlery] [V: burned] [ARG1: the man],False, ARG2
+[ARG0: The a spork] [V: burned] [ARG1: the man],False, ARG2
+[ARG0: The an axe] [V: burned] [ARG1: the man],False, ARG2
+[ARG0: The a blade] [V: burned] [ARG1: the man],False, ARG2
+[ARG0: The a machete] [V: burned] [ARG1: the man],False, ARG2
+[ARG0: The a blade] [V: burned] [ARG1: the man],False, ARG2
+[ARG0: The a fork] [V: burned] [ARG1: the man],False, ARG2
+[ARG0: The a phone] [V: burned] [ARG1: the man],False, ARG2
+[ARG2: The a candle] [V: burned] [ARG1: the man],False, ARG2
+[ARG2: The a knife] [V: burned] [ARG1: the man],False, ARG2
+[ARG0: The cutlery] [V: burned] [ARG1: the man],False, ARG2
+[ARG2: The a knife] [V: burned] [ARG1: the man],False, ARG2
+[ARG0: The a fork] [V: burned] [ARG1: the man],False, ARG2
+[ARG0: The a plate] [V: burned] [ARG1: the man],False, ARG2
+[ARG0: The a fork] [V: burned] [ARG1: the man],False, ARG2
+[ARG2: The a spoon] [V: burned] [ARG1: the man],False, ARG2
+[ARG0: The a phone] [V: burned] [ARG1: the man],False, ARG2
+[ARG0: The a fork] [V: burned] [ARG1: the man],False, ARG2
+[ARG0: The a machete] [V: burned] [ARG1: the man],False, ARG2
+[ARG0: The a blade] [V: burned] [ARG1: the man],False, ARG2
+[ARG0: The cutlery] [V: burned] [ARG1: the man],False, ARG2
+[ARG2: The a knife] [V: burned] [ARG1: the man],False, ARG2
+[ARG2: The a knife] [V: burned] [ARG1: the man],False, ARG2
+[ARG2: The a knife] [V: burned] [ARG1: the man],False, ARG2
+[ARG0: The a spoon] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: The cutlery] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: The a machete] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: The a fork] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: The a phone] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: The a machete] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: The a plate] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: The a machete] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: The a machete] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: The a phone] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: The a plate] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: The cutlery] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: The a knife] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: The an axe] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: The a blade] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: The a candle] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: The a blade] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: The a fork] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: The a spoon] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: The a blade] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: The a candle] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: The a machete] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: The a plate] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: The an axe] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: The a candle] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: The cutlery] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: The a spoon] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: The cutlery] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: The cutlery] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: The a spork] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG2: The a knife] [V: hit] [ARG1: the woman],False, ARG2
+[ARG2: The an axe] [V: hit] [ARG1: the woman],False, ARG2
+[ARG2: The a machete] [V: hit] [ARG1: the woman],False, ARG2
+[ARG2: The a phone] [V: hit] [ARG1: the woman],False, ARG2
+[ARG2: The a knife] [V: hit] [ARG1: the woman],False, ARG2
+[ARG2: The a fork] [V: hit] [ARG1: the woman],False, ARG2
+[ARG2: The a candle] [V: hit] [ARG1: the woman],False, ARG2
+[ARG2: The a blade] [V: hit] [ARG1: the woman],False, ARG2
+[ARG2: The a fork] [V: hit] [ARG1: the woman],False, ARG2
+[ARG2: The a phone] [V: hit] [ARG1: the woman],False, ARG2
+[ARG0: The cutlery] [V: hit] [ARG1: the woman],False, ARG2
+[ARG2: The a machete] [V: hit] [ARG1: the woman],False, ARG2
+[ARG0: The a spork] [V: hit] [ARG1: the woman],False, ARG2
+[ARG0: The cutlery] [V: hit] [ARG1: the woman],False, ARG2
+[ARG2: The a fork] [V: hit] [ARG1: the woman],False, ARG2
+[ARG2: The a spoon] [V: hit] [ARG1: the woman],False, ARG2
+[ARG2: The a machete] [V: hit] [ARG1: the woman],False, ARG2
+[ARG2: The a machete] [V: hit] [ARG1: the woman],False, ARG2
+[ARG0: The a spork] [V: hit] [ARG1: the woman],False, ARG2
+[ARG2: The a fork] [V: hit] [ARG1: the woman],False, ARG2
+[ARG2: The a plate] [V: hit] [ARG1: the woman],False, ARG2
+[ARG0: The cutlery] [V: hit] [ARG1: the woman],False, ARG2
+[ARG2: The a candle] [V: hit] [ARG1: the woman],False, ARG2
+[ARG2: The a fork] [V: hit] [ARG1: the woman],False, ARG2
+[ARG2: The a knife] [V: hit] [ARG1: the woman],False, ARG2
+[ARG2: The a blade] [V: hit] [ARG1: the woman],False, ARG2
+[ARG2: The a blade] [V: hit] [ARG1: the woman],False, ARG2
+[ARG2: The a spoon] [V: hit] [ARG1: the woman],False, ARG2
+[ARG2: The a fork] [V: hit] [ARG1: the woman],False, ARG2
+[ARG0: The a spork] [V: hit] [ARG1: the woman],False, ARG2
+[ARG0: The a phone] [V: helped] [ARG2: the woman],False, ARG2
+[ARG0: The a candle] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: The a machete] [V: helped] [ARG2: the woman],False, ARG2
+[ARG0: The a phone] [V: helped] [ARG2: the woman],False, ARG2
+[ARG0: The a phone] [V: helped] [ARG2: the woman],False, ARG2
+[ARG0: The a spork] [V: helped] [ARG2: the woman],False, ARG2
+[ARG0: The a blade] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: The a candle] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: The a machete] [V: helped] [ARG2: the woman],False, ARG2
+[ARG0: The a machete] [V: helped] [ARG2: the woman],False, ARG2
+[ARG0: The a phone] [V: helped] [ARG2: the woman],False, ARG2
+[ARG0: The a machete] [V: helped] [ARG2: the woman],False, ARG2
+[ARG0: The a fork] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: The a plate] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: The a candle] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: The an axe] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: The a blade] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: The a blade] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: The a candle] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: The a plate] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: The a machete] [V: helped] [ARG2: the woman],False, ARG2
+[ARG0: The a plate] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: The an axe] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: The a phone] [V: helped] [ARG2: the woman],False, ARG2
+[ARG0: The a phone] [V: helped] [ARG2: the woman],False, ARG2
+[ARG0: The a plate] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: The a knife] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: The a candle] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: The an axe] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: The a plate] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: cutlery] [V: cut] [ARG1: the child],False, ARG2
+[ARG0: a machete] [V: cut] [ARG1: the child],False, ARG2
+[ARG2: a spoon] [V: cut] [ARG1: the child],True, ARG2
+[ARG0: a machete] [V: cut] [ARG1: the child],False, ARG2
+[ARG3: an axe] [V: cut] [ARG1: the child],False, ARG2
+[ARG3: an axe] [V: cut] [ARG1: the child],False, ARG2
+[ARG3: an axe] [V: cut] [ARG1: the child],False, ARG2
+[ARG0: cutlery] [V: cut] [ARG1: the child],False, ARG2
+[ARG2: a blade] [V: cut] [ARG1: the child],True, ARG2
+[ARG0: cutlery] [V: cut] [ARG1: the child],False, ARG2
+[ARG3: a knife] [V: cut] [ARG1: the child],False, ARG2
+[ARG2: a spoon] [V: cut] [ARG1: the child],True, ARG2
+[ARG0: a plate] [V: cut] [ARG1: the child],False, ARG2
+[ARG3: an axe] [V: cut] [ARG1: the child],False, ARG2
+[ARG0: a fork] [V: cut] [ARG1: the child],False, ARG2
+[ARG0: cutlery] [V: cut] [ARG1: the child],False, ARG2
+[ARG3: an axe] [V: cut] [ARG1: the child],False, ARG2
+[ARG0: a candle] [V: cut] [ARG1: the child],False, ARG2
+[ARG2: a spoon] [V: cut] [ARG1: the child],True, ARG2
+[ARG0: a spork] [V: cut] [ARG1: the child],False, ARG2
+[ARG3: an axe] [V: cut] [ARG1: the child],False, ARG2
+[ARG0: a machete] [V: cut] [ARG1: the child],False, ARG2
+[ARG3: a knife] [V: cut] [ARG1: the child],False, ARG2
+[ARG3: an axe] [V: cut] [ARG1: the child],False, ARG2
+[ARG2: a blade] [V: cut] [ARG1: the child],True, ARG2
+[ARG2: a spoon] [V: cut] [ARG1: the child],True, ARG2
+[ARG0: cutlery] [V: cut] [ARG1: the child],False, ARG2
+[ARG0: a candle] [V: cut] [ARG1: the child],False, ARG2
+[ARG0: cutlery] [V: cut] [ARG1: the child],False, ARG2
+[ARG2: a spoon] [V: cut] [ARG1: the child],True, ARG2
+[ARG3: a knife] [V: cut] [ARG1: the child],False, ARG2
+[ARG2: a spoon] [V: cut] [ARG1: the child],True, ARG2
+[ARG0: cutlery] [V: cut] [ARG1: the child],False, ARG2
+[ARG3: an axe] [V: cut] [ARG1: the child],False, ARG2
+[ARG2: a spoon] [V: cut] [ARG1: the child],True, ARG2
+[ARG2: a blade] [V: cut] [ARG1: the child],True, ARG2
+[ARG0: a spork] [V: cut] [ARG1: the child],False, ARG2
+[ARG0: a candle] [V: cut] [ARG1: the child],False, ARG2
+[ARG3: an axe] [V: cut] [ARG1: the child],False, ARG2
+[ARG0: a machete] [V: cut] [ARG1: the child],False, ARG2
+[ARG3: an axe] [V: cut] [ARG1: the child],False, ARG2
+[ARG3: a knife] [V: cut] [ARG1: the child],False, ARG2
+[ARG0: cutlery] [V: cut] [ARG1: the child],False, ARG2
+[ARG0: a fork] [V: cut] [ARG1: the child],False, ARG2
+[ARG0: a spork] [V: cut] [ARG1: the child],False, ARG2
+[ARG2: a blade] [V: cut] [ARG1: the child],True, ARG2
+[ARG2: a blade] [V: cut] [ARG1: the child],True, ARG2
+[ARG0: a spork] [V: cut] [ARG1: the child],False, ARG2
+[ARG2: a knife] [V: burned] [ARG1: the man],True, ARG2
+[ARG2: a knife] [V: burned] [ARG1: the man],True, ARG2
+[ARG0: a blade] [V: burned] [ARG1: the man],False, ARG2
+[ARG0: an axe] [V: burned] [ARG1: the man],False, ARG2
+[ARG2: a fork] [V: burned] [ARG1: the man],True, ARG2
+[ARG0: a spork] [V: burned] [ARG1: the man],False, ARG2
+[ARG2: a fork] [V: burned] [ARG1: the man],True, ARG2
+[ARG2: a phone] [V: burned] [ARG1: the man],True, ARG2
+[ARG0: a machete] [V: burned] [ARG1: the man],False, ARG2
+[ARG2: a spoon] [V: burned] [ARG1: the man],True, ARG2
+[ARG0: a blade] [V: burned] [ARG1: the man],False, ARG2
+[ARG2: a knife] [V: burned] [ARG1: the man],True, ARG2
+[ARG2: a fork] [V: burned] [ARG1: the man],True, ARG2
+[ARG0: a plate] [V: burned] [ARG1: the man],False, ARG2
+[ARG0: an axe] [V: burned] [ARG1: the man],False, ARG2
+[ARG0: cutlery] [V: burned] [ARG1: the man],False, ARG2
+[ARG2: a knife] [V: burned] [ARG1: the man],True, ARG2
+[ARG0: an axe] [V: burned] [ARG1: the man],False, ARG2
+[ARG2: a candle] [V: burned] [ARG1: the man],True, ARG2
+[ARG2: a spoon] [V: burned] [ARG1: the man],True, ARG2
+[ARG0: a plate] [V: burned] [ARG1: the man],False, ARG2
+[ARG0: a spork] [V: burned] [ARG1: the man],False, ARG2
+[ARG0: a plate] [V: burned] [ARG1: the man],False, ARG2
+[ARG2: a candle] [V: burned] [ARG1: the man],True, ARG2
+[ARG0: a machete] [V: burned] [ARG1: the man],False, ARG2
+[ARG2: a fork] [V: burned] [ARG1: the man],True, ARG2
+[ARG2: a knife] [V: burned] [ARG1: the man],True, ARG2
+[ARG0: a machete] [V: burned] [ARG1: the man],False, ARG2
+[ARG0: an axe] [V: burned] [ARG1: the man],False, ARG2
+[ARG2: a knife] [V: burned] [ARG1: the man],True, ARG2
+[ARG0: a plate] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: a plate] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: cutlery] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: a spoon] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: a phone] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: a phone] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: a knife] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: a phone] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: a plate] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: a phone] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: a machete] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: a spork] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: a candle] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: a spoon] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: a spoon] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: a plate] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: a blade] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: a plate] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: a fork] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: a spork] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: a phone] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: a candle] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: a candle] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: a spork] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: a plate] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: a machete] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: a machete] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: a blade] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: a plate] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG0: a plate] [V: destroyed] [ARG1: the building],False, ARG2
+[ARG2: a knife] [V: hit] [ARG1: the woman],True, ARG2
+[ARG2: a candle] [V: hit] [ARG1: the woman],True, ARG2
+[ARG2: a fork] [V: hit] [ARG1: the woman],True, ARG2
+[ARG2: a candle] [V: hit] [ARG1: the woman],True, ARG2
+[ARG2: a fork] [V: hit] [ARG1: the woman],True, ARG2
+[ARG2: an axe] [V: hit] [ARG1: the woman],True, ARG2
+[ARG2: a plate] [V: hit] [ARG1: the woman],True, ARG2
+[ARG2: an axe] [V: hit] [ARG1: the woman],True, ARG2
+[ARG0: cutlery] [V: hit] [ARG1: the woman],False, ARG2
+[ARG2: a machete] [V: hit] [ARG1: the woman],True, ARG2
+[ARG2: a knife] [V: hit] [ARG1: the woman],True, ARG2
+[ARG2: a candle] [V: hit] [ARG1: the woman],True, ARG2
+[ARG2: a blade] [V: hit] [ARG1: the woman],True, ARG2
+[ARG2: a candle] [V: hit] [ARG1: the woman],True, ARG2
+[ARG2: a fork] [V: hit] [ARG1: the woman],True, ARG2
+[ARG2: a fork] [V: hit] [ARG1: the woman],True, ARG2
+[ARG2: a machete] [V: hit] [ARG1: the woman],True, ARG2
+[ARG2: a plate] [V: hit] [ARG1: the woman],True, ARG2
+[ARG2: a machete] [V: hit] [ARG1: the woman],True, ARG2
+[ARG2: a spoon] [V: hit] [ARG1: the woman],True, ARG2
+[ARG2: a candle] [V: hit] [ARG1: the woman],True, ARG2
+[ARG2: a machete] [V: hit] [ARG1: the woman],True, ARG2
+[ARG2: a spoon] [V: hit] [ARG1: the woman],True, ARG2
+[ARG2: an axe] [V: hit] [ARG1: the woman],True, ARG2
+[ARG2: a spoon] [V: hit] [ARG1: the woman],True, ARG2
+[ARG2: a phone] [V: hit] [ARG1: the woman],True, ARG2
+[ARG2: a machete] [V: hit] [ARG1: the woman],True, ARG2
+[ARG2: a plate] [V: hit] [ARG1: the woman],True, ARG2
+[ARG2: a spoon] [V: hit] [ARG1: the woman],True, ARG2
+[ARG0: cutlery] [V: hit] [ARG1: the woman],False, ARG2
+[ARG0: cutlery] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: a candle] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: a blade] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: a spoon] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: a blade] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: an axe] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: a knife] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: cutlery] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: a candle] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: a plate] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: a spoon] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: a machete] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: a knife] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: cutlery] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: a knife] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: a spork] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: an axe] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: a blade] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: an axe] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: cutlery] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: a plate] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: an axe] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: a knife] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: a plate] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: a plate] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: a fork] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: a blade] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: a phone] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: cutlery] [V: helped] [ARG1: the woman],False, ARG2
+[ARG0: a phone] [V: helped] [ARG1: the woman],False, ARG2

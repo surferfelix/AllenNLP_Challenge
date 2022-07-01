@@ -298,3 +298,753 @@
 [ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a candle],False, ARG2
 [ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone],False, ARG2
 [ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a candle],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a fork],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a fork],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a fork],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a plate],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a fork],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a candle],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a fork],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a fork],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a plate],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a candle],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a plate],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a fork],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a plate],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a plate],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a fork],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a plate],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARG2: with a plate],True, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARG2: with a plate],True, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARG2: with a plate],True, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARG2: with a plate],True, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARG2: with a plate],True, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a fork],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a candle],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a candle],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a plate],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a fork],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a candle],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a fork],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a candle],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a plate],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a fork],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARG2: with a plate],True, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a candle],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a fork],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a fork],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a plate],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a plate],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a fork],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a fork],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARG2: with a plate],True, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARG2: with a plate],True, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARG2: with a plate],True, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a fork],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a plate],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a candle],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a plate],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a candle],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a fork],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a fork],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a candle],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a plate],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a plate],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a candle],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a plate],True, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a fork],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a fork],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a fork],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a fork],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a fork],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a fork],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a plate],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a fork],True, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARG2: with a plate],True, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARG2: with a plate],True, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARG2: with a plate],True, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARG2: with a plate],True, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARG2: with a plate],True, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARG2: with a plate],True, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a candle],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a fork],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a candle],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a candle],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a fork],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARG2: with a plate],True, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARG2: with a plate],True, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a plate],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a candle],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a fork],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a fork],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a plate],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a candle],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a candle],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a plate],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a plate],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a candle],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a fork],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARG2: with a plate],True, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARG2: with a plate],True, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a candle],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a candle],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a plate],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a fork],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a candle],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a candle],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a fork],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a candle],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a plate],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a plate],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARG2: with a plate],True, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a candle],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a plate],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a candle],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a plate],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a plate],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a candle],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a plate],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG2: with a candle],True, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARG2: with a plate],True, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARG2: with a plate],True, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARG2: with a plate],True, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARG2: with a plate],True, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a candle],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spoon],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a fork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a cup],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a knife],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a plate],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a pinecone],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spork],False, ARG2
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a candle],False, ARG2

@@ -1,3 +1,5 @@
 INPUT, GOLD
 Someone killed {first_name} {last_name} last night, ARG1
 Lisa ate all of {first_name} {last_name}'s food, ARG1
+Someone threw the ball at {first_name}'s face, ARG1
+The coordinator gave {last_name} the contract, ARG1

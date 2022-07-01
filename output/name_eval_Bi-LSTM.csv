@@ -28,3 +28,633 @@
 [ARG0: Someone] [V: killed] [ARG1: Cynthia Howard] [ARGM-TMP: last night],True, ARG1
 [ARG0: Someone] [V: killed] [ARG1: Eleanor Johnson] [ARGM-TMP: last night],True, ARG1
 [ARG0: Someone] [V: killed] [ARG1: Sarah Robertson] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Sharad Lamichhane] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: सरस्वती Norgay] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Arjun Rana] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Shankar Amatya] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Chandra Lamsal] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Raj खत्री] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Geeta Lamsal] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Salma शर्मा] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Radha Bista] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Pradip पाण्डेय] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Tenzing Dhungana] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Pushpa Gopal] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Shila Yadav] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: नम्रता Pradhan] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Tsering Gopal] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Agni Gurung] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Khadga जोशी] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Mausami Norgay] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Sabina रिजाल] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Indira Devkota] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Amrita Thapaliya] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Anand Friedli] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Bam अधिकारी] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Ani Gurung] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: सरस्वती Gupton] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Mahesh कुँवर] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: अनुराधा Gupton] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Arzu Flageul] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Sunita] Yadav [ARGM-TMP: last night],False, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Aanchal Chaudhary] [ARGM-TMP: last night],True, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Balram शर्मा 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Ani पाण्डेय 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Uday Rhitar 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of गुरूङ जोशी 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Mahesh Hamal 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Sahana Gopal 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Abhishek Amatya 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of गणेशः Roka 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Manikala बस्नेत 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Shiva प्रधान 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Uma महर्जन 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Pradip प्रधान 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Anthony Tripathi 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of कोमल Magar 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Manikala बुढाथोकी 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Khadga सुमन 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Uma Pradhan 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Anand शाह 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Prakash कोइराला 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Sunil घिमिरे 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Anu Tamang 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of अमर Limbu 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Narayan White 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Marshall नेपाल 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Kamal Agrahari 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Prem बुढाथोकी 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Dachhiri Magar 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Mausami लामा 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Pushpa Mahato 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Raju Limbu 's food],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Dharma 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Mahendra 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Rupa 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Rita 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Queen 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Namrata 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Nimesh 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Bahadur 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Namrata 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Niti 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Sara 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Deepak 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Kamal 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Arun 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Uday 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Raju 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Gopal 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Raj 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Shreya 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Bam 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at गुरूङ 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at अमर 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Raju 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Narayan 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Pushpa 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Ram 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Lily 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Rupa 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Mohammad 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Narendra 's face],False, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Aanchal Mahato] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Kailash थापा] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Indra] [ARGM-PRD: बुढाथोकी] [ARGM-TMP: last night],False, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Aanchal गौतम] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Mohammad Oli] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Kumari Chaudhari] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: सरस्वती Rai] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Anita Tamang] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Shanti Bhusal] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Kamal Raut] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Shreya Aryal] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Geeta Bhagat] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Shila Thapaliya] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Alisha Tamang] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Gita Chaudhari] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Sanchita Danuwar] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Rita] [ARGM-TMP: Pradhan last night],False, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Mina Rai] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Aishwarya Danuwar] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Shiva बज्राचार्य] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Diamante Rai] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Sanchita Magar] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Nisha श्रेष्ठ] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Chandra Rana] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Deepika Friedli] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Sunita] अधिकारी [ARGM-TMP: last night],False, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Radha Mahato] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Narendra Bhandari] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Geeta Magar] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Sarita सिंह] [ARGM-TMP: last night],True, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Alisha Tamang 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Narayan Bista 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Dharma Rhitar 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Kiran Hamal 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of सुशील नेउपाने 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Nisha बस्नेत 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of कोमल पाण्डेय 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Dina लामा 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Aanchal अधिकारी 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Shila Flageul 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of अमर Thapaliya 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of सुशील Thapaliya 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Lama Chaudhari 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Malina कुँवर 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Sahana सुवेदी 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Roman सिंह 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Karna लामा 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Pushpa Rhitar 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Salma मल्ल 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Narendra कार्की 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Manikala शेर्पा 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of गणेशः Norgay 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Annapurna Rai 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Dan सुमन 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Prem जोशी 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Pushpa उप्रेती 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Sunita Aufschnaiter 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Rita खत्री 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Radha Mahato 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Namrata खत्री 's food],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Mohammad 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Rajesh 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Geeta 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Indira 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Indira 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Santosh 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Deepika 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Sharad 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Rishi 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at गुरूङ 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Kailash 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Mahesh 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Salma 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Manikala 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Radha 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Shyam 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Ram 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Mahendra 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Rishi 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Kailash 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Gopal 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Shila 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Sofia 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Dina 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Radha 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Anu 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Amrita 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Lama 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Tenzing 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Devi 's face],False, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Prakash Lamichhane] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Upendra Bhandari] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Tsering Gopal] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Balram श्रेष्ठ] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Shankar Bista] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Dharma Rhitar] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Nisha Hamal] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Praveen Kandel] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Govinda घिमिरे] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Gita Friedli] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Balbhadra प्रधान] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Niti जोशी] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: अनुराधा Lamsal] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Jigme घिमिरे] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Buddha थापा] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Raj आचार्य] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Diamante Tripathi] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Manisha Dhungana] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Amber] [ARGM-PRD: Bista] [ARGM-TMP: last night],False, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Anu Pokhrel] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Balbhadra गौतम] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Pradip Chaudhari] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Krishna] Pradhan [ARGM-TMP: last night],False, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Prem Gupton] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Singh Roka] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: सिंह Friedli] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Prabal कोइराला] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Asha Thapaliya] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Indra] [ARGM-PRD: घिमिरे] [ARGM-TMP: last night],False, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Pradip महर्जन] [ARGM-TMP: last night],True, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Deva सिंह 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Niti Budhathoki 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Abhishek Gupton 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Narayan Giri 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Anil Mahato 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Ashok प्रधान 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Rekha जोशी 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Sunil Gupton 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Sudhir रिजाल 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Marshall मल्ल 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Abhishek गुरूङ 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Arun प्रधान 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Mehboob Chaudhary 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Shila Oli 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Diamante लामा 's food],False, ARG1
+[ARG0: Lisa] [V: ate] all of Krishna [ARG1: Devkota 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Shankar अधिकारी 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Siva Norgay 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Sahana Tripathi 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Shiva Lamsal 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Alisha Moran 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Prabal Dulal 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Uday Lamsal 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Rita आचार्य 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Dachhiri Magar 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Anthony Dhungana 's food],False, ARG1
+[ARG0: Lisa] [V: ate] all of Krishna [ARG1: नेपाल 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Jigme शर्मा 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Kazi Chaudhary 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Raju Raut 's food],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Suresh 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Sara 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Hari 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Mira 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Indira 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Salma 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Agni 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Nikhil 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Geeta 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Manisha 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Pradip 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Namrata 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Nikhil 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Ramesh 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Dinesh 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Diamante 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Suresh 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Salma 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Shanti 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Binod 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Shiva 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Lakshmiprasad 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Deepika 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Shila 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Hari 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Bahadur 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at देविका 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Rupa 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Ani 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Bam 's face],False, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Kiran Chaudhari] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Amrita Danuwar] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Mausami Thapaliya] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Nikhil लामा] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Rajesh कार्की] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Deepika Limbu] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Anand Rai] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Ramesh Subba] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Govinda पाण्डेय] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Upendra Kumar] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Ranodip Tripathi] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Malina Kumar] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Salma पाण्डेय] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: देविका Yadav] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: अनुराधा Rana] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Sujata Sigdel] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Ani Dhungana] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Niti White] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Sujata Bhagat] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Mausami Dhungana] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Asha Hamal] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Singh Sapkota] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Narendra लामा] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Uday Sigdel] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Niti शाह] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Khem थापा] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Kali नेपाल] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Deva बज्राचार्य] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Siva बज्राचार्य] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: पिटर Roka] [ARGM-TMP: last night],True, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Karna शेर्पा 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Prakash शर्मा 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of सरस्वती शर्मा 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Marshall शेर्पा 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Queen Norgay 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Bam Dhungana 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Buddha Thapaliya 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Ramesh Bhagat 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of अमर Bhagat 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Sahana Rana 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Dharma Pradhan 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Mahendra सुमन 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Romy शेर्पा 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Himani मल्ल 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Tenzing उप्रेती 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Gita Agrahari 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of कोमल Tripathi 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Prem Tripathi 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Shila Danuwar 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Sara Thapaliya 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Shyam महर्जन 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of कोमल Rai 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Malina Gharti 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Keshav Danuwar 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Manisha Hamal 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Mohammad Yadav 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Arun Rhitar 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of कोमल Limbu 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Lakshmiprasad Rhitar 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Prakash महर्जन 's food],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at अमर 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Mausami 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Dachhiri 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Malina 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Prem 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Mahendra 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Abhishek 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Sitaram 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at अनुराधा 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at अमर 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Sitaram 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Manikala 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Mahendra 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Romy 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Salma 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Lily 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Krishna 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at सिंह 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Gita 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Nisha 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Sita 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Anthony 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Mausami 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Dharma 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Chandra 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Narayan 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Queen 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Raju 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Krishna 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Baran 's face],False, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Kamal बुढाथोकी] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Annapurna कार्की] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Ranodip Tamang] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Rajesh प्रधान] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Pradip Amatya] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Uday Friedli] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Lily Dhungana] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Kamal Rimal] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Ani Gharti] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Dinesh सुमन] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Amrita कोइराला] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Aditi Oli] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Deepak Gurung] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Francis] [ARG2: Chaudhary] [ARGM-TMP: last night],False, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Amrita श्रेष्ठ] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Shreya Magar] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Lal Flageul] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Dan Hamal] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Balram सुमन] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Suresh Bista] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Himani Rimal] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Ranodip Dulal] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Salma Lamichhane] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: सुशील Gharti] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Pradip कुँवर] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: भानुभक्त Sigdel] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Bam अधिकारी] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Devi Lamsal] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Aishwarya Rhitar] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Aanchal कुँवर] [ARGM-TMP: last night],True, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Mehboob सिंह 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Tenzin Dhungana 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Lama Gurung 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Dan Danuwar 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Nikhil Pradhan 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Anthony घिमिरे 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Mausami खत्री 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Narayan Devkota 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Arzu सुवेदी 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Kiran मल्ल 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Upendra नेउपाने 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Alisha Rhitar 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Mithila Flageul 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Shila Lamichhane 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Manisha Gurung 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Sunil Flageul 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Deepak Bahadur 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Khadga रिजाल 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Jigme Kumar 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of सिंह Rai 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Dina Tamang 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Rekha लामा 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Anita शर्मा 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Geeta नेउपाने 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Malvika Sapkota 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Aditi Roka 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Sara Rana 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Sujata Tamang 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Himani मल्ल 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Keshav शेर्पा 's food],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Khadga 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Kali 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Himani 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Sujata 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at भानुभक्त 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Abhishek 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Aanchal 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Prem 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Sunita 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Baburam 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Gokul 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Raju 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at अनुराधा 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Chandra 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Shila 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Santosh 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at गुरूङ 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Chandra 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Amber 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Indira 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Kedar 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Keshav 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Lila 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Radha 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Hari 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Nimesh 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Raju 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Dachhiri 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Upendra 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Shanti 's face],False, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Himani Gurung] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Arun शर्मा] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: पृथु Sigdel] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: कोमल Magar] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Mahendra खत्री] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Prem थापा] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Anil बस्नेत] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Nisha Bahadur] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Francis] [ARG2: Raut] [ARGM-TMP: last night],False, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Ani Pokharel] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Ram Amatya] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Shanti प्रधान] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Manikala Dulal] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Kailash शेर्पा] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Marshall बुढाथोकी] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Nisha Sapkota] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Iman Rai] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Queen बज्राचार्य] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Dinesh Friedli] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Lal Gurung] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Sarita Norgay] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Arjun Bhagat] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Prabal खत्री] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Sita मल्ल] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Geeta Sapkota] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Rajesh Magar] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Anand शेर्पा] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Kumari कोइराला] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Vijay शेर्पा] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Anu Thapaliya] [ARGM-TMP: last night],True, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Mithila जोशी 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Sita White 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Sabina रिजाल 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Prabal Dulal 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Deepika Rhitar 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Ashok नेपाल 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Radha Raut 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Singh Lamichhane 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Sunil Flageul 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Deva Oli 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Sahana Bahadur 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Tenzin Aryal 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Mausami Yadav 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Mira Hamal 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Sushma सिंह 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Malina Chaudhari 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Shiva Agrahari 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Malvika Pokhrel 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Ram थापा 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Dachhiri Gurung 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Tenzing Rana 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Buddha Danuwar 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Shanti Pradhan 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Sabina Tamang 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Karna Rai 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Amber Gurung 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Uma Lamichhane 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Sabina प्रधान 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Kumari गौतम 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Mohammad श्रेष्ठ 's food],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Shreya 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Mira 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Lal 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Kailash 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Indra 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at सरस्वती 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Prakash 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Francis 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Ashok 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Dina 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Khadga 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Pradip 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Santosh 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Prem 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Mohammad 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Kamal 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Asha 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Mehboob 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Sarita 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Manikala 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Gopal 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Sunita 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at पृथु 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Iman 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Prem 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Karna 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Hari 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Baburam 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Ramesh 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Nimesh 's face],False, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Niti शाह] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Sarita Gurung] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Mina White] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Radha लामा] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Deepika Bista] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Chitra Oli] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Amrita Giri] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Dina कुँवर] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Shreya Bahadur] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Hari Kandel] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Sanchita Rana] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Shreya Sigdel] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Deva महर्जन] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Binod Budhathoki] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Sofia Dhungana] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Chitra बज्राचार्य] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Kazi Pokharel] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Balram Kumar] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Rupa Agrahari] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Himani Bahadur] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Sanchita Rhitar] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Tenzing बुढाथोकी] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Krishna] Danuwar [ARGM-TMP: last night],False, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Nimesh Rhitar] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: सुशील Gharti] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Kiran Roka] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: देविका Bista] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Chitra Sigdel] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: देविका Gurung] [ARGM-TMP: last night],True, ARG1
+[ARG0: Someone] [V: killed] [ARG1: Shreya Limbu] [ARGM-TMP: last night],True, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Chandra रिजाल 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Rekha Chaudhari 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Sunil Bahadur 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Mira Flageul 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Sofia Yadav 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of देविका Bahadur 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Devi उप्रेती 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Rekha Aufschnaiter 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Kedar थापा 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Mira गुरूङ 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Bam नेपाल 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of अनुराधा Gharti 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Indra Amatya 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Sushma बुढाथोकी 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Gita Sapkota 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Anita बज्राचार्य 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Jigme Giri 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Vijay शाह 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Sita Moran 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Tenzin Tamang 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Sudhir Bhandari 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Bahadur नेउपाने 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Aditi बज्राचार्य 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Sara बज्राचार्य 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Lal Dhungana 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Iman गौतम 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Arjun Sapkota 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Raj Bhagat 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Agni Flageul 's food],False, ARG1
+[ARG0: Lisa] [V: ate] [ARG1: all of Rajesh शर्मा 's food],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Baran 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Raj 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Prem 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Deva 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Uma 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Arunima 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Sunil 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Singh 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Mehboob 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Kumari 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Anil 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Mithila 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Arzu 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at गणेशः 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at अमर 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Sanchita 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Kali 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Anthony 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Sunita 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Manikala 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Roman 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Francis 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Sita 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Chitra 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Roman 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Tenzing 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Uma 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Singh 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Ani 's face],False, ARG1
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Binod 's face],False, ARG1

@@ -1198,3 +1198,723 @@
 [ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: tonight],True, ARGM-TMP
 [ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
 [ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-LOC: in a bit],False, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: John] [V: works] [ARGM-LOC: on his assignment] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: John] [V: works] [ARGM-LOC: on his assignment] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARG2: at 12],False, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARG2: at 12],False, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARG2: at 12],False, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARG2: at 12],False, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARG2: at 12],False, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon in a bit],False, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon in a bit],False, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-LOC: in a bit],False, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-LOC: in a bit],False, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-LOC: in a bit],False, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-LOC: in a bit],False, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-LOC: in a bit],False, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-LOC: in a bit],False, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-LOC: in a bit],False, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: John] [V: works] [ARGM-LOC: on his assignment] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: John] [V: works] [ARGM-LOC: on his assignment] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARG2: at 12],False, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARG2: at 12],False, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARG2: at 12],False, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARG2: at 12],False, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARG2: at 12],False, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARG2: at 12],False, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon in a bit],False, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon in a bit],False, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-LOC: in a bit],False, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-LOC: in a bit],False, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-LOC: in a bit],False, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-LOC: in a bit],False, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-LOC: in a bit],False, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-LOC: in a bit],False, ARGM-TMP
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-LOC: in a bit],False, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: John] [V: works] [ARGM-LOC: on his assignment] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: John] [V: works] [ARGM-LOC: on his assignment] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: John] [V: works] [ARGM-LOC: on his assignment] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARG2: at 12],False, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARG2: at 12],False, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARG2: at 12],False, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARG2: at 12],False, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARG2: at 12],False, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARG2: at 12],False, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARG2: at 12],False, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARG2: at 12],False, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARG2: at 12],False, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon in a bit],False, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: tomorrow morning],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: soon],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: in a while],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: next month],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: at noon],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: in an hour],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: tomorrow],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: next year],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: at 12],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-EXT: in a bit],False, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: tonight],True, ARGM-TMP
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-TMP: at 12],True, ARGM-TMP

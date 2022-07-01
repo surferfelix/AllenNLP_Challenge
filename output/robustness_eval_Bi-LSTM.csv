@@ -1,0 +1,690 @@
+[ARG0: Marshall] [V: kissed] [ARG1: Alex],True, V
+[ARG0: अमर] [V: called] [ARG1: Alex],True, V
+[ARG0: Devi] [V: called] [ARG1: Alex],True, V
+[ARG0: Arjun] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Manisha] [V: called] [ARG1: Alex],True, V
+[ARG0: Mohammed] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Arunima] [V: licked] [ARG1: Alex],True, V
+[ARG0: Ruby] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Salma] [V: licked] [ARG1: Alex],True, V
+[ARG0: Niti] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Diamante] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Dharma] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Manikala] [V: licked] [ARG1: Alex],True, V
+[ARG0: Arjun] [V: licked] [ARG1: Alex],True, V
+[ARG0: Sahana] [V: called] [ARG1: Alex],True, V
+[ARG0: Sabina] [V: called] [ARG1: Alex],True, V
+[ARG0: Rajesh] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Nimesh] [V: called] [ARG1: Alex],True, V
+[ARGM-MNR: Krishna] [V: called] [ARG1: Alex],True, V
+[ARG0: पृथु] [V: called] [ARG1: Alex],True, V
+[ARG0: Jigme] [V: called] [ARG1: Alex],True, V
+[ARG0: Siva] [V: licked] [ARG1: Alex],True, V
+[ARG1: Asha] [V: called] Alex,True, V
+[ARG0: Mausami] [V: licked] [ARG1: Alex],True, V
+[ARG0: Prem] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Gita] [V: licked] [ARG1: Alex],True, V
+[ARG0: Lily] [V: licked] [ARG1: Alex],True, V
+[ARG0: Sudhir] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Shila] [V: licked] [ARG1: Alex],True, V
+[ARG0: सुशील] [V: licked] [ARG1: Alex],True, V
+[ARG0: Devi] [V: called] [ARG1: Mary],True, V
+[ARG0: Balbhadra] [V: called] [ARG1: Mary],True, V
+[ARG0: Sunita] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Aanchal] [V: licked] [ARG1: Mary],True, V
+[ARG0: Khem] [V: licked] [ARG1: Mary],True, V
+[ARG0: Arun] [V: called] [ARG1: Mary],True, V
+[ARG0: Arjun] [V: licked] [ARG1: Mary],True, V
+[ARG0: Asha] [V: called] [ARG1: Mary],True, V
+[ARG0: Tara] [V: called] [ARG1: Mary],True, V
+[ARG0: Sita] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Iman] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Prakash] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Chitra] [V: called] [ARG1: Mary],True, V
+[ARG0: Anil] [V: licked] [ARG1: Mary],True, V
+[ARG0: Buddha] [V: licked] [ARG1: Mary],True, V
+[ARG0: Arjun] [V: called] [ARG1: Mary],True, V
+[ARG0: Agni] [V: licked] [ARG1: Mary],True, V
+[ARG0: Ruby] [V: called] [ARG1: Mary],True, V
+[ARG0: Balram] [V: licked] [ARG1: Mary],True, V
+[ARG0: Tenzin] [V: called] [ARG1: Mary],True, V
+[ARG0: Roman] [V: kissed] [ARG1: Mary],True, V
+[V: देविका] [ARG1: kissed Mary],False, V
+[ARG0: Marshall] [V: licked] [ARG1: Mary],True, V
+[ARG0: Sunita] [V: called] [ARG1: Mary],True, V
+[ARG0: Kazi] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Khadga] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Malvika] [V: called] [ARG1: Mary],True, V
+[ARG0: Diamante] [V: called] [ARG1: Mary],True, V
+[ARG0: Sunita] [V: kissed] [ARG1: Mary],True, V
+[ARG0: पिटर] [V: called] [ARG1: Mary],True, V
+[ARG0: Sahana] [V: called] [ARG1: Alex],True, V
+[ARG0: Suresh] [V: licked] [ARG1: Alex],True, V
+[ARG0: Ruby] [V: licked] [ARG1: Alex],True, V
+[ARG0: Raj] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Praveen] [V: called] [ARG1: Alex],True, V
+[ARG0: गुरूङ] [V: called] [ARG1: Alex],True, V
+[ARG0: Baburam] [V: vexxed] [ARG1: Alex],True, V
+[ARG0: Gokul] [V: vexxed] [ARG1: Alex],True, V
+[ARG0: Gita] [V: vexxed] [ARG1: Alex],True, V
+[ARG0: Malvika] [V: vexxed] [ARG1: Alex],True, V
+Hari [V: kissed] [ARG1: Alex],True, V
+[ARG0: Agni] [V: vexxed] [ARG1: Alex],True, V
+[ARG0: Gokul] [V: licked] [ARG1: Alex],True, V
+[ARG0: Gita] [V: vexxed] [ARG1: Alex],True, V
+[ARG0: पिटर] [V: vexxed] [ARG1: Alex],True, V
+[ARG0: Romy] [V: licked] [ARG1: Alex],True, V
+[ARG0: Sanchita] [V: vexxed] [ARG1: Alex],True, V
+[ARG0: Marshall] [V: vexxed] [ARG1: Alex],True, V
+[ARG0: Balbhadra] [V: called] [ARG1: Alex],True, V
+[ARG0: Ruby] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Sita] [V: vexxed] [ARG1: Alex],True, V
+[ARG0: Chandra] [V: called] [ARG1: Alex],True, V
+[ARG0: अनुराधा] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Anil] [V: vexxed] [ARG1: Alex],True, V
+[ARG0: Prabal] [V: licked] [ARG1: Alex],True, V
+[ARGM-LOC: Alisha] [V: vexxed] [ARG1: Alex],True, V
+[ARG0: Raj] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Lakshmiprasad] [V: licked] [ARG1: Alex],True, V
+[ARG0: Narayan] [V: licked] [ARG1: Alex],True, V
+[ARG0: Ruby] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Rekha] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Iman] [V: called] [ARG1: Mary],True, V
+[ARG0: Himani] [V: licked] [ARG1: Mary],True, V
+[V: देविका] [ARG3: licked] [ARG1: Mary],False, V
+[ARG0: सरस्वती] [V: vexxed] [ARG1: Mary],True, V
+[ARG0: Sanchita] [V: licked] [ARG1: Mary],True, V
+[ARG0: Sita] [V: vexxed] [ARG1: Mary],True, V
+[ARG0: अमर] [V: licked] [ARG1: Mary],True, V
+Singh [V: vexxed] [ARG1: Mary],True, V
+[ARG0: Shila] [V: vexxed] [ARG1: Mary],True, V
+[ARG0: Buddha] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Sudhir] [V: vexxed] [ARG1: Mary],True, V
+[ARG0: Indira] [V: called] [ARG1: Mary],True, V
+[ARG0: Priyanka] [V: called] [ARG1: Mary],True, V
+[ARG0: Khadga] [V: vexxed] [ARG1: Mary],True, V
+[ARG0: Amrita] [V: vexxed] [ARG1: Mary],True, V
+[ARG0: Niti] [V: licked] [ARG1: Mary],True, V
+[ARG0: Rupa] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Niti] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Nikhil] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Indra] [V: called] [ARG1: Mary],True, V
+[ARG0: Tenzin] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Ramesh] [V: licked] [ARG1: Mary],True, V
+[ARG0: Kali] [V: vexxed] [ARG1: Mary],True, V
+[ARG0: Chitra] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Devi] [V: called] [ARG1: Mary],True, V
+[ARG0: Dharma] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Manisha] [V: vexxed] [ARG1: Mary],True, V
+[ARG0: Nisha] [V: licked] [ARG1: Mary],True, V
+[ARG0: Radha] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Mahendra] [V: vexxed] [ARG1: Alex],True, V
+[ARG0: Siva] [V: vexxed] [ARG1: Alex],True, V
+[ARG0: Himani] [V: vexxed] [ARG1: Alex],True, V
+[ARG0: Abhishek] [V: vexxed] [ARG1: Alex],True, V
+Indra [V: vexxed] [ARG1: Alex],True, V
+[ARG0: Malvika] [V: licked] [ARG1: Alex],True, V
+[ARG0: Queen] [V: called] Alex,True, V
+[ARG0: Dachhiri] [V: vexxed] [ARG1: Alex],True, V
+[ARG0: Dinesh] [V: vexxed] [ARG1: Alex],True, V
+[ARG0: Kiran] [V: vexxed] [ARG1: Alex],True, V
+[ARG0: Abhishek] [V: vexxed] [ARG1: Alex],True, V
+[ARG0: Sunita] [V: kissed] [ARG1: Alex],True, V
+[ARG0: भानुभक्त] [V: called] [ARG1: Alex],True, V
+[ARG0: सरस्वती] [V: vexxed] [ARG1: Alex],True, V
+[ARG0: Tenzing] [V: licked] [ARG1: Alex],True, V
+[ARG0: Ramesh] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Indra] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Iman] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Malvika] [V: called] [ARG1: Alex],True, V
+[ARG0: Chitra] [V: called] [ARG1: Alex],True, V
+Deepak [V: vexxed] [ARG1: Alex],True, V
+[ARG0: नम्रता] [V: called] [ARG1: Alex],True, V
+[ARG0: Sita] [V: called] [ARG1: Alex],True, V
+[ARG0: Sunil] [V: called] [ARG1: Alex],True, V
+Asha [V: vexxed] [ARG1: Alex],True, V
+[ARG0: Rupa] [V: vexxed] [ARG1: Alex],True, V
+[ARG0: Annapurna] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Sunita] [V: licked] [ARG1: Alex],True, V
+[ARG0: Manikala] [V: licked] [ARG1: Alex],True, V
+[ARG0: Tenzing] [V: called] [ARG1: Alex],True, V
+[ARG0: Arzu] [V: called] [ARG1: Mary],True, V
+[ARG0: Sharad] [V: called] [ARG1: Mary],True, V
+[ARG0: Shiva] [V: vexxed] [ARG1: Mary],True, V
+[ARG0: Arzu] [V: licked] [ARG1: Mary],True, V
+[ARG0: Dachhiri] [V: called] [ARG1: Mary],True, V
+[ARG0: Bam] [V: called] [ARG1: Mary],True, V
+[ARG0: गुरूङ] [V: vexxed] [ARG1: Mary],True, V
+[ARG0: Siva] [V: called] [ARG1: Mary],True, V
+[ARG0: Anil] [V: kissed] [ARG1: Mary],True, V
+[ARG0: पृथु] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Arzu] [V: licked] [ARG1: Mary],True, V
+[ARG0: Anita] [V: vexxed] [ARG1: Mary],True, V
+[ARG0: Prem] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Pradip] [V: called] [ARG1: Mary],True, V
+[ARG0: Malina] [V: vexxed] [ARG1: Mary],True, V
+[ARG0: Suresh] [V: vexxed] [ARG1: Mary],True, V
+[ARG0: Shiva] [V: licked] [ARG1: Mary],True, V
+[ARG0: Buddha] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Siva] [V: vexxed] [ARG1: Mary],True, V
+[ARG0: Deepika] [V: vexxed] [ARG1: Mary],True, V
+[ARG0: Dan] [V: called] [ARG1: Mary],True, V
+[ARG0: Nikhil] [V: called] [ARG1: Mary],True, V
+[ARG0: Rekha] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Nisha] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Aishwarya] [V: vexxed] [ARG1: Mary],True, V
+[ARG0: Rajesh] [V: licked] [ARG1: Mary],True, V
+[ARG0: Lily] [V: called] [ARG1: Mary],True, V
+[ARG0: Dachhiri] [V: vexxed] [ARG1: Mary],True, V
+[ARG0: Mausami] [V: licked] [ARG1: Mary],True, V
+[ARG0: अमर] [V: licked] [ARG1: Mary],True, V
+[ARG0: Niti] [V: called] [ARG1: Alex],True, V
+[ARG0: पिटर] [V: licked] [ARG1: Alex],True, V
+[ARG0: Devi] [V: licked] [ARG1: Alex],True, V
+[ARG0: Sudhir] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Prabal] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Shila] [V: called] [ARG1: Alex],True, V
+[ARG0: Amber] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Chandra] [V: licked] [ARG1: Alex],True, V
+[ARG0: Lily] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Mehboob] [V: licked] [ARG1: Alex],True, V
+[ARG0: Arzu] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Lily] [V: vexxed] [ARG1: Alex],True, V
+[ARG0: Sofia] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Sabina] [V: licked] [ARG1: Alex],True, V
+[ARG0: Tara] [V: called] [ARG1: Alex],True, V
+[ARG0: Prem] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Sharad] [V: vexxed] [ARG1: Alex],True, V
+[ARG0: Binod] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Shanti] [V: called] [ARG1: Alex],True, V
+[ARG0: Agni] [V: licked] [ARG1: Alex],True, V
+[ARG0: Francis] [V: licked] [ARG1: Alex],True, V
+[ARG0: Malina] [V: called] [ARG1: Alex],True, V
+[ARG0: Romy] [V: vexxed] [ARG1: Alex],True, V
+[ARG0: Arzu] [V: kissed] [ARG1: Alex],True, V
+[ARG0: सुशील] [V: called] [ARG1: Alex],True, V
+[ARG0: Nisha] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Kamal] [V: vexxed] [ARG1: Alex],True, V
+[ARG0: Mausami] [V: vexxed] [ARG1: Alex],True, V
+[ARG0: Gokul] [V: licked] [ARG1: Alex],True, V
+[ARG0: Francis] [V: licked] [ARG1: Alex],True, V
+[ARG0: Nisha] [V: licked] [ARG1: Mary],True, V
+[ARG0: Uday] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Alisha] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Gita] [V: vexxed] [ARG1: Mary],True, V
+[ARG0: Anita] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Sita] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Chitra] [V: licked] [ARG1: Mary],True, V
+[ARG0: Ani] [V: vexxed] [ARG1: Mary],True, V
+[ARG0: Shankar] [V: called] [ARG1: Mary],True, V
+[ARG0: Mira] [V: licked] [ARG1: Mary],True, V
+[ARG0: Sita] [V: vexxed] [ARG1: Mary],True, V
+[ARG0: गुरूङ] [V: vexxed] [ARG1: Mary],True, V
+[ARG0: Queen] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Manisha] [V: called] [ARG1: Mary],True, V
+[ARG0: Mehboob] [V: licked] [ARG1: Mary],True, V
+[ARG0: Shila] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Marshall] [V: licked] [ARG1: Mary],True, V
+[ARG0: Sunita] [V: kissed] [ARG1: Mary],True, V
+Ashok [V: vexxed] [ARG1: Mary],True, V
+[ARG0: Deepak] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Tenzing] [V: called] [ARG1: Mary],True, V
+[ARG0: Sarita] [V: vexxed] [ARG1: Mary],True, V
+[ARG0: Prakash] [V: licked] [ARG1: Mary],True, V
+[ARG0: Dharma] [V: called] [ARG1: Mary],True, V
+[ARG0: Mehboob] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Priyanka] [V: called] [ARG1: Mary],True, V
+[ARG0: Prabal] [V: called] [ARG1: Mary],True, V
+[ARG0: गणेशः] [V: called] [ARG1: Mary],True, V
+[ARG0: Ram] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Francis] [V: called] [ARG1: Mary],True, V
+Upendra [V: was] kissed by Alice,False, V
+Uma [V: was] kissed by Alice,False, V
+[ARG1: Mehboob] [V: was] [ARG2: vexxed by Alice],False, V
+Shanti [V: was] licked by Alice,False, V
+Balram [V: was] kissed by Alice,False, V
+[ARG1: Krishna] [V: was] [ARG2: vexxed by Alice],False, V
+कोमल [V: was] licked by Alice,False, V
+Sharad [V: was] called by Alice,False, V
+Sarita [V: was] kissed by Alice,False, V
+[ARG1: Prem] [V: was] [ARG2: vexxed by Alice],False, V
+Mahendra [V: was] licked by Alice,False, V
+[ARG1: सुशील] [V: was] [ARG2: vexxed by Alice],False, V
+[ARG1: Keshav] [V: was] [ARG2: vexxed by Alice],False, V
+[ARG1: Sara] [V: was] [ARG2: vexxed by Alice],False, V
+[ARG1: Shiva] [V: was] [ARG2: vexxed by Alice],False, V
+[ARG1: Prakash] [V: was] [ARG2: vexxed by Alice],False, V
+Mahesh [V: was] kissed by Alice,False, V
+Rishi [V: was] called by Alice,False, V
+Jigme [V: was] licked by Alice,False, V
+Shankar [V: was] called by Alice,False, V
+[ARG1: Arun] [V: was] [ARG2: vexxed by Alice],False, V
+Romy [V: was] called by Alice,False, V
+[ARG1: Sanchita] [V: was] [ARG2: vexxed by Alice],False, V
+Govinda [V: was] licked by Alice,False, V
+Malvika [V: was] kissed by Alice,False, V
+Khem [V: was] called by Alice,False, V
+[ARG1: नम्रता] [V: was] [ARG2: vexxed by Alice],False, V
+Pushpa [V: was] called by Alice,False, V
+गणेशः [V: was] kissed by Alice,False, V
+Malvika [V: was] called by Alice,False, V
+Anil [V: was] called by Alice,False, V
+Buddha [V: was] called by Alice,False, V
+Shanti [V: was] called by Alice,False, V
+[ARG1: Tsering] [V: was] [ARG2: vexxed by Alice],False, V
+गुरूङ [V: was] called by Alice,False, V
+अनुराधा [V: was] kissed by Alice,False, V
+[ARG1: Indra] [V: was] [ARG2: vexxed by Alice],False, V
+[ARG1: Ramesh] [V: was] [ARG2: vexxed by Alice],False, V
+Malvika [V: was] called by Alice,False, V
+[ARG1: Gokul] [V: was] [ARG2: vexxed by Alice],False, V
+Nikhil [V: was] licked by Alice,False, V
+Keshav [V: was] licked by Alice,False, V
+[ARG1: Deepak] [V: was] [ARG2: vexxed by Alice],False, V
+[ARG1: Salma] [V: was] [ARG2: vexxed by Alice],False, V
+Manikala [V: was] kissed by Alice,False, V
+[ARG1: Baburam] [V: was] [ARG2: vexxed by Alice],False, V
+[ARG1: Devi] [V: was] [ARG2: vexxed by Alice],False, V
+Sara [V: was] kissed by Alice,False, V
+[ARG1: Tsering] [V: was] [ARG2: vexxed by Alice],False, V
+Ramesh [V: was] licked by Alice,False, V
+Agni [V: was] called by Alice,False, V
+Sunita [V: was] kissed by Alice,False, V
+Mausami [V: was] licked by Alice,False, V
+Lakshmiprasad [V: was] kissed by Alice,False, V
+[ARG1: Himani] [V: was] [ARG2: vexxed by Alice],False, V
+Deva [V: was] called by Alice,False, V
+Rupa [V: was] licked by Alice,False, V
+[ARG1: Mina] [V: was] [ARG2: vexxed by Alice],False, V
+Tara [V: was] kissed by Alice,False, V
+Kailash [V: was] licked by Alice,False, V
+भानुभक्त [V: was] called by Alice,False, V
+[ARG1: Lily] [V: was] [ARG2: vexxed by Alice],False, V
+[ARG1: Sarita] [V: was] [ARG2: vexxed by Alice],False, V
+[ARG1: Himani] [V: was] [ARG2: vexxed by Alice],False, V
+Himani [V: was] licked by Alice,False, V
+Arun [V: was] licked by Alice,False, V
+Amrita [V: was] licked by Alice,False, V
+Salma [V: was] called by Alice,False, V
+Suresh [V: was] licked by Alice,False, V
+[ARG1: Francis] [V: was] [ARG2: vexxed by Alice],False, V
+[ARG1: Sujata] [V: was] [ARG2: vexxed by Alice],False, V
+[ARG1: Anthony] [V: was] [ARG2: vexxed by Alice],False, V
+Rishi [V: was] licked by Alice,False, V
+Arunima [V: was] kissed by Alice,False, V
+[ARG1: Mohammad] [V: was] [ARG2: vexxed by Alice],False, V
+Sofia [V: was] licked by Alice,False, V
+[ARG1: Lal] [V: was] [ARG2: vexxed by Alice],False, V
+Anu [V: was] kissed by Alice,False, V
+[ARG1: Narendra] [V: was] [ARG2: vexxed by Alice],False, V
+Gokul [V: was] called by Alice,False, V
+Sunita [V: was] called by Alice,False, V
+Nisha [V: was] licked by Alice,False, V
+[ARG1: Agni] [V: was] [ARG2: vexxed by Alice],False, V
+Iman [V: was] kissed by Alice,False, V
+Shyam [V: was] called by Alice,False, V
+Pradip [V: was] called by Alice,False, V
+Chandra [V: was] kissed by Alice,False, V
+Sitaram [V: was] called by Alice,False, V
+Balbhadra [V: was] kissed by Alice,False, V
+Kiran [V: was] licked by Alice,False, V
+[ARG1: Shila] [V: was] [ARG2: vexxed by Alice],False, V
+Salma [V: was] called by Alice,False, V
+[ARG1: Mahendra] [V: was] [ARG2: vexxed by Alice],False, V
+Suresh [V: was] kissed by Alice,False, V
+Sita [V: was] called by Alice,False, V
+Ram [V: was] licked by Alice,False, V
+Malina [V: was] kissed by Alice,False, V
+Nikhil [V: was] called by Alice,False, V
+Rupa [V: was] licked by Alice,False, V
+Radha [V: was] kissed by Alice,False, V
+Iman [V: was] called by Alice,False, V
+Binod [V: was] called by Alice,False, V
+सुशील [V: was] kissed by Alice,False, V
+Dan [V: was] licked by Alice,False, V
+Abhishek [V: was] licked by Alice,False, V
+[ARG1: Narayan] [V: was] [ARG2: vexxed by Alice],False, V
+Chitra [V: was] licked by Alice,False, V
+Uday [V: was] licked by Alice,False, V
+[ARG1: Dharma] [V: was] [ARG2: vexxed by Alice],False, V
+Anil [V: was] licked by Alice,False, V
+Romy [V: was] called by Alice,False, V
+Arun [V: was] kissed by Alice,False, V
+[ARG1: Himani] [V: was] [ARG2: vexxed by Alice],False, V
+Baran [V: was] licked by Alice,False, V
+Alisha [V: was] kissed by Alice,False, V
+Uma [V: was] licked by Alice,False, V
+[ARG1: Prem] [V: was] [ARG2: vexxed by Alice],False, V
+Amrita [V: was] licked by Alice,False, V
+Chitra [V: was] kissed by Alice,False, V
+[ARG1: Geeta] [V: was] [ARG2: vexxed by Alice],False, V
+[ARG1: Lal] [V: was] [ARG2: vexxed by Alice],False, V
+Indira [V: was] called by Alice,False, V
+Kamal [V: was] kissed by Alice,False, V
+[ARG1: Mohammed] [V: was] [ARG2: vexxed by Alice],False, V
+Radha [V: was] licked by Alice,False, V
+अनुराधा [V: was] kissed by Alice,False, V
+Nikhil [V: was] kissed by Alice,False, V
+Kailash [V: was] called by Alice,False, V
+Buddha [V: was] licked by Alice,False, V
+पृथु [V: was] licked by Alice,False, V
+Lama [V: was] kissed by Alice,False, V
+[ARG1: Arjun] [V: was] [ARG2: vexxed by Alice],False, V
+Sara [V: was] kissed by Alice,False, V
+[ARG1: Pushpa] [V: was] [ARG2: vexxed by Alice],False, V
+Binod [V: was] licked by Alice,False, V
+Sofia [V: was] called by Alice,False, V
+Sharad [V: was] called by Alice,False, V
+Keshav [V: was] kissed by Alice,False, V
+[ARG1: Sunita] [V: was] [ARG2: vexxed by Alice],False, V
+Salma [V: was] kissed by Alice,False, V
+[ARG1: Kali] [V: was] [ARG2: vexxed by Alice],False, V
+Salma [V: was] called by Alice,False, V
+[ARG1: नम्रता] [V: was] [ARG2: vexxed by Alice],False, V
+Shyam [V: was] kissed by Alice,False, V
+[ARG1: Sara] [V: was] [ARG2: vexxed by Alice],False, V
+[ARG1: अनुराधा] [V: was] [ARG2: vexxed by Alice],False, V
+Mohammed [V: was] kissed by Alice,False, V
+Shankar [V: was] called by Alice,False, V
+अमर [V: was] called by Alice,False, V
+Sudhir [V: was] called by Alice,False, V
+Balbhadra [V: was] called by Alice,True, V
+Buddha [V: was] called by Alice,True, V
+Anthony [V: was] licked by Alice,True, V
+Kumari [V: was] called by Alice,True, V
+Bahadur [V: was] kissed by Alice,True, V
+Mohammad [V: was] licked by Alice,True, V
+Manikala [V: was] called by Alice,True, V
+[ARG1: Arzu] [V: was] [ARG2: vexxed by Alice],True, V
+Agni [V: was] called by Alice,True, V
+[ARG1: Sanchita] [V: was] [ARG2: vexxed by Alice],True, V
+Singh [V: was] licked by Alice,True, V
+Uma [V: was] licked by Alice,True, V
+Sitaram [V: was] called by Alice,True, V
+Shiva [V: was] called by Alice,True, V
+[ARG1: Sharad] [V: was] [ARG2: vexxed by Alice],True, V
+Kedar [V: was] kissed by Alice,True, V
+[ARG1: Balbhadra] [V: was] [ARG2: vexxed by Alice],True, V
+Francis [V: was] called by Alice,True, V
+Lakshmiprasad [V: was] licked by Alice,True, V
+Anu [V: was] called by Alice,True, V
+Ramesh [V: was] licked by Alice,True, V
+[ARG1: Salma] [V: was] [ARG2: vexxed by Alice],True, V
+Mithila [V: was] called by Alice,True, V
+[ARG1: Deepika] [V: was] [ARG2: vexxed by Alice],True, V
+[ARG1: Roman] [V: was] [ARG2: vexxed by Alice],True, V
+Ramesh [V: was] licked by Alice,True, V
+Kamal [V: was] kissed by Alice,True, V
+[ARG1: Kali] [V: was] [ARG2: vexxed by Alice],True, V
+[ARG1: Prakash] [V: was] [ARG2: vexxed by Alice],True, V
+Kali [V: was] kissed by Alice,True, V
+Queen [V: was] called by Alice,True, V
+[ARG1: Rishi] [V: was] [ARG2: vexxed by Alice],True, V
+[ARG1: Mehboob] [V: was] [ARG2: vexxed by Alice],True, V
+Prabal [V: was] called by Alice,True, V
+Kedar [V: was] called by Alice,True, V
+[ARG1: Ram] [V: was] [ARG2: vexxed by Alice],True, V
+Tenzin [V: was] called by Alice,True, V
+Bam [V: was] kissed by Alice,True, V
+देविका [V: was] kissed by Alice,True, V
+Kedar [V: was] kissed by Alice,True, V
+Jigme [V: was] called by Alice,True, V
+Hari [V: was] licked by Alice,True, V
+Siva [V: was] called by Alice,True, V
+Sushma [V: was] called by Alice,True, V
+Kumari [V: was] called by Alice,True, V
+Jigme [V: was] called by Alice,True, V
+Kedar [V: was] called by Alice,True, V
+[ARG1: Alisha] [V: was] [ARG2: vexxed by Alice],True, V
+Francis [V: was] licked by Alice,True, V
+Marshall [V: was] kissed by Alice,True, V
+Singh [V: was] licked by Alice,True, V
+[ARG1: Chandra] [V: was] [ARG2: vexxed by Alice],True, V
+Shanti [V: was] licked by Alice,True, V
+[ARG1: Mausami] [V: was] [ARG2: vexxed by Alice],True, V
+[ARG1: Deva] [V: was] [ARG2: vexxed by Alice],True, V
+Shreya [V: was] kissed by Alice,True, V
+Sushma [V: was] kissed by Alice,True, V
+Arzu [V: was] licked by Alice,True, V
+Praveen [V: was] called by Alice,True, V
+Ranodip [V: was] kissed by Alice,True, V
+Baran [V: was] called by Alice,True, V
+Lama [V: was] called by Alice,True, V
+[ARG1: Hari] [V: was] [ARG2: vexxed by Alice],True, V
+Lakshmiprasad [V: was] kissed by Alice,True, V
+Mithila [V: was] kissed by Alice,True, V
+Khem [V: was] kissed by Alice,True, V
+Mahendra [V: was] licked by Alice,True, V
+Mira [V: was] kissed by Alice,True, V
+Iman [V: was] licked by Alice,True, V
+Narayan [V: was] kissed by Alice,True, V
+Shyam [V: was] called by Alice,True, V
+Kali [V: was] called by Alice,True, V
+Dina [V: was] called by Alice,True, V
+[ARG1: Uma] [V: was] [ARG2: vexxed by Alice],True, V
+Francis [V: was] kissed by Alice,True, V
+Sushma [V: was] called by Alice,True, V
+Dachhiri [V: was] licked by Alice,True, V
+सुशील [V: was] kissed by Alice,True, V
+Balbhadra [V: was] licked by Alice,True, V
+Prabal [V: was] kissed by Alice,True, V
+Amber [V: was] called by Alice,True, V
+[ARG1: Mira] [V: was] [ARG2: vexxed by Alice],True, V
+Sofia [V: was] licked by Alice,True, V
+Manikala [V: was] licked by Alice,True, V
+Sunil [V: was] kissed by Alice,True, V
+Mahesh [V: was] kissed by Alice,True, V
+Sujata [V: was] kissed by Alice,True, V
+Manisha [V: was] called by Alice,True, V
+Niti [V: was] called by Alice,True, V
+Dina [V: was] called by Alice,True, V
+[ARG0: Sahana] [V: vexxed] [ARG1: Alex],True, V
+[ARG0: Baran] [V: left] [ARG1: Alex],True, V
+[ARG0: Kamal] [V: licked] [ARG1: Alex],True, V
+[ARG0: Tara] [V: left] [ARG1: Alex],True, V
+[ARG0: Kedar] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Siva] [V: vexxed] [ARG1: Alex],True, V
+[ARGM-MNR: Hari] [V: left] [ARG1: Alex],True, V
+[ARG0: Arzu] [V: left] [ARG1: Alex],True, V
+[ARG0: Anil] [V: called] [ARG1: Alex],True, V
+[ARG0: Baran] [V: licked] [ARG1: Alex],True, V
+[ARG0: Diamante] [V: licked] [ARG1: Alex],True, V
+[ARG0: Tenzin] [V: licked] [ARG1: Alex],True, V
+[ARG0: Arjun] [V: called] [ARG1: Alex],True, V
+[ARG0: Lily] [V: called] [ARG1: Alex],True, V
+[ARG0: Lakshmiprasad] [V: left] [ARG1: Alex],True, V
+[ARG0: गणेशः] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Arun] [V: licked] [ARG1: Alex],True, V
+[ARG0: Roman] [V: left] [ARG1: Alex],True, V
+[ARG0: Balram] [V: licked] [ARG1: Alex],True, V
+[ARG0: सरस्वती] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Baran] [V: left] [ARG1: Alex],True, V
+[ARG0: Nikhil] [V: left] [ARG1: Alex],True, V
+[ARG0: Prakash] [V: called] [ARG1: Alex],True, V
+[ARG0: Tara] [V: vexxed] [ARG1: Alex],True, V
+[ARG0: Namrata] [V: licked] [ARG1: Alex],True, V
+[ARG0: Alisha] [V: licked] [ARG1: Alex],True, V
+[ARG0: Buddha] [V: vexxed] [ARG1: Alex],True, V
+Deepak [V: vexxed] [ARG1: Alex],True, V
+[ARG0: Praveen] [V: vexxed] [ARG1: Alex],True, V
+[ARG0: Narayan] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Mithila] [V: left] [ARG1: Mary],True, V
+[ARG0: Sharad] [V: called] [ARG1: Mary],True, V
+[ARG0: Kazi] [V: licked] [ARG1: Mary],True, V
+[ARG0: Narendra] [V: vexxed] [ARG1: Mary],True, V
+[ARG0: Suresh] [V: vexxed] [ARG1: Mary],True, V
+[ARG0: Ranodip] [V: vexxed] [ARG1: Mary],True, V
+[ARG0: Mohammed] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Khem] [V: called] [ARG1: Mary],True, V
+[ARG0: Nikhil] [V: licked] [ARG1: Mary],True, V
+[ARG0: Ashok] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Govinda] [V: vexxed] [ARG1: Mary],True, V
+[ARG0: Narendra] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Khem] [V: left] [ARG1: Mary],True, V
+[ARG0: Vijay] [V: left] [ARG1: Mary],True, V
+[ARG0: Krishna] [V: left] [ARG1: Mary],True, V
+[ARG0: Lama] [V: left] [ARG1: Mary],True, V
+[ARG0: Diamante] [V: left] [ARG1: Mary],True, V
+[ARG0: Ramesh] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Chandra] [V: left] [ARG1: Mary],True, V
+[ARG0: Raj] [V: vexxed] [ARG1: Mary],True, V
+[ARG0: Ranodip] [V: called] [ARG1: Mary],True, V
+[ARG0: Arunima] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Kumari] [V: licked] [ARG1: Mary],True, V
+[ARG0: Rupa] [V: licked] [ARG1: Mary],True, V
+[ARG0: पृथु] [V: vexxed] [ARG1: Mary],True, V
+[ARG0: Kiran] [V: licked] [ARG1: Mary],True, V
+[ARG0: Prem] [V: vexxed] [ARG1: Mary],True, V
+[ARG0: सुशील] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Raju] [V: called] [ARG1: Mary],True, V
+[ARG0: Nimesh] [V: called] [ARG1: Mary],True, V
+Rishi [V: was] used by Alice,True, V
+Deva [V: was] licked by Alice,True, V
+Amber [V: was] licked by Alice,True, V
+Asha [V: was] kissed by Alice,True, V
+Shila [V: was] used by Alice,True, V
+Anu [V: was] used by Alice,True, V
+Upendra [V: was] licked by Alice,True, V
+Sharad [V: was] licked by Alice,True, V
+Radha [V: was] licked by Alice,True, V
+[ARG1: Praveen] [V: was] [ARG2: vexxed by Alice],True, V
+Rekha [V: was] called by Alice,True, V
+Chandra [V: was] kissed by Alice,True, V
+Francis [V: was] licked by Alice,True, V
+Jigme [V: was] called by Alice,True, V
+Tsering [V: was] kissed by Alice,True, V
+Raj [V: was] used by Alice,True, V
+नम्रता [V: was] kissed by Alice,True, V
+[ARG1: Chitra] [V: was] [ARG2: vexxed by Alice],True, V
+Dina [V: was] licked by Alice,True, V
+[ARG1: Arjun] [V: was] [ARG2: vexxed by Alice],True, V
+[ARG1: Kailash] [V: was] [ARG2: vexxed by Alice],True, V
+पिटर [V: was] kissed by Alice,True, V
+Aishwarya [V: was] licked by Alice,True, V
+Tara [V: was] called by Alice,True, V
+Dan [V: was] used by Alice,True, V
+Radha [V: was] kissed by Alice,True, V
+Gokul [V: was] used by Alice,True, V
+Hari [V: was] used by Alice,True, V
+Raj [V: was] used by Alice,True, V
+Mahesh [V: was] used by Alice,True, V
+[ARG1: पिटर] [V: was] [ARG2: vexxed by Alex],True, V
+Shanti [V: was] licked by Alex,True, V
+Santosh [V: was] kissed by Alex,True, V
+Annapurna [V: was] called by Alex,True, V
+भानुभक्त [V: was] used by Alex,True, V
+Lila [V: was] kissed by Alex,True, V
+Karna [V: was] called by Alex,True, V
+Govinda [V: was] called by Alex,True, V
+Anthony [V: was] licked by Alex,True, V
+Siva [V: was] licked by Alex,True, V
+Baran [V: was] called by Alex,True, V
+Tara [V: was] called by Alex,True, V
+Mausami [V: was] used by Alex,True, V
+Kali [V: was] used by Alex,True, V
+[ARG1: Anu] [V: was] [ARG2: vexxed by Alex],True, V
+Nisha [V: was] licked by Alex,True, V
+Mira [V: was] licked by Alex,True, V
+Sharad [V: was] kissed by Alex,True, V
+Sitaram [V: was] called by Alex,True, V
+Iman [V: was] licked by Alex,True, V
+Sushma [V: was] licked by Alex,True, V
+Devi [V: was] used by Alex,True, V
+Pushpa [V: was] used by Alex,True, V
+Arzu [V: was] licked by Alex,True, V
+Nikhil [V: was] licked by Alex,True, V
+Iman [V: was] called by Alex,True, V
+Anil [V: was] called by Alex,True, V
+Rekha [V: was] used by Alex,True, V
+Chandra [V: was] called by Alex,True, V
+[ARG1: Sushma] [V: was] [ARG2: vexxed by Alex],True, V
+Aishwarya [V: was] licked by Mary,True, V
+गणेशः [V: was] kissed by Mary,True, V
+[ARG1: Ranodip] [V: was] [ARG2: vexxed by Mary],True, V
+Baburam [V: was] called by Mary,True, V
+Prem [V: was] licked by Mary,True, V
+Sushma [V: was] licked by Mary,True, V
+Aishwarya [V: was] licked by Mary,True, V
+[ARG1: Kazi] [V: was] [ARG2: vexxed by Mary],True, V
+Uma [V: was] used by Mary,True, V
+[ARG1: Diamante] [V: was] [ARG2: vexxed by Mary],True, V
+भानुभक्त [V: was] called by Mary,True, V
+सिंह [V: was] kissed by Mary,True, V
+Upendra [V: was] used by Mary,True, V
+Anita [V: was] kissed by Mary,True, V
+Aditi [V: was] used by Mary,True, V
+Mithila [V: was] licked by Mary,True, V
+Baran [V: was] called by Mary,True, V
+Uma [V: was] kissed by Mary,True, V
+गणेशः [V: was] kissed by Mary,True, V
+Kazi [V: was] used by Mary,True, V
+Chandra [V: was] called by Mary,True, V
+[ARG1: Manisha] [V: was] [ARG2: vexxed by Mary],True, V
+Rupa [V: was] licked by Mary,True, V
+[ARG1: Uday] [V: was] [ARG2: vexxed by Mary],True, V
+[ARG1: Baburam] [V: was] [ARG2: vexxed by Mary],True, V
+Balram [V: was] called by Mary,True, V
+Sunita [V: was] kissed by Mary,True, V
+Sahana [V: was] used by Mary,True, V
+Praveen [V: was] licked by Mary,True, V
+Queen [V: was] used by Mary,True, V
+[ARG0: Mohammed] [V: left] [ARG1: Alex],True, V
+[ARGM-DIS: Dan] [V: licked] [ARG1: Alex],True, V
+[ARG0: Bam] [V: left] [ARG1: Alex],True, V
+[ARG0: Radha] [V: left] [ARG1: Alex],True, V
+[ARG0: Ashok] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Rajesh] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Sushma] [V: left] [ARG1: Alex],True, V
+[ARG0: Aanchal] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Queen] [V: left] [ARG1: Alex],True, V
+[ARG0: Shila] [V: left] [ARG1: Alex],True, V
+[ARG0: Uma] [V: left] [ARG1: Alex],True, V
+[ARG0: Romy] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Chandra] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Pushpa] [V: licked] [ARG1: Alex],True, V
+[ARG0: Himani] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Singh] [V: licked] [ARG1: Alex],True, V
+[ARG0: Dachhiri] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Deva] [V: vexxed] [ARG1: Alex],True, V
+[ARG0: Rita] [V: left] [ARG1: Alex],True, V
+[ARG0: गुरूङ] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Narayan] [V: called] Alex,True, V
+[ARG0: Diamante] [V: left] [ARG1: Alex],True, V
+[ARG0: Tara] [V: vexxed] [ARG1: Alex],True, V
+[ARG0: Sujata] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Chitra] [V: called] [ARG1: Alex],True, V
+[ARG0: Lal] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Salma] [V: vexxed] [ARG1: Alex],True, V
+[ARG0: Mira] [V: licked] [ARG1: Alex],True, V
+[ARG0: Sanchita] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Lila] [V: kissed] [ARG1: Alex],True, V
+[ARG0: Karna] [V: licked] [ARG1: Mary],True, V
+[ARG0: Deepika] [V: licked] [ARG1: Mary],True, V
+[ARG0: Agni] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Prakash] [V: called] [ARG1: Mary],True, V
+[ARG0: Gita] [V: kissed] [ARG1: Mary],True, V
+[ARG0: सुशील] [V: called] [ARG1: Mary],True, V
+[ARG0: Sara] [V: called] [ARG1: Mary],True, V
+[ARG0: Mehboob] [V: licked] [ARG1: Mary],True, V
+[ARG0: Sofia] [V: licked] [ARG1: Mary],True, V
+[ARG0: Rajesh] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Priyanka] [V: left] [ARG1: Mary],True, V
+[ARG0: Diamante] [V: called] [ARG1: Mary],True, V
+[ARG0: Malina] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Kailash] [V: called] [ARG1: Mary],True, V
+[ARG0: Deva] [V: licked] [ARG1: Mary],True, V
+[ARG0: Arjun] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Geeta] [V: called] [ARG1: Mary],True, V
+[ARG0: Lal] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Deepak] [V: left] [ARG1: Mary],True, V
+[ARG0: Lily] [V: left] [ARG1: Mary],True, V
+[ARG0: Tenzing] [V: kissed] [ARG1: Mary],True, V
+[ARG0: Kali] [V: vexxed] [ARG1: Mary],True, V
+[ARG0: Upendra] [V: left] [ARG1: Mary],True, V
+[ARG0: Mohammad] [V: called] [ARG1: Mary],True, V
+[ARG0: Mausami] [V: called] [ARG1: Mary],True, V
+[ARG0: Shyam] [V: licked] [ARG1: Mary],True, V
+[ARG0: Sushma] [V: licked] [ARG1: Mary],True, V
+[ARG0: Malvika] [V: licked] [ARG1: Mary],True, V
+[ARG0: Prem] [V: licked] [ARG1: Mary],True, V
+[ARG0: Diamante] [V: licked] [ARG1: Mary],True, V

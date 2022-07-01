@@ -2,3 +2,3655 @@ GOLD:  ARG1
 Test cases:      30
 Fails (rate):    0 (0.0%)
 None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    13 (43.3%)
+
+Example fails:
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a plate]
+----
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a pinecone]
+----
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a pinecone]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    25 (83.3%)
+
+Example fails:
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon]
+----
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a knife]
+----
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a pinecone]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    17 (56.7%)
+
+Example fails:
+[ARG1: the toothbrush] [V: threw] up [ARG2: on the floor]
+----
+[ARG1: the glasses] [V: threw] up [ARGM-LOC: on the floor]
+----
+[ARG1: the glasses] [V: threw] up [ARGM-LOC: on the floor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    11 (36.7%)
+
+Example fails:
+[ARG1: the toothbrush] [V: called] [ARG2: the police]
+----
+[ARG1: the toothbrush] [V: called] [ARG2: the police]
+----
+[ARG1: the carrot] [V: called] [ARG2: the police]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    2 (6.7%)
+
+Example fails:
+[ARG1: the glasses] [V: knocked] [ARGM-LOC: on the door]
+----
+[ARG2: the toothbrush] [V: knocked] [ARG1: on the door]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    1 (3.3%)
+
+Example fails:
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    10 (33.3%)
+
+Example fails:
+[ARG1: A ship] [V: went] [ARG4: to the doctor]
+----
+[ARG1: the carrot] [V: went] [ARG4: to the doctor]
+----
+[ARG1: A ship] [V: went] [ARG4: to the doctor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG2
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    22 (73.3%)
+
+Example fails:
+[ARG1: the carrot] [V: threw] up [ARGM-LOC: on the floor]
+----
+[ARG1: A ship] [V: threw] up [ARGM-LOC: on the floor]
+----
+[ARG1: a rocket] [V: threw] up [ARGM-LOC: on the floor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    10 (33.3%)
+
+Example fails:
+[ARG1: a rocket] [V: called] [ARG2: the police]
+----
+[ARG1: a rocket] [V: called] [ARG2: the police]
+----
+[ARG1: the glasses] [V: called] [ARG2: the police]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    2 (6.7%)
+
+Example fails:
+[ARG2: the toothbrush] [V: knocked] [ARG1: on the door]
+----
+[ARG1: the glasses] [V: knocked] [ARGM-LOC: on the door]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    1 (3.3%)
+
+Example fails:
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    12 (40.0%)
+
+Example fails:
+[ARG1: A ship] [V: went] [ARG4: to the doctor]
+----
+[ARG1: A ship] [V: went] [ARG4: to the doctor]
+----
+[ARG1: A ship] [V: went] [ARG4: to the doctor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    22 (73.3%)
+
+Example fails:
+[ARG1: africa] [V: threw] up [ARGM-LOC: on the floor]
+----
+[ARG1: Mary] [V: threw] up [ARGM-LOC: on the floor]
+----
+[ARG1: africa] [V: threw] up [ARGM-LOC: on the floor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    12 (40.0%)
+
+Example fails:
+[ARG1: the carrot] [V: called] [ARG2: the police]
+----
+[ARG1: the carrot] [V: called] [ARG2: the police]
+----
+[ARG1: the carrot] [V: called] [ARG2: the police]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    7 (23.3%)
+
+Example fails:
+[ARG1: the glasses] [V: knocked] [ARGM-LOC: on the door]
+----
+[ARG1: the glasses] [V: knocked] [ARGM-LOC: on the door]
+----
+[ARG1: the glasses] [V: knocked] [ARGM-LOC: on the door]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    2 (6.7%)
+
+Example fails:
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    10 (33.3%)
+
+Example fails:
+[ARG1: the carrot] [V: went] [ARG4: to the doctor]
+----
+[ARG1: the carrot] [V: went] [ARG4: to the doctor]
+----
+[ARG1: A ship] [V: went] [ARG4: to the doctor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: The a spork] [V: cut] [ARG1: the child]
+----
+[ARG0: The cutlery] [V: cut] [ARG1: the child]
+----
+[ARG0: The a machete] [V: cut] [ARG1: the child]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    17 (56.7%)
+
+Example fails:
+[ARG1: senegal] [V: threw] up [ARGM-LOC: on the floor]
+----
+[ARG1: the toothbrush] [V: threw] up [ARG2: on the floor]
+----
+[ARG1: senegal] [V: threw] up [ARGM-LOC: on the floor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    10 (33.3%)
+
+Example fails:
+[ARG1: a rocket] [V: called] [ARG2: the police]
+----
+[ARG1: a rocket] [V: called] [ARG2: the police]
+----
+[ARG1: the toothbrush] [V: called] [ARG2: the police]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    7 (23.3%)
+
+Example fails:
+[ARG2: the toothbrush] [V: knocked] [ARG1: on the door]
+----
+[ARG1: the glasses] [V: knocked] [ARGM-LOC: on the door]
+----
+[ARG1: the glasses] [V: knocked] [ARGM-LOC: on the door]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    2 (6.7%)
+
+Example fails:
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    5 (16.7%)
+
+Example fails:
+[ARG1: A book] [V: went] [ARG4: to the doctor]
+----
+[ARG1: A ship] [V: went] [ARG4: to the doctor]
+----
+[ARG1: A ship] [V: went] [ARG4: to the doctor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: The an axe] [V: cut] [ARG1: the child]
+----
+[ARG0: The a machete] [V: cut] [ARG1: the child]
+----
+[ARG0: The a blade] [V: cut] [ARG1: the child]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    19 (63.3%)
+
+Example fails:
+[ARG1: africa] [V: threw] up [ARGM-LOC: on the floor]
+----
+[ARG1: a rocket] [V: threw] up [ARGM-LOC: on the floor]
+----
+[ARG1: the toothbrush] [V: threw] up [ARG2: on the floor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    9 (30.0%)
+
+Example fails:
+[ARG1: the toothbrush] [V: called] [ARG2: the police]
+----
+[ARG1: the glasses] [V: called] [ARG2: the police]
+----
+[ARG1: a rocket] [V: called] [ARG2: the police]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    2 (6.7%)
+
+Example fails:
+[ARG1: the glasses] [V: knocked] [ARGM-LOC: on the door]
+----
+[ARG1: the glasses] [V: knocked] [ARGM-LOC: on the door]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    2 (6.7%)
+
+Example fails:
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    12 (40.0%)
+
+Example fails:
+[ARG1: the toothbrush] [V: went] [ARG4: to the doctor]
+----
+[ARG1: the toothbrush] [V: went] [ARG4: to the doctor]
+----
+[ARG1: the toothbrush] [V: went] [ARG4: to the doctor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: The a candle] [V: cut] [ARG1: the child]
+----
+[ARG0: The a fork] [V: cut] [ARG1: the child]
+----
+[ARG0: The a candle] [V: cut] [ARG1: the child]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    16 (53.3%)
+
+Example fails:
+[ARG1: A ship] [V: threw] up [ARGM-LOC: on the floor]
+----
+[ARG1: africa] [V: threw] up [ARGM-LOC: on the floor]
+----
+[ARG1: the toothbrush] [V: threw] up [ARG2: on the floor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    3 (10.0%)
+
+Example fails:
+[ARG1: the glasses] [V: called] [ARG2: the police]
+----
+[ARG1: the toothbrush] [V: called] [ARG2: the police]
+----
+[ARG1: a rocket] [V: called] [ARG2: the police]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    8 (26.7%)
+
+Example fails:
+[ARG1: the glasses] [V: knocked] [ARGM-LOC: on the door]
+----
+[ARG2: the toothbrush] [V: knocked] [ARG1: on the door]
+----
+[ARG2: the toothbrush] [V: knocked] [ARG1: on the door]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    2 (6.7%)
+
+Example fails:
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    14 (46.7%)
+
+Example fails:
+[ARG1: the toothbrush] [V: went] [ARG4: to the doctor]
+----
+[ARG1: the carrot] [V: went] [ARG4: to the doctor]
+----
+[ARG1: the toothbrush] [V: went] [ARG4: to the doctor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: The a knife] [V: cut] [ARG1: the child]
+----
+[ARG0: The a plate] [V: cut] [ARG1: the child]
+----
+[ARG0: The a blade] [V: cut] [ARG1: the child]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    23 (76.7%)
+
+Example fails:
+[ARG1: senegal] [V: threw] up [ARGM-LOC: on the floor]
+----
+[ARG1: a rocket] [V: threw] up [ARGM-LOC: on the floor]
+----
+[ARG1: the toothbrush] [V: threw] up [ARG2: on the floor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    10 (33.3%)
+
+Example fails:
+[ARG1: the glasses] [V: called] [ARG2: the police]
+----
+[ARG1: the glasses] [V: called] [ARG2: the police]
+----
+[ARG1: the toothbrush] [V: called] [ARG2: the police]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    9 (30.0%)
+
+Example fails:
+[ARG2: the toothbrush] [V: knocked] [ARG1: on the door]
+----
+[ARG2: the toothbrush] [V: knocked] [ARG1: on the door]
+----
+[ARG1: the glasses] [V: knocked] [ARGM-LOC: on the door]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    3 (10.0%)
+
+Example fails:
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    14 (46.7%)
+
+Example fails:
+[ARG1: A book] [V: went] [ARG4: to the doctor]
+----
+[ARG1: the carrot] [V: went] [ARG4: to the doctor]
+----
+[ARG1: the toothbrush] [V: went] [ARG4: to the doctor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: The cutlery] [V: cut] [ARG1: the child]
+----
+[ARG0: The a candle] [V: cut] [ARG1: the child]
+----
+[ARG0: The a plate] [V: cut] [ARG1: the child]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    21 (70.0%)
+
+Example fails:
+[ARG1: the glasses] [V: threw] up [ARGM-LOC: on the floor]
+----
+[ARG1: the carrot] [V: threw] up [ARGM-LOC: on the floor]
+----
+[ARG1: A ship] [V: threw] up [ARGM-LOC: on the floor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    9 (30.0%)
+
+Example fails:
+[ARG1: a rocket] [V: called] [ARG2: the police]
+----
+[ARG1: the toothbrush] [V: called] [ARG2: the police]
+----
+[ARG1: the glasses] [V: called] [ARG2: the police]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    5 (16.7%)
+
+Example fails:
+[ARG2: the toothbrush] [V: knocked] [ARG1: on the door]
+----
+[ARG1: the glasses] [V: knocked] [ARGM-LOC: on the door]
+----
+[ARG2: the toothbrush] [V: knocked] [ARG1: on the door]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    2 (6.7%)
+
+Example fails:
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    9 (30.0%)
+
+Example fails:
+[ARG1: the carrot] [V: went] [ARG4: to the doctor]
+----
+[ARG1: the toothbrush] [V: went] [ARG4: to the doctor]
+----
+[ARG1: the toothbrush] [V: went] [ARG4: to the doctor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: The a phone] [V: cut] [ARG1: the child]
+----
+[ARG0: The cutlery] [V: cut] [ARG1: the child]
+----
+[ARG0: The a plate] [V: cut] [ARG1: the child]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    19 (63.3%)
+
+Example fails:
+[ARG1: africa] [V: threw] up [ARGM-LOC: on the floor]
+----
+[ARG1: the carrot] [V: threw] up [ARGM-LOC: on the floor]
+----
+[ARG1: A ship] [V: threw] up [ARGM-LOC: on the floor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    10 (33.3%)
+
+Example fails:
+[ARG1: a rocket] [V: called] [ARG2: the police]
+----
+[ARG1: the glasses] [V: called] [ARG2: the police]
+----
+[ARG1: the glasses] [V: called] [ARG2: the police]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    3 (10.0%)
+
+Example fails:
+[ARG2: the toothbrush] [V: knocked] [ARG1: on the door]
+----
+[ARG1: the glasses] [V: knocked] [ARGM-LOC: on the door]
+----
+[ARG1: the glasses] [V: knocked] [ARGM-LOC: on the door]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    1 (3.3%)
+
+Example fails:
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    4 (13.3%)
+
+Example fails:
+[ARG1: A ship] [V: went] [ARG4: to the doctor]
+----
+[ARG1: the toothbrush] [V: went] [ARG4: to the doctor]
+----
+[ARG1: A book] [V: went] [ARG4: to the doctor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: The a knife] [V: cut] [ARG1: the child]
+----
+[ARG0: The a candle] [V: cut] [ARG1: the child]
+----
+[ARG0: The cutlery] [V: cut] [ARG1: the child]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: The a spork] [V: burned] [ARG1: the man]
+----
+[ARG0: The cutlery] [V: burned] [ARG1: the man]
+----
+[ARG0: The a knife] [V: burned] [ARG1: the man]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: The a knife] [V: destroyed] [ARG1: the building]
+----
+[ARG0: The a candle] [V: destroyed] [ARG1: the building]
+----
+[ARG0: The a spoon] [V: destroyed] [ARG1: the building]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: The a candle] [V: hit] [ARG1: the woman]
+----
+[ARG0: The a fork] [V: hit] [ARG1: the woman]
+----
+[ARG0: The a candle] [V: hit] [ARG1: the woman]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: The a fork] [V: helped] [ARG1: the woman]
+----
+[ARG0: The a fork] [V: helped] [ARG1: the woman]
+----
+[ARG0: The an axe] [V: helped] [ARG2: the woman]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    20 (66.7%)
+
+Example fails:
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a plate]
+----
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a cup]
+----
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a cup]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    29 (96.7%)
+
+Example fails:
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a candle]
+----
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate]
+----
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spork]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a plate]
+----
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spork]
+----
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a knife]
+----
+None
+GOLD:  ARG1
+Test cases:      30
+Fails (rate):    1 (3.3%)
+
+Example fails:
+[ARG0: Someone] [V: killed] [ARG1: Sunita] Yadav [ARGM-TMP: last night]
+----
+None
+GOLD:  ARG1
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: Lisa] [V: ate] [ARG1: all of Marshall नेपाल 's food]
+----
+[ARG0: Lisa] [V: ate] [ARG1: all of Pradip प्रधान 's food]
+----
+[ARG0: Lisa] [V: ate] [ARG1: all of Balram शर्मा 's food]
+----
+None
+GOLD:  ARG1
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Deepak 's face]
+----
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Dharma 's face]
+----
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Kamal 's face]
+----
+None
+GOLD:  ARG1
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    26 (86.7%)
+
+Example fails:
+[ARG1: a rocket] [V: threw] up [ARGM-LOC: on the floor]
+----
+[ARG1: a rocket] [V: threw] up [ARGM-LOC: on the floor]
+----
+[ARG1: senegal] [V: threw] up [ARGM-LOC: on the floor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    11 (36.7%)
+
+Example fails:
+[ARG1: the toothbrush] [V: called] [ARG2: the police]
+----
+[ARG1: the toothbrush] [V: called] [ARG2: the police]
+----
+[ARG1: a rocket] [V: called] [ARG2: the police]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    6 (20.0%)
+
+Example fails:
+[ARG2: the toothbrush] [V: knocked] [ARG1: on the door]
+----
+[ARG1: the glasses] [V: knocked] [ARGM-LOC: on the door]
+----
+[ARG1: the glasses] [V: knocked] [ARGM-LOC: on the door]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    2 (6.7%)
+
+Example fails:
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    10 (33.3%)
+
+Example fails:
+[ARG1: the carrot] [V: went] [ARG4: to the doctor]
+----
+[ARG1: A ship] [V: went] [ARG4: to the doctor]
+----
+[ARG1: the carrot] [V: went] [ARG4: to the doctor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: The a fork] [V: cut] [ARG1: the child]
+----
+[ARG0: The a knife] [V: cut] [ARG1: the child]
+----
+[ARG0: The a knife] [V: cut] [ARG1: the child]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: The a phone] [V: burned] [ARG1: the man]
+----
+[ARG0: The a plate] [V: burned] [ARG1: the man]
+----
+[ARG0: The a machete] [V: burned] [ARG1: the man]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: The a plate] [V: destroyed] [ARG1: the building]
+----
+[ARG0: The a blade] [V: destroyed] [ARG1: the building]
+----
+[ARG0: The cutlery] [V: destroyed] [ARG1: the building]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: The a machete] [V: hit] [ARG1: the woman]
+----
+[ARG0: The a machete] [V: hit] [ARG1: the woman]
+----
+[ARG0: The a candle] [V: hit] [ARG1: the woman]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: The a knife] [V: helped] [ARG2: the woman]
+----
+[ARG0: The a spork] [V: helped] [ARG2: the woman]
+----
+[ARG0: The a candle] [V: helped] [ARG2: the woman]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    23 (76.7%)
+
+Example fails:
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a pinecone]
+----
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a knife]
+----
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a knife]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    27 (90.0%)
+
+Example fails:
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a cup]
+----
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate]
+----
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a plate]
+----
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a cup]
+----
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a knife]
+----
+None
+GOLD:  ARG1
+Test cases:      30
+Fails (rate):    3 (10.0%)
+
+Example fails:
+[ARG0: Someone] [V: killed] [ARG1: Sunita] अधिकारी [ARGM-TMP: last night]
+----
+[ARG0: Someone] [V: killed] [ARG1: Indra] [ARGM-PRD: बुढाथोकी] [ARGM-TMP: last night]
+----
+[ARG0: Someone] [V: killed] [ARG1: Rita] [ARGM-TMP: Pradhan last night]
+----
+None
+GOLD:  ARG1
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: Lisa] [V: ate] [ARG1: all of Rita खत्री 's food]
+----
+[ARG0: Lisa] [V: ate] [ARG1: all of Dina लामा 's food]
+----
+[ARG0: Lisa] [V: ate] [ARG1: all of Lama Chaudhari 's food]
+----
+None
+GOLD:  ARG1
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Mahendra 's face]
+----
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Sofia 's face]
+----
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Rishi 's face]
+----
+None
+GOLD:  ARG1
+GOLD:  ARG0
+GOLD:  ARG0
+GOLD:  ARG0
+Model was unable to identify predicate
+GOLD:  ARG0
+Model was unable to identify predicate
+GOLD:  ARG0
+Model was unable to identify predicate
+GOLD:  ARG0
+Model was unable to identify predicate
+GOLD:  ARG0
+Model was unable to identify predicate
+GOLD:  ARG0
+Model was unable to identify predicate
+GOLD:  ARG0
+Model was unable to identify predicate
+GOLD:  ARG0
+Model was unable to identify predicate
+GOLD:  ARG2
+Model was unable to identify predicate
+GOLD:  ARG2
+Model was unable to identify predicate
+GOLD:  ARG2
+Model was unable to identify predicate
+GOLD:  ARG2
+Model was unable to identify predicate
+GOLD:  ARG2
+Model was unable to identify predicate
+GOLD:  ARG2
+Model was unable to identify predicate
+GOLD:  ARG2
+Model was unable to identify predicate
+GOLD:  ARG2
+Model was unable to identify predicate
+GOLD:  ARG1
+Model was unable to identify predicate
+GOLD:  ARG1
+Model was unable to identify predicate
+GOLD:  ARG1
+Model was unable to identify predicate
+GOLD:  ARG1
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    20 (66.7%)
+
+Example fails:
+[ARG1: the toothbrush] [V: threw] up [ARG2: on the floor]
+----
+[ARG1: senegal] [V: threw] up [ARGM-LOC: on the floor]
+----
+[ARG1: a rocket] [V: threw] up [ARGM-LOC: on the floor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    10 (33.3%)
+
+Example fails:
+[ARG1: the carrot] [V: called] [ARG2: the police]
+----
+[ARG1: the glasses] [V: called] [ARG2: the police]
+----
+[ARG1: the carrot] [V: called] [ARG2: the police]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    2 (6.7%)
+
+Example fails:
+[ARG2: the toothbrush] [V: knocked] [ARG1: on the door]
+----
+[ARG2: the toothbrush] [V: knocked] [ARG1: on the door]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    5 (16.7%)
+
+Example fails:
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    7 (23.3%)
+
+Example fails:
+[ARG1: the carrot] [V: went] [ARG4: to the doctor]
+----
+[ARG1: A book] [V: went] [ARG4: to the doctor]
+----
+[ARG1: A book] [V: went] [ARG4: to the doctor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: The a spork] [V: cut] [ARG1: the child]
+----
+[ARG0: The a knife] [V: cut] [ARG1: the child]
+----
+[ARG0: The a knife] [V: cut] [ARG1: the child]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: The an axe] [V: burned] [ARG1: the man]
+----
+[ARG0: The a fork] [V: burned] [ARG1: the man]
+----
+[ARG0: The a spoon] [V: burned] [ARG1: the man]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: The a plate] [V: destroyed] [ARG1: the building]
+----
+[ARG0: The a machete] [V: destroyed] [ARG1: the building]
+----
+[ARG0: The cutlery] [V: destroyed] [ARG1: the building]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: The a phone] [V: hit] [ARG1: the woman]
+----
+[ARG0: The cutlery] [V: hit] [ARG1: the woman]
+----
+[ARG0: The cutlery] [V: hit] [ARG1: the woman]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: The a knife] [V: helped] [ARG2: the woman]
+----
+[ARG0: The a plate] [V: helped] [ARG2: the woman]
+----
+[ARG0: The a machete] [V: helped] [ARG2: the woman]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    22 (73.3%)
+
+Example fails:
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a knife]
+----
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a knife]
+----
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a pinecone]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    24 (80.0%)
+
+Example fails:
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate]
+----
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon]
+----
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a fork]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a plate]
+----
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a pinecone]
+----
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a knife]
+----
+None
+GOLD:  ARG1
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG1
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: Lisa] [V: ate] [ARG1: all of Tenzing उप्रेती 's food]
+----
+[ARG0: Lisa] [V: ate] [ARG1: all of Manisha Hamal 's food]
+----
+[ARG0: Lisa] [V: ate] [ARG1: all of Sahana Rana 's food]
+----
+None
+GOLD:  ARG1
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Baran 's face]
+----
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at अमर 's face]
+----
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Mausami 's face]
+----
+None
+GOLD:  ARG1
+Model was unable to identify predicate
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    16 (53.3%)
+
+Example fails:
+[ARG1: Mary] [V: threw] up [ARGM-LOC: on the floor]
+----
+[ARG1: the glasses] [V: threw] up [ARGM-LOC: on the floor]
+----
+[ARG1: Mary] [V: threw] up [ARGM-LOC: on the floor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    9 (30.0%)
+
+Example fails:
+[ARG1: the carrot] [V: called] [ARG2: the police]
+----
+[ARG1: the toothbrush] [V: called] [ARG2: the police]
+----
+[ARG1: the glasses] [V: called] [ARG2: the police]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    7 (23.3%)
+
+Example fails:
+[ARG2: the toothbrush] [V: knocked] [ARG1: on the door]
+----
+[ARG2: the toothbrush] [V: knocked] [ARG1: on the door]
+----
+[ARG2: the toothbrush] [V: knocked] [ARG1: on the door]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    4 (13.3%)
+
+Example fails:
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    15 (50.0%)
+
+Example fails:
+[ARG1: A ship] [V: went] [ARG4: to the doctor]
+----
+[ARG1: A book] [V: went] [ARG4: to the doctor]
+----
+[ARG1: A book] [V: went] [ARG4: to the doctor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: The a fork] [V: cut] [ARG1: the child]
+----
+[ARG0: The a phone] [V: cut] [ARG1: the child]
+----
+[ARG0: The a knife] [V: cut] [ARG1: the child]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: The a candle] [V: burned] [ARG1: the man]
+----
+[ARG0: The a phone] [V: burned] [ARG1: the man]
+----
+[ARG0: The a machete] [V: burned] [ARG1: the man]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: The a candle] [V: destroyed] [ARG1: the building]
+----
+[ARG0: The cutlery] [V: destroyed] [ARG1: the building]
+----
+[ARG0: The a machete] [V: destroyed] [ARG1: the building]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: The a plate] [V: hit] [ARG1: the woman]
+----
+[ARG0: The a phone] [V: hit] [ARG1: the woman]
+----
+[ARG0: The an axe] [V: hit] [ARG1: the woman]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: The a plate] [V: helped] [ARG2: the woman]
+----
+[ARG0: The a knife] [V: helped] [ARG2: the woman]
+----
+[ARG0: The an axe] [V: helped] [ARG2: the woman]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    25 (83.3%)
+
+Example fails:
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a knife]
+----
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a knife]
+----
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a knife]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    28 (93.3%)
+
+Example fails:
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a knife]
+----
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate]
+----
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a fork]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a plate]
+----
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a spoon]
+----
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a candle]
+----
+None
+GOLD:  ARG1
+Test cases:      30
+Fails (rate):    1 (3.3%)
+
+Example fails:
+[ARG0: Someone] [V: killed] [ARG1: Francis] [ARG2: Chaudhary] [ARGM-TMP: last night]
+----
+None
+GOLD:  ARG1
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: Lisa] [V: ate] [ARG1: all of Shila Lamichhane 's food]
+----
+[ARG0: Lisa] [V: ate] [ARG1: all of Nikhil Pradhan 's food]
+----
+[ARG0: Lisa] [V: ate] [ARG1: all of Lama Gurung 's food]
+----
+None
+GOLD:  ARG1
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Khadga 's face]
+----
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Amber 's face]
+----
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Dachhiri 's face]
+----
+None
+GOLD:  ARG1
+Model was unable to identify predicate
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    1 (3.3%)
+
+Example fails:
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-LOC: in a bit]
+----
+None
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    4 (13.3%)
+
+Example fails:
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-EXT: in a bit]
+----
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-EXT: in a bit]
+----
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-EXT: in a bit]
+----
+None
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    7 (23.3%)
+
+Example fails:
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-EXT: in a bit]
+----
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARG2: at 12]
+----
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-EXT: in a bit]
+----
+None
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    4 (13.3%)
+
+Example fails:
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-EXT: in a bit]
+----
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-EXT: in a bit]
+----
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-EXT: in a bit]
+----
+None
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    8 (26.7%)
+
+Example fails:
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-EXT: in a bit]
+----
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-EXT: in a bit]
+----
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-EXT: in a bit]
+----
+None
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    6 (20.0%)
+
+Example fails:
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-EXT: in a bit]
+----
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARG2: at 12]
+----
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-EXT: in a bit]
+----
+None
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    2 (6.7%)
+
+Example fails:
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon in a bit]
+----
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon in a bit]
+----
+None
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    2 (6.7%)
+
+Example fails:
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-EXT: in a bit]
+----
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-EXT: in a bit]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    9 (30.0%)
+
+Example fails:
+[ARG1: A book] [V: called] [ARG1: the police]
+----
+[ARG1: A book] [V: called] [ARG1: the police]
+----
+[ARG1: A book] [V: called] [ARG1: the police]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    16 (53.3%)
+
+Example fails:
+[ARG1: the glasses] [V: went] [ARG4: to the doctor]
+----
+[ARG1: A book] [V: went] [ARG4: to the doctor]
+----
+[ARG1: a rocket] [V: went] [ARG4: to the doctor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: The a candle] [V: cut] [ARG1: the child]
+----
+[ARG0: The cutlery] [V: cut] [ARG1: the child]
+----
+[ARG0: The a phone] [V: cut] [ARG1: the child]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG2: The a knife] [V: burned] [ARG1: the man]
+----
+[ARG0: The an axe] [V: burned] [ARG1: the man]
+----
+[ARG0: The a plate] [V: burned] [ARG1: the man]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: The a machete] [V: destroyed] [ARG1: the building]
+----
+[ARG0: The an axe] [V: destroyed] [ARG1: the building]
+----
+[ARG0: The a machete] [V: destroyed] [ARG1: the building]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG2: The a spoon] [V: hit] [ARG1: the woman]
+----
+[ARG0: The a spork] [V: hit] [ARG1: the woman]
+----
+[ARG0: The cutlery] [V: hit] [ARG1: the woman]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: The a phone] [V: helped] [ARG2: the woman]
+----
+[ARG0: The a blade] [V: helped] [ARG1: the woman]
+----
+[ARG0: The a plate] [V: helped] [ARG1: the woman]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a plate]
+----
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spoon]
+----
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a knife]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    10 (33.3%)
+
+Example fails:
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a cup]
+----
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a knife]
+----
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a cup]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    7 (23.3%)
+
+Example fails:
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a plate]
+----
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a cup]
+----
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a plate]
+----
+None
+GOLD:  ARG1
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG1
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: Lisa] [V: ate] [ARG1: all of Khem आचार्य 's food]
+----
+[ARG0: Lisa] [V: ate] [ARG1: all of Roman बस्नेत 's food]
+----
+[ARG0: Lisa] [V: ate] [ARG1: all of Sudhir कार्की 's food]
+----
+None
+GOLD:  ARG1
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at पिटर 's face]
+----
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Sunita 's face]
+----
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Dachhiri 's face]
+----
+None
+GOLD:  ARG1
+Model was unable to identify predicate
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    3 (10.0%)
+
+Example fails:
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-MNR: in a bit]
+----
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-MNR: in a bit]
+----
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-MNR: in a bit]
+----
+None
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARGM-V
+Model was unable to identify predicate
+GOLD:  ARGM-V
+Model was unable to identify predicate
+GOLD:  ARGM-V
+Model was unable to identify predicate
+GOLD:  ARGM-V
+Model was unable to identify predicate
+GOLD:  ARGM-V
+Model was unable to identify predicate
+GOLD:  ARGM-V
+Model was unable to identify predicate
+GOLD:  ARGM-V
+Model was unable to identify predicate
+GOLD:  ARGM-V
+Model was unable to identify predicate
+GOLD:  V
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    1 (3.3%)
+
+Example fails:
+[V: देविका] [ARG1: kissed Mary]
+----
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    2 (6.7%)
+
+Example fails:
+[V: देविका] kissed Alex
+----
+[V: देविका] kissed Alex
+----
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    1 (3.3%)
+
+Example fails:
+[V: देविका] [ARG3: licked] [ARG1: Mary]
+----
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    1 (3.3%)
+
+Example fails:
+[V: Tsering] called Alex
+----
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    2 (6.7%)
+
+Example fails:
+[V: देविका] kissed Alex
+----
+[V: Tsering] vexxed Alex
+----
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    1 (3.3%)
+
+Example fails:
+[V: देविका] kissed Mary
+----
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG1: Sanchita] [V: was] [ARG2: vexxed by Alice]
+----
+[ARG1: Arun] [V: was] [ARG2: vexxed by Alice]
+----
+Mahendra [V: was] licked by Alice
+----
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+Deepak [V: was] kissed by Alice
+----
+Manisha [V: was] vexxed by Alice
+----
+Sudhir [V: was] kissed by Alice
+----
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+अनुराधा [V: was] kissed by Alice
+----
+[ARG1: Salma] [V: was] [ARG2: vexxed by Alice]
+----
+[ARG1: Deepak] [V: was] [ARG2: vexxed by Alice]
+----
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+Namrata [V: was] kissed by Alice
+----
+Annapurna [V: was] kissed by Alice
+----
+Abhishek [V: was] called by Alice
+----
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+Salma [V: was] called by Alice
+----
+[ARG1: Anthony] [V: was] [ARG2: vexxed by Alice]
+----
+Rishi [V: was] licked by Alice
+----
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+Himani [V: was] kissed by Alice
+----
+Anita [V: was] vexxed by Alice
+----
+Sunil [V: was] vexxed by Alice
+----
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG1: Himani] [V: was] [ARG2: vexxed by Alice]
+----
+Malina [V: was] kissed by Alice
+----
+[ARG1: Mahendra] [V: was] [ARG2: vexxed by Alice]
+----
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+Sanchita [V: was] vexxed by Alice
+----
+नम्रता [V: was] called by Alice
+----
+Sanchita [V: was] vexxed by Alice
+----
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+अनुराधा [V: was] kissed by Alice
+----
+[ARG1: Sara] [V: was] [ARG2: vexxed by Alice]
+----
+[ARG1: Arjun] [V: was] [ARG2: vexxed by Alice]
+----
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+Romy [V: was] licked by Alice
+----
+Uma [V: was] called by Alice
+----
+Salma [V: was] kissed by Alice
+----
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    21 (70.0%)
+
+Example fails:
+[ARG1: africa] [V: threw] up [ARGM-LOC: on the floor]
+----
+[ARG1: the toothbrush] [V: threw] up [ARG2: on the floor]
+----
+[ARG1: the glasses] [V: threw] up [ARGM-LOC: on the floor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    8 (26.7%)
+
+Example fails:
+[ARG1: the toothbrush] [V: called] [ARG2: the police]
+----
+[ARG1: the toothbrush] [V: called] [ARG2: the police]
+----
+[ARG1: a rocket] [V: called] [ARG2: the police]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    4 (13.3%)
+
+Example fails:
+[ARG2: the toothbrush] [V: knocked] [ARG1: on the door]
+----
+[ARG2: the toothbrush] [V: knocked] [ARG1: on the door]
+----
+[ARG2: the toothbrush] [V: knocked] [ARG1: on the door]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    2 (6.7%)
+
+Example fails:
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    11 (36.7%)
+
+Example fails:
+[ARG1: the toothbrush] [V: went] [ARG4: to the doctor]
+----
+[ARG1: A book] [V: went] [ARG4: to the doctor]
+----
+[ARG1: A ship] [V: went] [ARG4: to the doctor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    17 (56.7%)
+
+Example fails:
+[ARG1: the toothbrush] [V: threw] up [ARG2: on the floor]
+----
+[ARG1: A ship] [V: threw] up [ARGM-LOC: on the floor]
+----
+[ARG1: A ship] [V: threw] up [ARGM-LOC: on the floor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    9 (30.0%)
+
+Example fails:
+[ARG1: the glasses] [V: called] [ARG2: the police]
+----
+[ARG1: the glasses] [V: called] [ARG2: the police]
+----
+[ARG1: the glasses] [V: called] [ARG2: the police]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    6 (20.0%)
+
+Example fails:
+[ARG2: the toothbrush] [V: knocked] [ARG1: on the door]
+----
+[ARG1: the glasses] [V: knocked] [ARGM-LOC: on the door]
+----
+[ARG2: the toothbrush] [V: knocked] [ARG1: on the door]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    1 (3.3%)
+
+Example fails:
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    7 (23.3%)
+
+Example fails:
+[ARG1: A book] [V: went] [ARG4: to the doctor]
+----
+[ARG1: the carrot] [V: went] [ARG4: to the doctor]
+----
+[ARG1: A ship] [V: went] [ARG4: to the doctor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    16 (53.3%)
+
+Example fails:
+[ARG1: the carrot] [V: threw] up [ARGM-LOC: on the floor]
+----
+[ARG1: a rocket] [V: threw] up [ARGM-LOC: on the floor]
+----
+[ARG1: Mary] [V: threw] up [ARGM-LOC: on the floor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    13 (43.3%)
+
+Example fails:
+[ARG1: the glasses] [V: called] [ARG2: the police]
+----
+[ARG1: the carrot] [V: called] [ARG2: the police]
+----
+[ARG1: the toothbrush] [V: called] [ARG2: the police]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    2 (6.7%)
+
+Example fails:
+[ARG1: the glasses] [V: knocked] [ARGM-LOC: on the door]
+----
+[ARG2: the toothbrush] [V: knocked] [ARG1: on the door]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    2 (6.7%)
+
+Example fails:
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    10 (33.3%)
+
+Example fails:
+[ARG1: A ship] [V: went] [ARG4: to the doctor]
+----
+[ARG1: the carrot] [V: went] [ARG4: to the doctor]
+----
+[ARG1: the toothbrush] [V: went] [ARG4: to the doctor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    19 (63.3%)
+
+Example fails:
+[ARG1: senegal] [V: threw] up [ARGM-LOC: on the floor]
+----
+[ARG1: the carrot] [V: threw] up [ARGM-LOC: on the floor]
+----
+[ARG1: africa] [V: threw] up [ARGM-LOC: on the floor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    8 (26.7%)
+
+Example fails:
+[ARG1: the carrot] [V: called] [ARG2: the police]
+----
+[ARG1: the glasses] [V: called] [ARG2: the police]
+----
+[ARG1: the glasses] [V: called] [ARG2: the police]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    7 (23.3%)
+
+Example fails:
+[ARG2: the toothbrush] [V: knocked] [ARG1: on the door]
+----
+[ARG1: the glasses] [V: knocked] [ARGM-LOC: on the door]
+----
+[ARG1: the glasses] [V: knocked] [ARGM-LOC: on the door]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    3 (10.0%)
+
+Example fails:
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    10 (33.3%)
+
+Example fails:
+[ARG1: the toothbrush] [V: went] [ARG4: to the doctor]
+----
+[ARG1: A ship] [V: went] [ARG4: to the doctor]
+----
+[ARG1: the toothbrush] [V: went] [ARG4: to the doctor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    24 (80.0%)
+
+Example fails:
+[ARG1: the carrot] [V: threw] up [ARGM-LOC: on the floor]
+----
+[ARG1: the toothbrush] [V: threw] up [ARG2: on the floor]
+----
+[ARG1: A ship] [V: threw] up [ARGM-LOC: on the floor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    9 (30.0%)
+
+Example fails:
+[ARG1: the glasses] [V: called] [ARG2: the police]
+----
+[ARG1: a rocket] [V: called] [ARG2: the police]
+----
+[ARG1: the glasses] [V: called] [ARG2: the police]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    5 (16.7%)
+
+Example fails:
+[ARG1: the glasses] [V: knocked] [ARGM-LOC: on the door]
+----
+[ARG2: the toothbrush] [V: knocked] [ARG1: on the door]
+----
+[ARG2: the toothbrush] [V: knocked] [ARG1: on the door]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    2 (6.7%)
+
+Example fails:
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    8 (26.7%)
+
+Example fails:
+[ARG1: A ship] [V: went] [ARG4: to the doctor]
+----
+[ARG1: the toothbrush] [V: went] [ARG4: to the doctor]
+----
+[ARG1: A ship] [V: went] [ARG4: to the doctor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    21 (70.0%)
+
+Example fails:
+[ARG1: a rocket] [V: threw] up [ARGM-LOC: on the floor]
+----
+[ARG1: senegal] [V: threw] up [ARGM-LOC: on the floor]
+----
+[ARG1: Mary] [V: threw] up [ARGM-LOC: on the floor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    6 (20.0%)
+
+Example fails:
+[ARG1: the glasses] [V: called] [ARG2: the police]
+----
+[ARG1: a rocket] [V: called] [ARG2: the police]
+----
+[ARG1: the carrot] [V: called] [ARG2: the police]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    2 (6.7%)
+
+Example fails:
+[ARG1: the glasses] [V: knocked] [ARGM-LOC: on the door]
+----
+[ARG1: the glasses] [V: knocked] [ARGM-LOC: on the door]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    2 (6.7%)
+
+Example fails:
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    9 (30.0%)
+
+Example fails:
+[ARG1: A book] [V: went] [ARG4: to the doctor]
+----
+[ARG1: the carrot] [V: went] [ARG4: to the doctor]
+----
+[ARG1: A book] [V: went] [ARG4: to the doctor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    20 (66.7%)
+
+Example fails:
+[ARG1: the toothbrush] [V: threw] up [ARG2: on the floor]
+----
+[ARG1: africa] [V: threw] up [ARGM-LOC: on the floor]
+----
+[ARG1: a rocket] [V: threw] up [ARGM-LOC: on the floor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    7 (23.3%)
+
+Example fails:
+[ARG1: the carrot] [V: called] [ARG2: the police]
+----
+[ARG1: the glasses] [V: called] [ARG2: the police]
+----
+[ARG1: the toothbrush] [V: called] [ARG2: the police]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    4 (13.3%)
+
+Example fails:
+[ARG2: the toothbrush] [V: knocked] [ARG1: on the door]
+----
+[ARG2: the toothbrush] [V: knocked] [ARG1: on the door]
+----
+[ARG2: the toothbrush] [V: knocked] [ARG1: on the door]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    3 (10.0%)
+
+Example fails:
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    7 (23.3%)
+
+Example fails:
+[ARG1: the carrot] [V: went] [ARG4: to the doctor]
+----
+[ARG1: A ship] [V: went] [ARG4: to the doctor]
+----
+[ARG1: the carrot] [V: went] [ARG4: to the doctor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    21 (70.0%)
+
+Example fails:
+[ARG1: the carrot] [V: threw] up [ARGM-LOC: on the floor]
+----
+[ARG1: a rocket] [V: threw] up [ARGM-LOC: on the floor]
+----
+[ARG1: the carrot] [V: threw] up [ARGM-LOC: on the floor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    11 (36.7%)
+
+Example fails:
+[ARG1: the toothbrush] [V: called] [ARG2: the police]
+----
+[ARG1: the glasses] [V: called] [ARG2: the police]
+----
+[ARG1: the glasses] [V: called] [ARG2: the police]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    4 (13.3%)
+
+Example fails:
+[ARG1: the glasses] [V: knocked] [ARGM-LOC: on the door]
+----
+[ARG1: the glasses] [V: knocked] [ARGM-LOC: on the door]
+----
+[ARG2: the toothbrush] [V: knocked] [ARG1: on the door]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    2 (6.7%)
+
+Example fails:
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    11 (36.7%)
+
+Example fails:
+[ARG1: the carrot] [V: went] [ARG4: to the doctor]
+----
+[ARG1: A ship] [V: went] [ARG4: to the doctor]
+----
+[ARG1: the carrot] [V: went] [ARG4: to the doctor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    19 (63.3%)
+
+Example fails:
+[ARG1: A ship] [V: threw] up [ARGM-LOC: on the floor]
+----
+[ARG1: africa] [V: threw] up [ARGM-LOC: on the floor]
+----
+[ARG1: senegal] [V: threw] up [ARGM-LOC: on the floor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    14 (46.7%)
+
+Example fails:
+[ARG1: a rocket] [V: called] [ARG2: the police]
+----
+[ARG1: the carrot] [V: called] [ARG2: the police]
+----
+[ARG1: a rocket] [V: called] [ARG2: the police]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    3 (10.0%)
+
+Example fails:
+[ARG2: the toothbrush] [V: knocked] [ARG1: on the door]
+----
+[ARG2: the toothbrush] [V: knocked] [ARG1: on the door]
+----
+[ARG1: the glasses] [V: knocked] [ARGM-LOC: on the door]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    3 (10.0%)
+
+Example fails:
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    14 (46.7%)
+
+Example fails:
+[ARG1: the toothbrush] [V: went] [ARG4: to the doctor]
+----
+[ARG1: the toothbrush] [V: went] [ARG4: to the doctor]
+----
+[ARG1: A book] [V: went] [ARG4: to the doctor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: a machete] [V: cut] [ARG1: the child]
+----
+[ARG0: a spork] [V: cut] [ARG1: the child]
+----
+[ARG0: a machete] [V: cut] [ARG1: the child]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: a spork] [V: burned] [ARG1: the man]
+----
+[ARG0: a blade] [V: burned] [ARG1: the man]
+----
+[ARG0: a fork] [V: burned] [ARG1: the man]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: an axe] [V: destroyed] [ARG1: the building]
+----
+[ARG0: an axe] [V: destroyed] [ARG1: the building]
+----
+[ARG0: a spoon] [V: destroyed] [ARG1: the building]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    10 (33.3%)
+
+Example fails:
+[ARG0: a phone] [V: hit] [ARG1: the woman]
+----
+[ARG0: cutlery] [V: hit] [ARG1: the woman]
+----
+[ARG0: cutlery] [V: hit] [ARG1: the woman]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: cutlery] [V: helped] [ARG2: the woman]
+----
+[ARG0: a spoon] [V: helped] [ARG2: the woman]
+----
+[ARG0: a phone] [V: helped] [ARG2: the woman]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    19 (63.3%)
+
+Example fails:
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a plate]
+----
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: using a cup]
+----
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a knife]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    28 (93.3%)
+
+Example fails:
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a plate]
+----
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a knife]
+----
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: using a knife]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a knife]
+----
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a cup]
+----
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: using a plate]
+----
+None
+GOLD:  ARG1
+Test cases:      30
+Fails (rate):    1 (3.3%)
+
+Example fails:
+[ARG0: Someone] [V: killed] [ARG1: Francis] [ARG2: Raut] [ARGM-TMP: last night]
+----
+None
+GOLD:  ARG1
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: Lisa] [V: ate] [ARG1: all of Dachhiri Gurung 's food]
+----
+[ARG0: Lisa] [V: ate] [ARG1: all of Mausami Yadav 's food]
+----
+[ARG0: Lisa] [V: ate] [ARG1: all of Amber Gurung 's food]
+----
+None
+GOLD:  ARG1
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Francis 's face]
+----
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Manikala 's face]
+----
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Khadga 's face]
+----
+None
+GOLD:  ARG1
+Model was unable to identify predicate
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    7 (23.3%)
+
+Example fails:
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-LOC: in a bit]
+----
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-LOC: in a bit]
+----
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-LOC: in a bit]
+----
+None
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    6 (20.0%)
+
+Example fails:
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-EXT: in a bit]
+----
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-EXT: in a bit]
+----
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-EXT: in a bit]
+----
+None
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    3 (10.0%)
+
+Example fails:
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARGM-EXT: in a bit]
+----
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARG2: at 12]
+----
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARG2: at 12]
+----
+None
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    1 (3.3%)
+
+Example fails:
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-EXT: in a bit]
+----
+None
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    5 (16.7%)
+
+Example fails:
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARG2: at 12]
+----
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARG2: at 12]
+----
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARG2: at 12]
+----
+None
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    2 (6.7%)
+
+Example fails:
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon in a bit]
+----
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon in a bit]
+----
+None
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    3 (10.0%)
+
+Example fails:
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-EXT: in a bit]
+----
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-EXT: in a bit]
+----
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-EXT: in a bit]
+----
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  {first_name} was {robust2} by John
+Model was unable to identify predicate
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    9 (30.0%)
+
+Example fails:
+[ARG1: A book] [V: called] [ARG1: the police]
+----
+[ARG1: A book] [V: called] [ARG1: the police]
+----
+[ARG1: A ship] [V: called] [ARG2: the police]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    17 (56.7%)
+
+Example fails:
+[ARG1: the carrot] [V: went] [ARG4: to the doctor]
+----
+[ARG1: the toothbrush] [V: went] [ARG4: to the doctor]
+----
+[ARG1: A ship] [V: went] [ARG4: to the doctor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    26 (86.7%)
+
+Example fails:
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    21 (70.0%)
+
+Example fails:
+[ARG1: A ship] [V: threw] up [ARGM-LOC: on the floor]
+----
+[ARG1: the carrot] [V: threw] up [ARGM-LOC: on the floor]
+----
+[ARG1: Mary] [V: threw] up [ARGM-LOC: on the floor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    10 (33.3%)
+
+Example fails:
+[ARG1: the carrot] [V: called] [ARG2: the police]
+----
+[ARG1: the toothbrush] [V: called] [ARG2: the police]
+----
+[ARG1: the carrot] [V: called] [ARG2: the police]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    6 (20.0%)
+
+Example fails:
+[ARG2: the toothbrush] [V: knocked] [ARG1: on the door]
+----
+[ARG1: the glasses] [V: knocked] [ARGM-LOC: on the door]
+----
+[ARG1: the glasses] [V: knocked] [ARGM-LOC: on the door]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    1 (3.3%)
+
+Example fails:
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    8 (26.7%)
+
+Example fails:
+[ARG1: A ship] [V: went] [ARG4: to the doctor]
+----
+[ARG1: the carrot] [V: went] [ARG4: to the doctor]
+----
+[ARG1: A ship] [V: went] [ARG4: to the doctor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    26 (86.7%)
+
+Example fails:
+[ARG0: an axe] [V: cut] [ARG1: the child]
+----
+[ARG0: a machete] [V: cut] [ARG1: the child]
+----
+[ARG0: cutlery] [V: cut] [ARG1: the child]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: a plate] [V: burned] [ARG1: the man]
+----
+[ARG0: a phone] [V: burned] [ARG1: the man]
+----
+[ARG0: a spoon] [V: burned] [ARG1: the man]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: a spoon] [V: destroyed] [ARG1: the building]
+----
+[ARG0: a blade] [V: destroyed] [ARG1: the building]
+----
+[ARG0: a phone] [V: destroyed] [ARG1: the building]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    12 (40.0%)
+
+Example fails:
+[ARG0: a phone] [V: hit] [ARG1: the woman]
+----
+[ARG0: a spoon] [V: hit] [ARG1: the woman]
+----
+[ARG0: a spoon] [V: hit] [ARG1: the woman]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: a candle] [V: helped] [ARG2: the woman]
+----
+[ARG0: a candle] [V: helped] [ARG2: the woman]
+----
+[ARG0: a fork] [V: helped] [ARG2: the woman]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    20 (66.7%)
+
+Example fails:
+[ARG0: Jacob] cut the wood [V: using] [ARG1: a cup]
+----
+[ARG0: Jacob] cut the wood [V: using] [ARG1: a plate]
+----
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spork]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    29 (96.7%)
+
+Example fails:
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spoon]
+----
+[ARG0: John] killed Mary [V: using] [ARG1: a knife]
+----
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a knife]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    16 (53.3%)
+
+Example fails:
+[ARG1: africa] [V: threw] up [ARGM-LOC: on the floor]
+----
+[ARG1: the glasses] [V: threw] up [ARGM-LOC: on the floor]
+----
+[ARG1: A ship] [V: threw] up [ARGM-LOC: on the floor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    13 (43.3%)
+
+Example fails:
+[ARG1: the carrot] [V: called] [ARG2: the police]
+----
+[ARG1: a rocket] [V: called] [ARG2: the police]
+----
+[ARG1: the toothbrush] [V: called] [ARG2: the police]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    5 (16.7%)
+
+Example fails:
+[ARG2: the toothbrush] [V: knocked] [ARG1: on the door]
+----
+[ARG1: the glasses] [V: knocked] [ARGM-LOC: on the door]
+----
+[ARG2: the toothbrush] [V: knocked] [ARG1: on the door]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    3 (10.0%)
+
+Example fails:
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+[ARG2: a rocket] [V: threw] [ARG1: the plate] away
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    6 (20.0%)
+
+Example fails:
+[ARG1: the toothbrush] [V: went] [ARG4: to the doctor]
+----
+[ARG1: A ship] [V: went] [ARG4: to the doctor]
+----
+[ARG1: A book] [V: went] [ARG4: to the doctor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    28 (93.3%)
+
+Example fails:
+[ARG0: a fork] [V: cut] [ARG1: the child]
+----
+[ARG0: a knife] [V: cut] [ARG1: the child]
+----
+[ARG0: a spork] [V: cut] [ARG1: the child]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: a phone] [V: burned] [ARG1: the man]
+----
+[ARG0: a machete] [V: burned] [ARG1: the man]
+----
+[ARG0: a plate] [V: burned] [ARG1: the man]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: a spork] [V: destroyed] [ARG1: the building]
+----
+[ARG0: a fork] [V: destroyed] [ARG1: the building]
+----
+[ARG0: a spoon] [V: destroyed] [ARG1: the building]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    8 (26.7%)
+
+Example fails:
+[ARG0: cutlery] [V: hit] [ARG1: the woman]
+----
+[ARG0: cutlery] [V: hit] [ARG1: the woman]
+----
+[ARG0: a spoon] [V: hit] [ARG1: the woman]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: a fork] [V: helped] [ARG2: the woman]
+----
+[ARG0: a plate] [V: helped] [ARG2: the woman]
+----
+[ARG0: a plate] [V: helped] [ARG2: the woman]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    22 (73.3%)
+
+Example fails:
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spoon]
+----
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a spoon]
+----
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARGM-MNR: with a knife]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    26 (86.7%)
+
+Example fails:
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spork]
+----
+[ARG0: John] killed Mary [V: using] [ARG1: a cup]
+----
+[ARG0: John] [V: killed] [ARG1: Mary] [ARGM-MNR: with a spork]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: Rakesh] [V: slapped] [ARG1: the dog] [ARGM-MNR: with a plate]
+----
+[ARG0: Rakesh] slapped the dog [V: using] [ARG1: a knife]
+----
+[ARG0: Rakesh] slapped the dog [V: using] [ARG1: a plate]
+----
+None
+GOLD:  ARG1
+Test cases:      30
+Fails (rate):    1 (3.3%)
+
+Example fails:
+[ARG0: Someone] [V: killed] [ARG1: Krishna] Danuwar [ARGM-TMP: last night]
+----
+None
+GOLD:  ARG1
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: Lisa] [V: ate] [ARG1: all of Bam नेपाल 's food]
+----
+[ARG0: Lisa] [V: ate] [ARG1: all of Arjun Sapkota 's food]
+----
+[ARG0: Lisa] [V: ate] [ARG1: all of Jigme Giri 's food]
+----
+None
+GOLD:  ARG1
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Manikala 's face]
+----
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Roman 's face]
+----
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Roman 's face]
+----
+None
+GOLD:  ARG1
+Model was unable to identify predicate
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    7 (23.3%)
+
+Example fails:
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-LOC: in a bit]
+----
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-LOC: in a bit]
+----
+[ARG0: John and I] [V: make] [ARG1: cupcakes] [ARGM-LOC: in a bit]
+----
+None
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    1 (3.3%)
+
+Example fails:
+[ARG0: John] [V: works] [ARG1: on his assignment] [ARGM-EXT: in a bit]
+----
+None
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    6 (20.0%)
+
+Example fails:
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARG2: at 12]
+----
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARG2: at 12]
+----
+[ARG0: Eva] [V: calls] [ARG1: the police] [ARG2: at 12]
+----
+None
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    2 (6.7%)
+
+Example fails:
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-EXT: in a bit]
+----
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-EXT: in a bit]
+----
+None
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    5 (16.7%)
+
+Example fails:
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-EXT: in a bit]
+----
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-EXT: in a bit]
+----
+[ARG0: Sandra] [V: goes] [ARG4: to the park] [ARGM-EXT: in a bit]
+----
+None
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    9 (30.0%)
+
+Example fails:
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARG2: at 12]
+----
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARGM-EXT: in a bit]
+----
+[ARG0: Derek] [V: bakes] [ARG1: the cake] [ARG2: at 12]
+----
+None
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    1 (3.3%)
+
+Example fails:
+[ARG0: Saraquita] [V: has] [ARG1: a honeymoon in a bit]
+----
+None
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    5 (16.7%)
+
+Example fails:
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-EXT: in a bit]
+----
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-EXT: in a bit]
+----
+[ARG0: Hans] [V: signs] [ARG1: the contract] [ARGM-EXT: in a bit]
+----
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  {first_name} was {robust2} by John
+Model was unable to identify predicate
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    5 (16.7%)
+
+Example fails:
+[ARG1: A book] [V: called] [ARG1: the police]
+----
+[ARG1: A book] [V: called] [ARG1: the police]
+----
+[ARG1: A ship] [V: called] [ARG2: the police]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    14 (46.7%)
+
+Example fails:
+[ARG1: the toothbrush] [V: went] [ARG4: to the doctor]
+----
+[ARG1: the glasses] [V: went] [ARG4: to the doctor]
+----
+[ARG1: a rocket] [V: went] [ARG4: to the doctor]
+----
+None
+GOLD:  ARG0
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    22 (73.3%)
+
+Example fails:
+No pred detected on this line here
+
+----
+[ARG0: cutlery] [V: cut] [ARG1: the child]
+----
+[ARG0: a fork] [V: cut] [ARG1: the child]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    15 (50.0%)
+
+Example fails:
+[ARG0: a blade] [V: burned] [ARG1: the man]
+----
+[ARG0: cutlery] [V: burned] [ARG1: the man]
+----
+[ARG0: an axe] [V: burned] [ARG1: the man]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: a plate] [V: destroyed] [ARG1: the building]
+----
+[ARG0: a spoon] [V: destroyed] [ARG1: the building]
+----
+[ARG0: a blade] [V: destroyed] [ARG1: the building]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    2 (6.7%)
+
+Example fails:
+[ARG0: cutlery] [V: hit] [ARG1: the woman]
+----
+[ARG0: cutlery] [V: hit] [ARG1: the woman]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: cutlery] [V: helped] [ARG1: the woman]
+----
+[ARG0: a knife] [V: helped] [ARG1: the woman]
+----
+[ARG0: a plate] [V: helped] [ARG1: the woman]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: Jacob] cut the wood [V: using] [ARG1: a knife]
+----
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG3: with a candle]
+----
+[ARG0: Jacob] [V: cut] [ARG1: the wood] [ARG3: with a knife]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    7 (23.3%)
+
+Example fails:
+[ARG0: John] killed Mary [V: using] [ARG1: a cup]
+----
+[ARG0: John] killed Mary [V: using] [ARG1: a knife]
+----
+[ARG0: John] killed Mary [V: using] [ARG1: a plate]
+----
+None
+GOLD:  ARG2
+Test cases:      30
+Fails (rate):    5 (16.7%)
+
+Example fails:
+[ARG0: Rakesh] slapped the dog [V: using] [ARG1: a plate]
+----
+[ARG0: Rakesh] slapped the dog [V: using] [ARG1: a knife]
+----
+[ARG0: Rakesh] slapped the dog [V: using] [ARG1: a cup]
+----
+None
+GOLD:  ARG1
+Test cases:      30
+Fails (rate):    1 (3.3%)
+
+Example fails:
+[ARG0: Someone] [V: killed] [ARG1: Govinda] लामा [ARGM-TMP: last night]
+----
+None
+GOLD:  ARG1
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: Lisa] [V: ate] [ARG1: all of Ram नेपाल 's food]
+----
+[ARG0: Lisa] [V: ate] [ARG1: all of Lila Agrahari 's food]
+----
+[ARG0: Lisa] [V: ate] [ARG1: all of Shreya उप्रेती 's food]
+----
+None
+GOLD:  ARG1
+Test cases:      30
+Fails (rate):    30 (100.0%)
+
+Example fails:
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Jigme 's face]
+----
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Khem 's face]
+----
+[ARG0: Someone] [V: threw] [ARG1: the ball] [ARG2: at Radha 's face]
+----
+None
+GOLD:  ARG1
+Model was unable to identify predicate
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    3 (10.0%)
+
+Example fails:
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-MNR: in a bit]
+----
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-MNR: in a bit]
+----
+[ARG0: Shizun] [V: walks] [ARG1: the dog] [ARGM-MNR: in a bit]
+----
+None
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  ARGM-TMP
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  V
+Test cases:      30
+Fails (rate):    0 (0.0%)
+None
+GOLD:  {first_name} was {robust2} by John
+Model was unable to identify predicate
